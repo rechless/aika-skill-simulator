@@ -1,0 +1,41 @@
+{
+    "project": [
+        {
+            "name": "Aika Skill Simulator"
+        }
+    ],
+    "forms": [
+        {
+            "copy-button": "Copiar"
+        }
+    ],
+    "classes": [
+        {
+            "warrior": "Guerreiro",
+            "paladin": "Templária",
+            "warlock": "Feiticeiro Negro",
+            "cleric": "Cleriga",
+            "rifleman": "Atirador",
+            "dual-gunner": "Pistoleira"
+        }
+    ],
+    "settings": [
+        {
+            "classes": "Classes",
+            "level": "Nível",
+            "extra-points": "Pontos Extras",
+            "cd-reduction": "Resfriamento",
+            "points-left": "Pontos Restantes"
+        }
+    ],
+    "tiers": [
+        {
+            "tier1-skill": "Primeira",
+            "tier2-skill": "Segunda",
+            "tier3-skill": "Terceira",
+            "tier4-skill": "Quarta",
+            "tier5-skill": "Quinta",
+            "tier6-skill": "Sexta"
+        }
+    ]
+}
