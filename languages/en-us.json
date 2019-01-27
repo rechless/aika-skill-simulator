@@ -667,5 +667,944 @@
             "Gunblaze Festival": "Shoot wildly to deal 5028 damage to nearby enemies and instill Fear 3 sec. The skill user then hides within the smokescreen.",
             "Wicked Timer": "Inflicts 3066 physical damage, adds 496 extra damage per one buff effect of a target, and plants a bomb on the target. The bomb hinders the target from attacking and using skills and after 5 seconds, it adds 2300 damage upon exploding."
         }
+    ],
+    "slash": [
+        {
+            "level1": "Strongly slays an enemy and inflicts 33 physical damage.",
+            "level2": "Strongly slays an enemy and inflicts 39 physical damage.",
+            "level3": "Strongly slays an enemy and inflicts 53 physical damage.",
+            "level4": "Strongly slays an enemy and inflicts 69 physical damage.",
+            "level5": "Strongly slays an enemy and inflicts 85 physical damage.",
+            "level6": "Strongly slays an enemy and inflicts 105 physical damage.",
+            "level7": "Strongly slays an enemy and inflicts 127 physical damage.",
+            "level8": "Strongly slays an enemy and inflicts 155 physical damage.",
+            "level9": "Strongly slays an enemy and inflicts 188 physical damage.",
+            "level10": "Strongly slays an enemy and inflicts 228 physical damage.",
+            "level11": "Strongly slays an enemy and inflicts 275 physical damage.",
+            "level12": "Strongly slays an enemy and inflicts 325 physical damage.",
+            "level13": "Strongly slays an enemy and inflicts 383 physical damage.",
+            "level14": "Strongly slays an enemy and inflicts 444 physical damage.",
+            "level15": "Strongly slays an enemy and inflicts 515 physical damage.",
+            "level16": "Strongly slays an enemy and inflicts 592 physical damage."
+        }
+        
+    ],
+    "Charge": [
+        {
+            "levell1": "Charges 8 meters. Deals 13 physical change. Stuns for 3 seconds.",
+            "levell2": "Charges 8 meters. Deals 17 physical change. Stuns for 3 seconds.",
+            "levell3": "Charges 9 meters. Deals 22 physical change. Stuns for 3 seconds.",
+            "levell4": "Charges 9 meters. Deals 27 physical change. Stuns for 3 seconds.",
+            "levell5": "Charges 10 meters. Deals 34 physical change. Stuns for 3 seconds.",
+            "levell6": "Charges 10 meters. Deals 41 physical change. Stuns for 3 seconds.",
+            "levell7": "Charges 11 meters. Deals 50 physical change. Stuns for 3 seconds.",
+            "levell8": "Charges 11 meters. Deals 60 physical change. Stuns for 3 seconds.",
+            "levell9": "Charges 12 meters. Deals 73 physical change. Stuns for 3 seconds.",
+            "levell10": "Charges 12 meters. Deals 88 physical change. Stuns for 3 seconds.",
+            "levell11": "Charges 12 meters. Deals 88 physical change. Stuns for 3 seconds."
+        }
+    ],
+    "Armor Break": [
+        {
+            "level1": "Inflicts 62 physical damage and for 12 seconds, it decreases physical DEF by 100, Evasion by 4, and Movement Speed slightly.",
+            "level2": "Inflicts 80 physical damage and for 12 seconds, it decreases physical DEF by 131, Evasion by 6, and Movement Speed slightly.",
+            "level3": "Inflicts 101 physical damage and for 12 seconds, it decreases physical DEF by 164, Evasion by 8, and Movement Speed slightly.",
+            "level4": "Inflicts 124 physical damage and for 12 seconds, it decreases physical DEF by 203, Evasion by 10, and Movement Speed slightly.",
+            "level5": "Inflicts 152 physical damage and for 12 seconds, it decreases physical DEF by 258, Evasion by 12, and Movement Speed slightly.",
+            "level6": "Inflicts 185 physical damage and for 12 seconds, it decreases physical DEF by 319, Evasion by 14, and Movement Speed slightly.",
+            "level7": "Inflicts 225 physical damage and for 12 seconds, it decreases physical DEF by 385, Evasion by 16, and Movement Speed slightly.",
+            "level8": "Inflicts 272 physical damage and for 12 seconds, it decreases physical DEF by 467, Evasion by 18, and Movement Speed slightly.",
+            "level9": "Inflicts 330 physical damage and for 12 seconds, it decreases physical DEF by 566, Evasion by 20, and Movement Speed slightly.",
+            "level10": "Inflicts 391 physical damage and for 12 seconds, it decreases physical DEF by 671, Evasion by 22, and Movement Speed slightly.",
+            "level11": "Inflicts 461 physical damage and for 12 seconds, it decreases physical DEF by 792, Evasion by 24, and Movement Speed slightly.",
+            "level12": "Inflicts 542 physical damage and for 12 seconds, it decreases physical DEF by 946, Evasion by 26, and Movement Speed slightly.",
+            "level13": "Inflicts 628 physical damage and for 12 seconds, it decreases physical DEF by 1120, Evasion by 28, and Movement Speed slightly.",
+            "level14": "Inflicts 725 physical damage and for 12 seconds, it decreases physical DEF by 1299, Evasion by 30, and Movement Speed slightly.",
+            "level15": "Inflicts 824 physical damage and for 12 seconds, it decreases physical DEF by 1484, Evasion by 32, and Movement Speed slightly.",
+            "level16'": "Inflicts 927 physical damage and for 12 seconds, it decreases physical DEF by 1672, Evasion by 34, and Movement Speed slightly."
+        }
+    ],
+    "Taunt": [
+        {
+            "level1": "Increases threat level by 1 and focuses the target's attention on you for 3 seconds.",
+            "level2": "Increases threat level by 2 and focuses the target's attention on you for 3 seconds.",
+            "level3": "Increases threat level by 3 and focuses the target's attention on you for 3 seconds.",
+            "level4": "Increases threat level by 4 and focuses the target's attention on you for 3 seconds.",
+            "level5": "Increases threat level by 5 and focuses the target's attention on you for 4 seconds.",
+            "level6": "Increases threat level by 6 and focuses the target's attention on you for 4 seconds.",
+            "level7": "Increases threat level by 7 and focuses the target's attention on you for 4 seconds.",
+            "level8": "Increases threat level by 8 and focuses the target's attention on you for 4 seconds.",
+            "level9": "Increases threat level by 9 and focuses the target's attention on you for 5 seconds.",
+            "level10": "Increases threat level by 10 and focuses the target's attention on you for 5 seconds.",
+            "level11": "Increases threat level by 11 and focuses the target's attention on you for 5 seconds.",
+            "level12": "Increases threat level by 12 and focuses the target's attention on you for 5 seconds.",
+            "level13": "Increases threat level by 13 and focuses the target's attention on you for 6 seconds.",
+            "level14": "Increases threat level by 14 and focuses the target's attention on you for 6 seconds.",
+            "level15": "Increases threat level by 15 and focuses the target's attention on you for 6 seconds.",
+            "level16": "Increases threat level by 16 and focuses the target's attention on you for 6 seconds."
+        }
+    ],
+    "Berserk": [
+        {
+            "level1": "By becoming frenzied, absorbs 6% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 5.",
+            "level2": "By becoming frenzied, absorbs 8% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 6.",
+            "level3": "By becoming frenzied, absorbs 10% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 7.",
+            "level4": "By becoming frenzied, absorbs 12% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 8.",
+            "level5": "By becoming frenzied, absorbs 14% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 9.",
+            "level6": "By becoming frenzied, absorbs 16% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 10.",
+            "level7": "By becoming frenzied, absorbs 18% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 11.",
+            "level8": "By becoming frenzied, absorbs 20% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 12.",
+            "level9": "By becoming frenzied, absorbs 22% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 13.",
+            "level10": "By becoming frenzied, absorbs 24% of damage on enemies as HP and increases Movement Speed by 12. However, Evasion is decreased by 15."
+        }
+    ],
+    "Blade Storm": [
+        {
+            "level1": "Deals 152 physical damage to all enemies within 4 meters.",
+            "level2": "Deals 191 physical damage to all enemies within 4 meters.",
+            "level3": "Deals 234 physical damage to all enemies within 4 meters.",
+            "level4": "Deals 283 physical damage to all enemies within 4 meters.",
+            "level5": "Deals 343 physical damage to all enemies within 4 meters.",
+            "level6": "Deals 415 physical damage to all enemies within 4 meters.",
+            "level7": "Deals 504 physical damage to all enemies within 4 meters.",
+            "level8": "Deals 600 physical damage to all enemies within 4 meters.",
+            "level9": "Deals 709 physical damage to all enemies within 4 meters.",
+            "level10": "Deals 837 physical damage to all enemies within 4 meters.",
+            "level11": "Deals 969 physical damage to all enemies within 4 meters.",
+            "level12": "Deals 1121 physical damage to all enemies within 4 meters.",
+            "level13": "Deals 1279 physical damage to all enemies within 4 meters.",
+            "level14": "Deals 1437 physical damage to all enemies within 4 meters.",
+            "level15": "Deals 1618 physical damage to all enemies within 4 meters.",
+            "level16": "Deals 1819 physical damage to all enemies within 4 meters."
+        }
+    ],
+    "How of Glory": [
+        {
+            "level1": "Increases party's Max HP by 215 and Max MP by 107; also increases HP recovery by 56 and MP recovery by 28 for 10 minutes.",
+            "level2": "Increases party's Max HP by 262 and Max MP by 131; also increases HP recovery by 67 and MP recovery by 34 for 10 minutes.",
+            "level3": "Increases party's Max HP by 313 and Max MP by 156; also increases HP recovery by 81 and MP recovery by 41 for 10 minutes.",
+            "level4": "Increases party's Max HP by 376 and Max MP by 188; also increases HP recovery by 98 and MP recovery by 49 for 10 minutes.",
+            "level5": "Increases party's Max HP by 452 and Max MP by 226; also increases HP recovery by 119 and MP recovery by 60 for 10 minutes.",
+            "level6": "Increases party's Max HP by 542 and Max MP by 271; also increases HP recovery by 141 and MP recovery by 71 for 10 minutes.",
+            "level7": "Increases party's Max HP by 640 and Max MP by 320; also increases HP recovery by 166 and MP recovery by 83 for 10 minutes.",
+            "level8": "Increases party's Max HP by 748 and Max MP by 374; also increases HP recovery by 195 and MP recovery by 97 for 10 minutes.",
+            "level9": "Increases party's Max HP by 873 and Max MP by 436; also increases HP recovery by 225 and MP recovery by 112 for 10 minutes.",
+            "level10": "Increases party's Max HP by 1000 and Max MP by 500; also increases HP recovery by 257 and MP recovery by 128 for 10 minutes.",
+            "level11": "Increases party's Max HP by 1148 and Max MP by 573; also increases HP recovery by 292 and MP recovery by 146 for 10 minutes.",
+            "level12": "Increases party's Max HP by 1295 and Max MP by 646; also increases HP recovery by 331 and MP recovery by 166 for 10 minutes.",
+            "level13": "Increases party's Max HP by 1441 and Max MP by 720; also increases HP recovery by 372 and MP recovery by 187 for 10 minutes.",
+            "level14": "Increases party's Max HP by 1604 and Max MP by 802; also increases HP recovery by 414 and MP recovery by 208 for 10 minutes.",
+            "level15": "Increases party's Max HP by 1784 and Max MP by 892; also increases HP recovery by 461 and MP recovery by 231 for 10 minutes.",
+            "level16": "Increases party's Max HP by 1967 and Max MP by 983; also increases HP recovery by 513 and MP recovery by 257 for 10 minutes."
+        }
+    ],
+    "Smash": [
+        {
+            "level1": "Deals 48 physical damage and knocks back the enemy a maximum of 1 time.",
+            "level2": "Deals 59 physical damage and knocks back the enemy a maximum of 1 time.",
+            "level3": "Deals 71 physical damage and knocks back the enemy a maximum of 2 time.",
+            "level4": "Deals 86 physical damage and knocks back the enemy a maximum of 2 time.",
+            "level5": "Deals 104 physical damage and knocks back the enemy a maximum of 3 time.",
+            "level6": "Deals 126 physical damage and knocks back the enemy a maximum of 3 time.",
+            "level7": "Deals 149 physical damage and knocks back the enemy a maximum of 4 time.",
+            "level8": "Deals 176 physical damage and knocks back the enemy a maximum of 4 time.",
+            "level9": "Deals 205 physical damage and knocks back the enemy a maximum of 5 time.",
+            "level10": "Deals 237 physical damage and knocks back the enemy a maximum of 5 time."
+        }
+    ],
+    "Focused Might": [
+        {
+            "level1": "Increases physical attack by 4 and hit rate by 2.",
+            "level2": "Increases physical attack by 8 and hit rate by 4.",
+            "level3": "Increases physical attack by 12 and hit rate by 6.",
+            "level4": "Increases physical attack by 16 and hit rate by 8.",
+            "level5": "Increases physical attack by 20 and hit rate by 10.",
+            "level6": "Increases physical attack by 24 and hit rate by 12.",
+            "level7": "Increases physical attack by 28 and hit rate by 14.",
+            "level8": "Increases physical attack by 32 and hit rate by 16.",
+            "level9": "Increases physical attack by 36 and hit rate by 18.",
+            "level10": "Increases physical attack by 40 and hit rate by 20."
+        }
+    ],
+    "Dragon Spirit": [
+        {
+            "level1": "Increases Max HP by 145 and recovers HP equivalent to 5% of HP recovery rate every 8 seconds during combat.",
+            "level2": "Increases Max HP by 290 and recovers HP equivalent to 10% of HP recovery rate every 8 seconds during combat.",
+            "level3": "Increases Max HP by 435 and recovers HP equivalent to 15% of HP recovery rate every 8 seconds during combat.",
+            "level4": "Increases Max HP by 580 and recovers HP equivalent to 20% of HP recovery rate every 8 seconds during combat.",
+            "level5": "Increases Max HP by 725 and recovers HP equivalent to 25% of HP recovery rate every 8 seconds during combat.",
+            "level6": "Increases Max HP by 870 and recovers HP equivalent to 30% of HP recovery rate every 8 seconds during combat.",
+            "level7": "Increases Max HP by 1015 and recovers HP equivalent to 35% of HP recovery rate every 8 seconds during combat.",
+            "level8": "Increases Max HP by 1160 and recovers HP equivalent to 40% of HP recovery rate every 8 seconds during combat.",
+            "level9": "Increases Max HP by 1305 and recovers HP equivalent to 45% of HP recovery rate every 8 seconds during combat.",
+            "level10": "Increases Max HP by 1450 and recovers HP equivalent to 50% of HP recovery rate every 8 seconds during combat."
+        }
+    ],
+    "How of Valor": [
+        {
+            "level1": "Increases your party's STR, DEX and INT by 3 for 10 minutes.",
+            "level2": "Increases your party's STR, DEX and INT by 6 for 10 minutes.",
+            "level3": "Increases your party's STR, DEX and INT by 9 for 10 minutes.",
+            "level4": "Increases your party's STR, DEX and INT by 12 for 10 minutes.",
+            "level5": "Increases your party's STR, DEX and INT by 15 for 10 minutes.",
+            "level6": "Increases your party's STR, DEX and INT by 18 for 10 minutes.",
+            "level7": "Increases your party's STR, DEX and INT by 21 for 10 minutes.",
+            "level8": "Increases your party's STR, DEX and INT by 24 for 10 minutes.",
+            "level9": "Increases your party's STR, DEX and INT by 27 for 10 minutes.",
+            "level10": "Increases your party's STR, DEX and INT by 30 for 10 minutes.",
+            "level11": "Increases your party's STR, DEX and INT by 33 for 10 minutes.",
+            "level12": "Increases your party's STR, DEX and INT by 36 for 10 minutes.",
+            "level13": "Increases your party's STR, DEX and INT by 39 for 10 minutes.",
+            "level14": "Increases your party's STR, DEX and INT by 42 for 10 minutes.",
+            "level15": "Increases your party's STR, DEX and INT by 45 for 10 minutes.",
+            "level16": "Increases your party's STR, DEX and INT by 48 for 10 minutes."
+        }
+    ],
+    "Earthquake": [
+        {
+            "level1": "Deals 214 physical damage to all enemies within 5 meters and lowers their move speed by 20 for 6 seconds.",
+            "level2": "Deals 257 physical damage to all enemies within 5 meters and lowers their move speed by 22 for 6 seconds.",
+            "level3": "Deals 313 physical damage to all enemies within 5 meters and lowers their move speed by 24 for 6 seconds.",
+            "level4": "Deals 378 physical damage to all enemies within 5 meters and lowers their move speed by 26 for 6 seconds.",
+            "level5": "Deals 446 physical damage to all enemies within 5 meters and lowers their move speed by 28 for 6 seconds.",
+            "level6": "Deals 527 physical damage to all enemies within 5 meters and lowers their move speed by 30 for 6 seconds.",
+            "level7": "Deals 614 physical damage to all enemies within 5 meters and lowers their move speed by 32 for 6 seconds.",
+            "level8": "Deals 711 physical damage to all enemies within 5 meters and lowers their move speed by 34 for 6 seconds.",
+            "level9": "Deals 814 physical damage to all enemies within 5 meters and lowers their move speed by 36 for 6 seconds.",
+            "level10": "Deals 927 physical damage to all enemies within 5 meters and lowers their move speed by 38 for 6 seconds.",
+            "level11": "Deals 1042 physical damage to all enemies within 5 meters and lowers their move speed by 40 for 6 seconds.",
+            "level12": "Deals 1170 physical damage to all enemies within 5 meters and lowers their move speed by 42 for 6 seconds.",
+            "level13": "Deals 1312 physical damage to all enemies within 5 meters and lowers their move speed by 44 for 6 seconds.",
+            "level14": "Deals 1458 physical damage to all enemies within 5 meters and lowers their move speed by 46 for 6 seconds.",
+            "level15": "Deals 1620 physical damage to all enemies within 5 meters and lowers their move speed by 48 for 6 seconds.",
+            "level16": "Deals 1800 physical damage to all enemies within 5 meters and lowers their move speed by 50 for 6 seconds."
+        }
+    ],
+    "Howl of Wrath": [
+        {
+            "level1": "Deals 240 physical damage to enemies within 6 meters and stuns them for 1 seconds.",
+            "level2": "Deals 290 physical damage to enemies within 6 meters and stuns them for 1 seconds.",
+            "level3": "Deals 350 physical damage to enemies within 6 meters and stuns them for 2 seconds.",
+            "level4": "Deals 414 physical damage to enemies within 6 meters and stuns them for 2 seconds.",
+            "level5": "Deals 488 physical damage to enemies within 6 meters and stuns them for 3 seconds.",
+            "level6": "Deals 566 physical damage to enemies within 6 meters and stuns them for 3 seconds.",
+            "level7": "Deals 656 physical damage to enemies within 6 meters and stuns them for 4 seconds.",
+            "level8": "Deals 750 physical damage to enemies within 6 meters and stuns them for 4 seconds.",
+            "level9": "Deals 848 physical damage to enemies within 6 meters and stuns them for 5 seconds.",
+            "level10": "Deals 952 physical damage to enemies within 6 meters and stuns them for 5 seconds."
+        }
+    ],
+    "Lionheart": [
+        {
+            "level1": "Once triggered when Berserk(LVL 1 and up) is activated, it cancels one debuff, recovers 2% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 23%.",
+            "level2": "Once triggered when Berserk(LVL 2 and up) is activated, it cancels one debuff, recovers 2% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 26%.",
+            "level3": "Once triggered when Berserk(LVL 3 and up) is activated, it cancels one debuff, recovers 2% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 29%.",
+            "level4": "Once triggered when Berserk(LVL 4 and up) is activated, it cancels one debuff, recovers 2% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 32%.",
+            "level5": "Once triggered when Berserk(LVL 5 and up) is activated, it cancels one debuff, recovers 3% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 35%.",
+            "level6": "Once triggered when Berserk(LVL 6 and up) is activated, it cancels one debuff, recovers 3% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 38%.",
+            "level7": "Once triggered when Berserk(LVL 7 and up) is activated, it cancels one debuff, recovers 3% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 41%.",
+            "level8": "Once triggered when Berserk(LVL 8 and up) is activated, it cancels one debuff, recovers 3% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 44%.",
+            "level9": "Once triggered when Berserk(LVL 9 and up) is activated, it cancels one debuff, recovers 4% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 47%.",
+            "level10":"Once triggered when Berserk(LVL 10) is activated, it cancels one debuff, recovers 4% of Max HP per sec for 10 seconds, and increases a chance of resisting Movement Speed decrease and Immobilization by 50%."
+        }
+    ],
+    "Gash": [
+        {
+            "level1": "By making an enemy bleed, inflicts 114 physical damage per sec for 6 seconds and decreases regeneration by 60%.",
+            "level2": "By making an enemy bleed, inflicts 138 physical damage per sec for 6 seconds and decreases regeneration by 62%.",
+            "level3": "By making an enemy bleed, inflicts 166 physical damage per sec for 6 seconds and decreases regeneration by 64%.",
+            "level4": "By making an enemy bleed, inflicts 202 physical damage per sec for 6 seconds and decreases regeneration by 66%.",
+            "level5": "By making an enemy bleed, inflicts 244 physical damage per sec for 6 seconds and decreases regeneration by 68%.",
+            "level6": "By making an enemy bleed, inflicts 292 physical damage per sec for 6 seconds and decreases regeneration by 70%.",
+            "level7": "By making an enemy bleed, inflicts 344 physical damage per sec for 6 seconds and decreases regeneration by 72%.",
+            "level8": "By making an enemy bleed, inflicts 406 physical damage per sec for 6 seconds and decreases regeneration by 74%.",
+            "level9": "By making an enemy bleed, inflicts 470 physical damage per sec for 6 seconds and decreases regeneration by 76%.",
+            "level10": "By making an enemy bleed, cancels one buff; inflicts 544 physical damage per sec for 6 seconds and decreases regeneration by 78%.",
+            "level11": "By making an enemy bleed, cancels one buff; inflicts 620 physical damage per sec for 6 seconds and decreases regeneration by 80%.",
+            "level12": "By making an enemy bleed, cancels one buff; inflicts 698 physical damage per sec for 6 seconds and decreases regeneration by 82%.",
+            "level13": "By making an enemy bleed, cancels one buff; inflicts 786 physical damage per sec for 6 seconds and decreases regeneration by 84%.",
+            "level14": "By making an enemy bleed, cancels one buff; inflicts 884 physical damage per sec for 6 seconds and decreases regeneration by 86%.",
+            "level15": "By making an enemy bleed, cancels one buff; inflicts 984 physical damage per sec for 6 seconds and decreases regeneration by 88%.",
+            "level16": "By making an enemy bleed, cancels two buffs; inflicts 1092 physical damage per sec for 6 seconds and decreases regeneration by 90%."
+        }
+    ],
+    "Howl of Fortitude": [
+        {
+            "level1": "Increases your party's physical defense by 131 and magic defense by 99. Also increases abnormal status resistance by 2 for 10 minutes.",
+            "level2": "Increases your party's physical defense by 155 and magic defense by 117. Also increases abnormal status resistance by 2 for 10 minutes.",
+            "level3": "Increases your party's physical defense by 183 and magic defense by 138. Also increases abnormal status resistance by 3 for 10 minutes.",
+            "level4": "Increases your party's physical defense by 219 and magic defense by 165. Also increases abnormal status resistance by 3 for 10 minutes.",
+            "level5": "Increases your party's physical defense by 259 and magic defense by 196. Also increases abnormal status resistance by 4 for 10 minutes.",
+            "level6": "Increases your party's physical defense by 300 and magic defense by 228. Also increases abnormal status resistance by 4 for 10 minutes.",
+            "level7": "Increases your party's physical defense by 343 and magic defense by 260. Also increases abnormal status resistance by 5 for 10 minutes.",
+            "level8": "Increases your party's physical defense by 386 and magic defense by 295. Also increases abnormal status resistance by 5 for 10 minutes.",
+            "level9": "Increases your party's physical defense by 433 and magic defense by 331. Also increases abnormal status resistance by 6 for 10 minutes.",
+            "level10": "Increases your party's physical defense by 487 and magic defense by 373. Also increases abnormal status resistance by 6 for 10 minutes.",
+            "level11": "Increases your party's physical defense by 550 and magic defense by 422. Also increases abnormal status resistance by 7 for 10 minutes.",
+            "level12": "Increases your party's physical defense by 620 and magic defense by 476. Also increases abnormal status resistance by 7 for 10 minutes.",
+            "level13": "Increases your party's physical defense by 701 and magic defense by 541. Also increases abnormal status resistance by 8 for 10 minutes.",
+            "level14": "Increases your party's physical defense by 791 and magic defense by 611. Also increases abnormal status resistance by 8 for 10 minutes.",
+            "level15": "Increases your party's physical defense by 892 and magic defense by 689. Also increases abnormal status resistance by 9 for 10 minutes.",
+            "level16": "Increases your party's physical defense by 1007 and magic defense by 782. Also increases abnormal status resistance by 10 for 10 minutes."
+        }
+    ],
+    "Dragon Strike": [
+        {
+            "level1": "Deals 513 physical damage and silences the target for 6 seconds.",
+            "level2": "Deals 607 physical damage and silences the target for 6 seconds.",
+            "level3": "Deals 715 physical damage and silences the target for 6 seconds.",
+            "level4": "Deals 829 physical damage and silences the target for 7 seconds.",
+            "level5": "Deals 961 physical damage and silences the target for 7 seconds.",
+            "level6": "Deals 1098 physical damage and silences the target for 7 seconds.",
+            "level7": "Deals 1242 physical damage and silences the target for 8 seconds.",
+            "level8": "Deals 1395 physical damage and silences the target for 8 seconds.",
+            "level9": "Deals 1570 physical damage and silences the target for 8 seconds.",
+            "level10": "Deals 1755 physical damage and silences the target for 9 seconds.",
+            "level11": "Deals 1948 physical damage and silences the target for 9 seconds.",
+            "level12": "Deals 2165 physical damage and silences the target for 9 seconds.",
+            "level13": "Deals 2406 physical damage and silences the target for 10 seconds.",
+            "level14": "Deals 2649 physical damage and silences the target for 10 seconds.",
+            "level15": "Deals 2915 physical damage and silences the target for 10 seconds.",
+            "level16": "Deals 3208 physical damage and silences the target for 10 seconds."
+        }
+    ],
+    "Shockwave": [
+        {
+            "level1": "Jumps to the selected area and deals 700 physical damage to all enemies within 5 meters.",
+            "level2": "Jumps to the selected area and deals 828 physical damage to all enemies within 5 meters.",
+            "level3": "Jumps to the selected area and deals 976 physical damage to all enemies within 5 meters.",
+            "level4": "Jumps to the selected area and deals 1132 physical damage to all enemies within 5 meters.",
+            "level5": "Jumps to the selected area and deals 1312 physical damage to all enemies within 5 meters.",
+            "level6": "Jumps to the selected area and deals 1500 physical damage to all enemies within 5 meters.",
+            "level7": "Jumps to the selected area and deals 1696 physical damage to all enemies within 5 meters.",
+            "level8": "Jumps to the selected area and deals 1904 physical damage to all enemies within 5 meters.",
+            "level9": "Jumps to the selected area and deals 2144 physical damage to all enemies within 5 meters.",
+            "level10": "Jumps to the selected area and deals 2396 physical damage to all enemies within 5 meters.",
+            "level11": "Jumps to the selected area and deals 2660 physical damage to all enemies within 5 meters.",
+            "level12": "Jumps to the selected area and deals 2956 physical damage to all enemies within 5 meters.",
+            "level13": "Jumps to the selected area and deals 3284 physical damage to all enemies within 5 meters.",
+            "level14": "Jumps to the selected area and deals 3616 physical damage to all enemies within 5 meters.",
+            "level15": "Jumps to the selected area and deals 3980 physical damage to all enemies within 5 meters.",
+            "level16": "Jumps to the selected area and deals 4380 physical damage to all enemies within 5 meters."
+        }
+    ],
+    "Howl of Dread": [
+        {
+            "level1": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 95% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level2": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 90% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level3": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 85% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level4": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 80% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level5": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 75% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level6": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 70% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level7": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 65% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level8": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 60% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level9": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 55% chance to dispel the Fear status and reduce their move speed for 6 seconds.",
+            "level10": "A fearsome war cry instills Fear within surrounding enemies on a 6m radius for 5 seconds. If the enemy is attacked, there is a 50% chance to dispel the Fear status and reduce their move speed for 6 seconds."
+        }
+    ],
+    "Battle inspiration": [
+        {
+            "level1": "Your relentless energy decreases the cool-down time of all skills by 2%",
+            "level2": "Your relentless energy decreases the cool-down time of all skills by 4%",
+            "level3": "Your relentless energy decreases the cool-down time of all skills by 6%",
+            "level4": "Your relentless energy decreases the cool-down time of all skills by 8%",
+            "level5": "Your relentless energy decreases the cool-down time of all skills by 10%",
+            "level6": "Your relentless energy decreases the cool-down time of all skills by 12%",
+            "level7": "Your relentless energy decreases the cool-down time of all skills by 14%",
+            "level8": "Your relentless energy decreases the cool-down time of all skills by 16%",
+            "level9": "Your relentless energy decreases the cool-down time of all skills by 18%",
+            "level10": "Your relentless energy decreases the cool-down time of all skills by 20%"
+        }
+    ],
+    "Dragon Rage": [
+        {
+            "level1": "Channels righteous anger to deal 2342 physical damage to your target and enemies within 6 meters.",
+            "level2": "Channels righteous anger to deal 2637 physical damage to your target and enemies within 6 meters.",
+            "level3": "Channels righteous anger to deal 2963 physical damage to your target and enemies within 6 meters.",
+            "level4": "Channels righteous anger to deal 3328 physical damage to your target and enemies within 6 meters.",
+            "level5": "Channels righteous anger to deal 3731 physical damage to your target and enemies within 6 meters.",
+            "level6": "Channels righteous anger to deal 4147 physical damage to your target and enemies within 6 meters.",
+            "level7": "Channels righteous anger to deal 4608 physical damage to your target and enemies within 6 meters.",
+            "level8": "Channels righteous anger to deal 5120 physical damage to your target and enemies within 6 meters.",
+            "level9": "Channels righteous anger to deal 5683 physical damage to your target and enemies within 6 meters.",
+            "level10": "Channels righteous anger to deal 6310 physical damage to your target and enemies within 6 meters.",
+            "level11": "Channels righteous anger to deal 7008 physical damage to your target and enemies within 6 meters."
+        }
+    ],
+    "Deadly Charge": [
+        {
+            "level1": "Viciously charges target within 12 meters dealing 931 physical damage. Decreases move speed by 20 and critical resistance by 5 for 6 seconds.",
+            "level2": "Viciously charges target within 12 meters dealing 1046 physical damage. Decreases move speed by 22 and critical resistance by 7 for 6 seconds.",
+            "level3": "Viciously charges target within 12 meters dealing 1178 physical damage. Decreases move speed by 24 and critical resistance by 9 for 6 seconds.",
+            "level4": "Viciously charges target within 12 meters dealing 1325 physical damage. Decreases move speed by 26 and critical resistance by 11 for 6 seconds.",
+            "level5": "Viciously charges target within 12 meters dealing 1476 physical damage. Decreases move speed by 28 and critical resistance by 13 for 6 seconds.",
+            "level6": "Viciously charges target within 12 meters dealing 1639 physical damage. Decreases move speed by 30 and critical resistance by 15 for 6 seconds.",
+            "level7": "Viciously charges target within 12 meters dealing 1819 physical damage. Decreases move speed by 32 and critical resistance by 17 for 6 seconds.",
+            "level8": "Viciously charges target within 12 meters dealing 2021 physical damage. Decreases move speed by 34 and critical resistance by 19 for 6 seconds.",
+            "level9": "Viciously charges target within 12 meters dealing 2244 physical damage. Decreases move speed by 36 and critical resistance by 21 for 6 seconds.",
+            "level10": "Viciously charges target within 12 meters dealing 2494 physical damage. Decreases move speed by 38 and critical resistance by 25 for 6 seconds."
+        }
+    ],
+    "Battle Instinct": [
+        {
+            "level1": "Combat awarness decreases damage taken from area attacks by 30% and increases critical attack rate by 1.",
+            "level2": "Combat awarness decreases damage taken from area attacks by 32% and increases critical attack rate by 2.",
+            "level3": "Combat awarness decreases damage taken from area attacks by 34% and increases critical attack rate by 3.",
+            "level4": "Combat awarness decreases damage taken from area attacks by 36% and increases critical attack rate by 4.",
+            "level5": "Combat awarness decreases damage taken from area attacks by 38% and increases critical attack rate by 5.",
+            "level6": "Combat awarness decreases damage taken from area attacks by 40% and increases critical attack rate by 6.",
+            "level7": "Combat awarness decreases damage taken from area attacks by 42% and increases critical attack rate by 7.",
+            "level8": "Combat awarness decreases damage taken from area attacks by 48% and increases critical attack rate by 8.",
+            "level9": "Combat awarness decreases damage taken from area attacks by 50% and increases critical attack rate by 9.",
+            "level10": "Combat awarness decreases damage taken from area attacks by 50% and increases critical attack rate by 10."
+        }
+    ],
+    "Master of Blades": [
+        {
+            "level1": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 50% and increases critical damage by 30%. However, the Auto Mana Regen stops and mana is deacreased by 10 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level2": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 52% and increases critical damage by 33%. However, the Auto Mana Regen stops and mana is deacreased by 11 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level3": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 54% and increases critical damage by 36%. However, the Auto Mana Regen stops and mana is deacreased by 12 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level4": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 56% and increases critical damage by 39%. However, the Auto Mana Regen stops and mana is deacreased by 13 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level5": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 58% and increases critical damage by 42%. However, the Auto Mana Regen stops and mana is deacreased by 14 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level6": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 60% and increases critical damage by 45%. However, the Auto Mana Regen stops and mana is deacreased by 15 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level7": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 62% and increases critical damage by 48%. However, the Auto Mana Regen stops and mana is deacreased by 16 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level8": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 64% and increases critical damage by 51%. However, the Auto Mana Regen stops and mana is deacreased by 17 per sec. Once all Mana is exhausted, the effects are cancelled.",
+            "level9": "By concentrating on wielding a sword, ignores enemy's Physical DEF by 70% and increases critical damage by 55%. However, the Auto Mana Regen stops and mana is deacreased by 18 per sec. Once all Mana is exhausted, the effects are cancelled."
+        }
+    ],
+    "Blood Strike": [
+        {
+            "level1": "Inflicts 780 physical damage and adds extra damage equivalent to 9% of user's current HP.",
+            "level2": "Inflicts 875 physical damage and adds extra damage equivalent to 10% of user's current HP.",
+            "level3": "Inflicts 972 physical damage and adds extra damage equivalent to 11% of user's current HP.",
+            "level4": "Inflicts 1080 physical damage and adds extra damage equivalent to 12% of user's current HP.",
+            "level5": "Inflicts 1200 physical damage and adds extra damage equivalent to 13% of user's current HP.",
+            "level6": "Inflicts 1332 physical damage and adds extra damage equivalent to 14% of user's current HP.",
+            "level7": "Inflicts 1479 physical damage and adds extra damage equivalent to 15% of user's current HP.",
+            "level8": "Inflicts 1643 physical damage and adds extra damage equivalent to 16% of user's current HP."
+        }
+    ],
+    "Howl of Freedom": [
+        {
+            "level1": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 40 and Movement Speed by 15 for 10 seconds. The user becomes immune to abnormal states for 10 seconds.",
+            "level2": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 42 and Movement Speed by 17 for 10 seconds. The user becomes immune to abnormal states for 12 seconds.",
+            "level3": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 44 and Movement Speed by 19 for 10 seconds. The user becomes immune to abnormal states for 14 seconds.",
+            "level4": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 46 and Movement Speed by 21 for 10 seconds. The user becomes immune to abnormal states for 16 seconds.",
+            "level5": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 48 and Movement Speed by 23 for 10 seconds. The user becomes immune to abnormal states for 18 seconds.",
+            "level6": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 50 and Movement Speed by 25 for 10 seconds. The user becomes immune to abnormal states for 20 seconds.",
+            "level7": "By crying for freedom, this lifts all cancelable debuffs on the user and party members while increasing abnormal states RES by 52 and Movement Speed by 27 for 10 seconds. The user becomes immune to abnormal states for 22 seconds."
+        }
+    ],
+    "Howl of Blood": [
+        {
+            "level1": "Recovers HP and MP equivalent to 50% and 25% of damage done to enemies by party members for 40 secs.",
+            "level2": "Recovers HP and MP equivalent to 60% and 30% of damage done to enemies by party members for 40 secs.",
+            "level3": "Recovers HP and MP equivalent to 70% and 35% of damage done to enemies by party members for 40 secs.",
+            "level4": "Recovers HP and MP equivalent to 80% and 40% of damage done to enemies by party members for 40 secs.",
+            "level5": "Recovers HP and MP equivalent to 90% and 45% of damage done to enemies by party members for 40 secs.",
+            "level6": "Recovers HP and MP equivalent to 100% and 50% of damage done to enemies by party members for 40 secs."
+        }
+    ],
+    "Masochism": [
+        {
+            "level1": "Increases Physical ATK by 140, skill ATK by 683, and Critical rate by 20. This skill consumes 170% of HP instead of MP.",
+            "level2": "Increases Physical ATK by 152, skill ATK by 739, and Critical rate by 21. This skill consumes 170% of HP instead of MP.",
+            "level3": "Increases Physical ATK by 164, skill ATK by 814, and Critical rate by 22. This skill consumes 170% of HP instead of MP.",
+            "level4": "Increases Physical ATK by 176, skill ATK by 898 and Critical rate by 23. This skill consumes 170% of HP instead of MP.",
+            "level5": "Increases Physical ATK by 188, skill ATK by 991 and Critical rate by 24. This skill consumes 170% of HP instead of MP.",
+            "level6": "Increases Physical ATK by 200, skill ATK by 1095 and Critical rate by 25. This skill consumes 170% of HP instead of MP."
+        }
+    ],
+    "Power Stark": [
+        {
+            "level1": "Deals 1516 physical damage to target and enemies and knocks them back.",
+            "level2": "Deals 1684 physical damage to target and enemies and knocks them back.",
+            "level3": "Deals 1870 physical damage to target and enemies and knocks them back.",
+            "level4": "Deals 2078 physical damage to target and enemies and knocks them back.",
+            "level5": "Deals 2190 physical damage to target and enemies and knocks them back."
+        }
+    ],
+    "Brutal Edge": [
+        {
+            "level1": "Brandish your sword to deal 2054 physical damage on enemies within range and cause bleeding for 5 sec. Bleeding enemies regenration rates decrease by 85%.",
+            "level2": "Brandish your sword to deal 2281 physical damage on enemies within range and cause bleeding for 5 sec. Bleeding enemies regenration rates decrease by 90%.",
+            "level3": "Brandish your sword to deal 2535 physical damage on enemies within range and cause bleeding for 5 sec. Bleeding enemies regenration rates decrease by 95%.",
+            "level4": "Brandish your sword to deal 2672 physical damage on enemies within range and cause bleeding for 5 sec. Bleeding enemies regenration rates decrease by 99%."
+        }
+    ],
+    "Last Stand": [
+        {
+            "level1": "With outburst of bloody rage, inflicts 947 physical damage on enemies within 6m and adds extra damage depending on the user's lost HP. Once Last Stand is activated, damage and regen are highly decreased for 6 seconds.",
+            "level2": "With outburst of bloody rage, inflicts 1051 physical damage on enemies within 6m and adds extra damage depending on the user's lost HP. Once Last Stand is activated, damage and regen are highly decreased for 6 seconds."
+        }
+    ],
+    "Shield Smash": [
+        {
+            "level1": "Deals 26 physical damage. Stuns for 3 seconds.",
+            "level2": "Deals 32 physical damage. Stuns for 3 seconds.",
+            "level3": "Deals 44 physical damage. Stuns for 3 seconds.",
+            "level4": "Deals 56 physical damage. Stuns for 3 seconds.",
+            "level5": "Deals 69 physical damage. Stuns for 3 seconds.",
+            "level6": "Deals 86 physical damage. Stuns for 3 seconds.",
+            "level7": "Deals 104 physical damage. Stuns for 3 seconds.",
+            "level8": "Deals 126 physical damage. Stuns for 3 seconds.",
+            "level9": "Deals 153 physical damage. Stuns for 4 seconds.",
+            "level10": "Deals 185 physical damage. Stuns for 4 seconds.",
+            "level11": "Deals 224 physical damage. Stuns for 4 seconds.",
+            "level12": "Deals 263 physical damage. Stuns for 4 seconds.",
+            "level13": "Deals 311 physical damage. Stuns for 4 seconds.",
+            "level14": "Deals 360 physical damage. Stuns for 4 seconds.",
+            "level15": "Deals 417 physical damage. Stuns for 4 seconds.",
+            "level16": "Deals 480 physical damage. Stuns for 4 seconds."
+        }
+    ],
+    "Recover": [
+        {
+            "level1": "Regenerates 233 HP of the user or an ally and heals extra HP equivalent to 6% of lost HP.",
+            "level2": "Regenerates 310 HP of the user or an ally and heals extra HP equivalent to 6% of lost HP.",
+            "level3": "Regenerates 388 HP of the user or an ally and heals extra HP equivalent to 6% of lost HP.",
+            "level4": "Regenerates 475 HP of the user or an ally and heals extra HP equivalent to 6% of lost HP.",
+            "level5": "Regenerates 587 HP of the user or an ally and heals extra HP equivalent to 7% of lost HP.",
+            "level6": "Regenerates 700 HP of the user or an ally and heals extra HP equivalent to 7% of lost HP.",
+            "level7": "Regenerates 843 HP of the user or an ally and heals extra HP equivalent to 7% of lost HP.",
+            "level8": "Regenerates 1010 HP of the user or an ally and heals extra HP equivalent to 7% of lost HP.",
+            "level9": "Regenerates 1210 HP of the user or an ally and heals extra HP equivalent to 8% of lost HP.",
+            "level10": "Regenerates 1448 HP of the user or an ally and heals extra HP equivalent to 8% of lost HP.",
+            "level11": "Regenerates 1690 HP of the user or an ally and heals extra HP equivalent to 8% of lost HP.",
+            "level12": "Regenerates 1973 HP of the user or an ally and heals extra HP equivalent to 8% of lost HP.",
+            "level13": "Regenerates 2268 HP of the user or an ally and heals extra HP equivalent to 9% of lost HP.",
+            "level14": "Regenerates 2598 HP of the user or an ally and heals extra HP equivalent to 9% of lost HP.",
+            "level15": "Regenerates 2933 HP of the user or an ally and heals extra HP equivalent to 9% of lost HP.",
+            "level16": "Regenerates 3290 HP of the user or an ally and heals extra HP equivalent to 10% of lost HP."
+        }
+    ],
+    "Divine Strike": [
+        {
+            "level1": "Inflicts 80 physical damage and decreases Movement Speed by 15 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level2": "Inflicts 102 physical damage and decreases Movement Speed by 16 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level3": "Inflicts 131 physical damage and decreases Movement Speed by 17 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level4": "Inflicts 162 physical damage and decreases Movement Speed by 18 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level5": "Inflicts 201 physical damage and decreases Movement Speed by 19 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level6": "Inflicts 242 physical damage and decreases Movement Speed by 20 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level7": "Inflicts 293 physical damage and decreases Movement Speed by 21 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level8": "Inflicts 357 physical damage and decreases Movement Speed by 22 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level9": "Inflicts 430 physical damage and decreases Movement Speed by 23 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level10": "Inflicts 513 physical damage and decreases Movement Speed by 24 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level11": "Inflicts 605 physical damage and decreases Movement Speed by 25 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level12": "Inflicts 714 physical damage and decreases Movement Speed by 26 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level13": "Inflicts 825 physical damage and decreases Movement Speed by 27 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level14": "Inflicts 952 physical damage and decreases Movement Speed by 28 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level15": "Inflicts 1082 physical damage and decreases Movement Speed by 29 for 5 seconds. Inflicts 150% damage on Demon and Undead.",
+            "level16": "Inflicts 1217 physical damage and decreases Movement Speed by 30 for 5 seconds. Inflicts 150% damage on Demon and Undead."
+        }
+    ],
+    "Provoke": [
+        {
+            "level1": "Increases threat level by 1. Affects enemies within 4 meters.",
+            "level2": "Increases threat level by 2. Affects enemies within 4 meters.",
+            "level3": "Increases threat level by 3. Affects enemies within 4 meters.",
+            "level4": "Increases threat level by 4. Affects enemies within 4 meters.",
+            "level5": "Increases threat level by 5. Affects enemies within 4 meters.",
+            "level6": "Increases threat level by 6. Affects enemies within 4 meters.",
+            "level7": "Increases threat level by 7. Affects enemies within 4 meters.",
+            "level8": "Increases threat level by 8. Affects enemies within 4 meters.",
+            "level9": "Increases threat level by 9. Affects enemies within 4 meters.",
+            "level10": "Increases threat level by 10. Affects enemies within 4 meters.",
+            "level11": "Increases threat level by 11. Affects enemies within 4 meters.",
+            "level12": "Increases threat level by 11. Affects enemies within 4 meters.",
+            "level13": "Increases threat level by 13. Affects enemies within 4 meters.",
+            "level14": "Increases threat level by 14. Affects enemies within 4 meters.",
+            "level15": "Increases threat level by 15. Affects enemies within 4 meters.",
+            "level16": "Increases threat level by 16. Affects enemies within 4 meters."
+        }
+    ],
+    "Vanguard": [
+        {
+            "level1": "For 10 minutes, damage from Demon and Undead are decreased by 20%, however, this decreases Evasion by 5 at the same time.",
+            "level2": "For 10 minutes, damage from Demon and Undead are decreased by 21%, however, this decreases Evasion by 5 at the same time.",
+            "level3": "For 10 minutes, damage from Demon and Undead are decreased by 22%, however, this decreases Evasion by 5 at the same time.",
+            "level4": "For 10 minutes, damage from Demon and Undead are decreased by 23%, however, this decreases Evasion by 6 at the same time.",
+            "level5": "For 10 minutes, damage from Demon and Undead are decreased by 24%, however, this decreases Evasion by 6 at the same time.",
+            "level6": "For 10 minutes, damage from Demon and Undead are decreased by 25%, however, this decreases Evasion by 6 at the same time.",
+            "level7": "For 10 minutes, damage from Demon and Undead are decreased by 26%, however, this decreases Evasion by 7 at the same time.",
+            "level8": "For 10 minutes, damage from Demon and Undead are decreased by 27%, however, this decreases Evasion by 7 at the same time.",
+            "level9": "For 10 minutes, damage from Demon and Undead are decreased by 28%, however, this decreases Evasion by 7 at the same time.",
+            "level10": "For 10 minutes, damage from Demon and Undead are decreased by 29%, however, this decreases Evasion by 8 at the same time.",
+            "level11": "For 10 minutes, damage from Demon and Undead are decreased by 30%, however, this decreases Evasion by 8 at the same time.",
+            "level12": "For 10 minutes, damage from Demon and Undead are decreased by 31%, however, this decreases Evasion by 8 at the same time.",
+            "level13": "For 10 minutes, damage from Demon and Undead are decreased by 32%, however, this decreases Evasion by 9 at the same time.",
+            "level14": "For 10 minutes, damage from Demon and Undead are decreased by 33%, however, this decreases Evasion by 9 at the same time.",
+            "level15": "For 10 minutes, damage from Demon and Undead are decreased by 34%, however, this decreases Evasion by 9 at the same time.",
+            "level16": "For 10 minutes, damage from Demon and Undead are decreased by 35%, however, this decreases Evasion by 10 at the same time."
+        }
+    ],
+    "Transference": [
+        {
+            "level1": "Adds 50% Life leech for 20 seconds.",
+            "level2": "Adds 55% Life leech for 22 seconds.",
+            "level3": "Adds 60% Life leech for 24 seconds.",
+            "level4": "Adds 65% Life leech for 26 seconds.",
+            "level5": "Adds 70% Life leech for 28 seconds.",
+            "level6": "Adds 75% Life leech for 30 seconds.",
+            "level7": "Adds 80% Life leech for 32 seconds.",
+            "level8": "Adds 85% Life leech for 34 seconds.",
+            "level9": "Adds 90% Life leech for 36 seconds.",
+            "level10": "Adds 100% Life leech for 40 seconds."
+        }
+    ],
+    "Challenge": [
+        {
+            "level1": "Deals 74 physical damage. Enemy focuses on player for 3 seconds.",
+            "level2": "Deals 90 physical damage. Enemy focuses on player for 3 seconds.",
+            "level3": "Deals 108 physical damage. Enemy focuses on player for 3 seconds.",
+            "level4": "Deals 132 physical damage. Enemy focuses on player for 3 seconds.",
+            "level5": "Deals 161 physical damage. Enemy focuses on player for 4 seconds.",
+            "level6": "Deals 195 physical damage. Enemy focuses on player for 4 seconds.",
+            "level7": "Deals 231 physical damage. Enemy focuses on player for 4 seconds.",
+            "level8": "Deals 273 physical damage. Enemy focuses on player for 4 seconds.",
+            "level9": "Deals 323 physical damage. Enemy focuses on player for 5 seconds.",
+            "level10": "Deals 374 physical damage. Enemy focuses on player for 5 seconds.",
+            "level11": "Deals 434 physical damage. Enemy focuses on player for 5 seconds.",
+            "level12": "Deals 494 physical damage. Enemy focuses on player for 5 seconds.",
+            "level13": "Deals 557 physical damage. Enemy focuses on player for 6 seconds.",
+            "level14": "Deals 626 physical damage. Enemy focuses on player for 6 seconds.",
+            "level15": "Deals 704 physical damage. Enemy focuses on player for 6 seconds.",
+            "level16": "Deals 783 physical damage. Enemy focuses on player for 6 seconds."
+        }
+    ],
+    "Perseverance": [
+        {
+            "level1": "Focuses for 12 seconds. Blocks 30% of damage for 3 attack.",
+            "level2": "Focuses for 12 seconds. Blocks 33% of damage for 3 attack.",
+            "level3": "Focuses for 12 seconds. Blocks 36% of damage for 3 attack.",
+            "level4": "Focuses for 12 seconds. Blocks 39% of damage for 3 attack.",
+            "level5": "Focuses for 12 seconds. Blocks 42% of damage for 3 attack.",
+            "level6": "Focuses for 12 seconds. Blocks 45% of damage for 3 attack.",
+            "level7": "Focuses for 12 seconds. Blocks 48% of damage for 3 attack.",
+            "level8": "Focuses for 12 seconds. Blocks 51% of damage for 3 attack.",
+            "level9": "Focuses for 12 seconds. Blocks 54% of damage for 3 attack.",
+            "level10": "Focuses for 12 seconds. Blocks 57% of damage for 3 attack.",
+            "level11": "Focuses for 12 seconds. Blocks 60% of damage for 3 attack.",
+            "level12": "Focuses for 12 seconds. Blocks 63% of damage for 3 attack.",
+            "level13": "Focuses for 12 seconds. Blocks 66% of damage for 3 attack.",
+            "level14": "Focuses for 12 seconds. Blocks 69% of damage for 3 attack.",
+            "level15": "Focuses for 12 seconds. Blocks 72% of damage for 3 attack.",
+            "level16": "Focuses for 12 seconds. Blocks 75% of damage for 3 attack."
+        }
+    ],
+    "Enrage": [
+        {
+            "level1": "Generates 8 threat points per action.",
+            "level2": "Generates 16 threat points per action.",
+            "level3": "Generates 24 threat points per action.",
+            "level4": "Generates 32 threat points per action.",
+            "level5": "Generates 40 threat points per action.",
+            "level6": "Generates 48 threat points per action.",
+            "level7": "Generates 56 threat points per action.",
+            "level8": "Generates 64 threat points per action.",
+            "level9": "Generates 72 threat points per action.",
+            "level10": "Generates 80 threat points per action."
+        }
+    ],
+    "Benediction": [
+        {
+            "level1": "Increases healing amount by 120 and healing received by 3% while decreasing MP consumption for healing skills by 10%",
+            "level2": "Increases healing amount by 240 and healing received by 4% while decreasing MP consumption for healing skills by 12%",
+            "level3": "Increases healing amount by 360 and healing received by 4% while decreasing MP consumption for healing skills by 14%",
+            "level4": "Increases healing amount by 480 and healing received by 5% while decreasing MP consumption for healing skills by 16%",
+            "level5": "Increases healing amount by 600 and healing received by 5% while decreasing MP consumption for healing skills by 18%",
+            "level6": "Increases healing amount by 720 and healing received by 6% while decreasing MP consumption for healing skills by 20%",
+            "level7": "Increases healing amount by 840 and healing received by 6% while decreasing MP consumption for healing skills by 22%",
+            "level8": "Increases healing amount by 960 and healing received by 7% while decreasing MP consumption for healing skills by 24%",
+            "level9": "Increases healing amount by 1080 and healing received by 7% while decreasing MP consumption for healing skills by 26%",
+            "level10": "Increases healing amount by 1200 and healing received by 8% while decreasing MP consumption for healing skills by 30%"
+        }
+    ],
+    "Martyr": [
+        {
+            "level1": "For 3 minutes, this lets the skill user share 30% damage of a targeted party member while increasing abnormal states RES by 16. Up to 2680 damage can be transferred and only one member can be targeted at a time.",
+            "level2": "For 3 minutes, this lets the skill user share 32% damage of a targeted party member while increasing abnormal states RES by 19. Up to 3216 damage can be transferred and only one member can be targeted at a time.",
+            "level3": "For 3 minutes, this lets the skill user share 34% damage of a targeted party member while increasing abnormal states RES by 22. Up to 3870 damage can be transferred and only one member can be targeted at a time.",
+            "level4": "For 3 minutes, this lets the skill user share 36% damage of a targeted party member while increasing abnormal states RES by 25. Up to 4638 damage can be transferred and only one member can be targeted at a time.",
+            "level5": "For 3 minutes, this lets the skill user share 38% damage of a targeted party member while increasing abnormal states RES by 28. Up to 5476 damage can be transferred and only one member can be targeted at a time.",
+            "level6": "For 3 minutes, this lets the skill user share 40% damage of a targeted party member while increasing abnormal states RES by 31. Up to 6400 damage can be transferred and only one member can be targeted at a time.",
+            "level7": "For 3 minutes, this lets the skill user share 42% damage of a targeted party member while increasing abnormal states RES by 34. Up to 7646 damage can be transferred and only one member can be targeted at a time.",
+            "level8": "For 3 minutes, this lets the skill user share 44% damage of a targeted party member while increasing abnormal states RES by 37. Up to 8554 damage can be transferred and only one member can be targeted at a time.",
+            "level9": "For 3 minutes, this lets the skill user share 46% damage of a targeted party member while increasing abnormal states RES by 40. Up to 9802 damage can be transferred and only one member can be targeted at a time.",
+            "level10": "For 3 minutes, this lets the skill user share 48% damage of a targeted party member while increasing abnormal states RES by 43. Up to 11058 damage can be transferred and only one member can be targeted at a time.",
+            "level11": "For 3 minutes, this lets the skill user share 50% damage of a targeted party member while increasing abnormal states RES by 47. Up to 12322 damage can be transferred and only one member can be targeted at a time.",
+            "level12": "For 3 minutes, this lets the skill user share 52% damage of a targeted party member while increasing abnormal states RES by 50. Up to 13720 damage can be transferred and only one member can be targeted at a time.",
+            "level13": "For 3 minutes, this lets the skill user share 54% damage of a targeted party member while increasing abnormal states RES by 53. Up to 15258 damage can be transferred and only one member can be targeted at a time.",
+            "level14": "For 3 minutes, this lets the skill user share 56% damage of a targeted party member while increasing abnormal states RES by 56. Up to 16818 damage can be transferred and only one member can be targeted at a time.",
+            "level15": "For 3 minutes, this lets the skill user share 58% damage of a targeted party member while increasing abnormal states RES by 59. Up to 18476 damage can be transferred and only one member can be targeted at a time.",
+            "level16": "For 3 minutes, this lets the skill user share 60% damage of a targeted party member while increasing abnormal states RES by 62. Up to ~20000 damage can be transferred and only one member can be targeted at a time."
+        }
+    ],
+    "Divine Ward": [
+        {
+            "level1": "While activated for 5 minutes, creates a shield that completely blocks offensive skills twice. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level2": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 3 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level3": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 4 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level4": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 5 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level5": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 6 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level6": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 7 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level7": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 8 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level8": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 9 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level9": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 10 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated.",
+            "level10": "While activated for 5 minutes, creates a shield that completely blocks offensive skills 12 times. The number of defence decreases to 1 after transferring nations when Divine Ward is activated."
+        }
+    ],
+    "Judgment": [
+        {
+            "level1": "Deals 306 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level2": "Deals 369 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level3": "Deals 447 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level4": "Deals 525 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level5": "Deals 621 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level6": "Deals 720 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level7": "Deals 834 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level8": "Deals 954 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level9": "Deals 1080 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level10": "Deals 1212 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level11": "Deals 1365 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level12": "Deals 1524 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level13": "Deals 1695 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level14": "Deals 1881 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level15": "Deals 2091 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead.",
+            "level16": "Deals 2322 physical damage and silences all enemies within 4 meters for 3 seconds. Deals 150% damage to demons and undead."
+        }
+    ],
+    "Reflect Blow": [
+        {
+            "level1": "The skill user sends back 50% of damage from all attacks for 3 seconds.",
+            "level2": "The skill user sends back 55% of damage from all attacks for 3 seconds.",
+            "level3": "The skill user sends back 60% of damage from all attacks for 3 seconds.",
+            "level4": "The skill user sends back 65% of damage from all attacks for 3 seconds.",
+            "level5": "The skill user sends back 70% of damage from all attacks for 3 seconds.",
+            "level6": "The skill user sends back 75% of damage from all attacks for 3 seconds.",
+            "level7": "The skill user sends back 80% of damage from all attacks for 3 seconds.",
+            "level8": "The skill user sends back 85% of damage from all attacks for 3 seconds.",
+            "level9": "The skill user sends back 90% of damage from all attacks for 3 seconds.",
+            "level10": "The skill user sends back 95% of damage from all attacks for 3 seconds."
+        }
+    ],
+    "Deliverance": [
+        {
+            "level1": "Switches all Mana into healing amplified by 150% to recover a target's HP and lifts all cancelable debuffs.",
+            "level2": "Switches all Mana into healing amplified by 160% to recover a target's HP and lifts all cancelable debuffs.",
+            "level3": "Switches all Mana into healing amplified by 170% to recover a target's HP and lifts all cancelable debuffs.",
+            "level4": "Switches all Mana into healing amplified by 180% to recover a target's HP and lifts all cancelable debuffs.",
+            "level5": "Switches all Mana into healing amplified by 190% to recover a target's HP and lifts all cancelable debuffs.",
+            "level6": "Switches all Mana into healing amplified by 200% to recover a target's HP and lifts all cancelable debuffs.",
+            "level7": "Switches all Mana into healing amplified by 210% to recover a target's HP and lifts all cancelable debuffs.",
+            "level8": "Switches all Mana into healing amplified by 220% to recover a target's HP and lifts all cancelable debuffs.",
+            "level9": "Switches all Mana into healing amplified by 230% to recover a target's HP and lifts all cancelable debuffs.",
+            "level10": "Switches all Mana into healing amplified by 250% to recover a target's HP and lifts all cancelable debuffs."
+        }
+    ],
+    "Defiance": [
+        {
+            "level1": "Increases the skill user's abnormal states RES by 37 and Threat by 50% for 30 seconds.",
+            "level2": "Increases the skill user's abnormal states RES by 41 and Threat by 55% for 30 seconds.",
+            "level3": "Increases the skill user's abnormal states RES by 45 and Threat by 60% for 30 seconds.",
+            "level4": "Increases the skill user's abnormal states RES by 50 and Threat by 65% for 30 seconds.",
+            "level5": "Increases the skill user's abnormal states RES by 56 and Threat by 70% for 30 seconds.",
+            "level6": "Increases the skill user's abnormal states RES by 62 and Threat by 75% for 30 seconds.",
+            "level7": "Increases the skill user's abnormal states RES by 68 and Threat by 80% for 30 seconds.",
+            "level8": "Increases the skill user's abnormal states RES by 74 and Threat by 85% for 30 seconds.",
+            "level9": "Increases the skill user's abnormal states RES by 81 and Threat by 90% for 30 seconds.",
+            "level10": "The skill user becomes immune to abnormal states and Threat increases by 100% for 30 seconds."
+        }
+    ],
+    "Onslaught": [
+        {
+            "level1": "Increases the skill user's Physical ATK by 68, Movement Speed by 10, and Double ATK by 3 for 40 seconds. Normal attacks deal splash damage equivalent to 60% of Physical ATK.",
+            "level2": "Increases the skill user's Physical ATK by 78, Movement Speed by 10, and Double ATK by 3 for 40 seconds. Normal attacks deal splash damage equivalent to 62% of Physical ATK.",
+            "level3": "Increases the skill user's Physical ATK by 90, Movement Speed by 10, and Double ATK by 3 for 40 seconds. Normal attacks deal splash damage equivalent to 64% of Physical ATK.",
+            "level4": "Increases the skill user's Physical ATK by 104, Movement Speed by 10, and Double ATK by 4 for 40 seconds. Normal attacks deal splash damage equivalent to 66% of Physical ATK.",
+            "level5": "Increases the skill user's Physical ATK by 118, Movement Speed by 10, and Double ATK by 4 for 40 seconds. Normal attacks deal splash damage equivalent to 68% of Physical ATK.",
+            "level6": "Increases the skill user's Physical ATK by 134, Movement Speed by 10, and Double ATK by 4 for 40 seconds. Normal attacks deal splash damage equivalent to 70% of Physical ATK.",
+            "level7": "Increases the skill user's Physical ATK by 150, Movement Speed by 10, and Double ATK by 5 for 40 seconds. Normal attacks deal splash damage equivalent to 72% of Physical ATK.",
+            "level8": "Increases the skill user's Physical ATK by 166, Movement Speed by 10, and Double ATK by 5 for 40 seconds. Normal attacks deal splash damage equivalent to 74% of Physical ATK.",
+            "level9": "Increases the skill user's Physical ATK by 186, Movement Speed by 10, and Double ATK by 5 for 40 seconds. Normal attacks deal splash damage equivalent to 76% of Physical ATK.",
+            "level10": "Increases the skill user's Physical ATK by 208, Movement Speed by 10, and Double ATK by 6 for 40 seconds. Normal attacks deal splash damage equivalent to 78% of Physical ATK.",
+            "level11": "Increases the skill user's Physical ATK by 232, Movement Speed by 10, and Double ATK by 6 for 40 seconds. Normal attacks deal splash damage equivalent to 80% of Physical ATK.",
+            "level12": "Increases the skill user's Physical ATK by 258, Movement Speed by 10, and Double ATK by 6 for 40 seconds. Normal attacks deal splash damage equivalent to 82% of Physical ATK.",
+            "level13": "Increases the skill user's Physical ATK by 292, Movement Speed by 10, and Double ATK by 7 for 40 seconds. Normal attacks deal splash damage equivalent to 84% of Physical ATK.",
+            "level14": "Increases the skill user's Physical ATK by 334, Movement Speed by 10, and Double ATK by 7 for 40 seconds. Normal attacks deal splash damage equivalent to 86% of Physical ATK.",
+            "level15": "Increases the skill user's Physical ATK by 380, Movement Speed by 10, and Double ATK by 7 for 40 seconds. Normal attacks deal splash damage equivalent to 88% of Physical ATK.",
+            "level16": "Increases the skill user's Physical ATK by 456, Movement Speed by 10, and Double ATK by 8 for 40 seconds. Normal attacks deal splash damage equivalent to 90% of Physical ATK."
+        }
+    ],
+    "Aegis": [
+        {
+            "level1": "Increases the skill user's Physical DEF by 893, Magic DEF by 703, and regenerates 73 HP every 2 seconds for 40 seconds.",
+            "level2": "Increases the skill user's Physical DEF by 1054, Magic DEF by 830, and regenerates 86 HP every 2 seconds for 40 seconds.",
+            "level3": "Increases the skill user's Physical DEF by 1243, Magic DEF by 977, and regenerates 100 HP every 2 seconds for 40 seconds.",
+            "level4": "Increases the skill user's Physical DEF by 1483, Magic DEF by 1169, and regenerates 115 HP every 2 seconds for 40 seconds.",
+            "level5": "Increases the skill user's Physical DEF by 1735, Magic DEF by 1370, and regenerates 132 HP every 2 seconds for 40 seconds.",
+            "level6": "Increases the skill user's Physical DEF by 1997, Magic DEF by 1579, and regenerates 149 HP every 2 seconds for 40 seconds.",
+            "level7": "Increases the skill user's Physical DEF by 2269, Magic DEF by 1801, and regenerates 167 HP every 2 seconds for 40 seconds.",
+            "level8": "Increases the skill user's Physical DEF by 2550, Magic DEF by 2030, and regenerates 185 HP every 2 seconds for 40 seconds.",
+            "level9": "Increases the skill user's Physical DEF by 2869, Magic DEF by 2284, and regenerates 206 HP every 2 seconds for 40 seconds.",
+            "level10": "Increases the skill user's Physical DEF by 3243, Magic DEF by 2583, and regenerates 228 HP every 2 seconds for 40 seconds.",
+            "level11": "Increases the skill user's Physical DEF by 3656, Magic DEF by 2916, and regenerates 251 HP every 2 seconds for 40 seconds.",
+            "level12": "Increases the skill user's Physical DEF by 4117, Magic DEF by 3285, and regenerates 275 HP every 2 seconds for 40 seconds.",
+            "level13": "Increases the skill user's Physical DEF by 4604, Magic DEF by 3678, and regenerates 301 HP every 2 seconds for 40 seconds.",
+            "level14": "Increases the skill user's Physical DEF by 5101, Magic DEF by 4097, and regenerates 329 HP every 2 seconds for 40 seconds.",
+            "level15": "Increases the skill user's Physical DEF by 5694, Magic DEF by 4577, and regenerates 358 HP every 2 seconds for 40 seconds.",
+            "level16": "Increases the skill user's Physical DEF by 6451, Magic DEF by 5216, and regenerates 391 HP every 2 seconds for 40 seconds."
+        }
+    ],
+    "Repetence": [
+        {
+            "level1": "Draws a target within 10 meters towards the player and forces it to repent for misdeeds and immoblizes it for 3 seconds.",
+            "level2": "Draws a target within 10 meters towards the player and forces it to repent for misdeeds and immoblizes it for 4 seconds.",
+            "level3": "Draws a target within 11 meters towards the player and forces it to repent for misdeeds and immoblizes it for 5 seconds.",
+            "level4": "Draws a target within 11 meters towards the player and forces it to repent for misdeeds and immoblizes it for 6 seconds.",
+            "level5": "Draws a target within 12 meters towards the player and forces it to repent for misdeeds and immoblizes it for 7 seconds.",
+            "level6": "Draws a target within 12 meters towards the player and forces it to repent for misdeeds and immoblizes it for 8 seconds.",
+            "level7": "Draws a target within 13 meters towards the player and forces it to repent for misdeeds and immoblizes it for 9 seconds.",
+            "level8": "Draws a target within 13 meters towards the player and forces it to repent for misdeeds and immoblizes it for 10 seconds.",
+            "level9": "Draws a target within 14 meters towards the player and forces it to repent for misdeeds and immoblizes it for 11 seconds.",
+            "level10": "Draws a target within 15 meters towards the player and forces it to repent for misdeeds and immoblizes it for 12 seconds."
+        }
+    ],
+    "Stronghold": [
+        {
+            "level1": "Fortifies your stance and grants a 5% chance to reduce all damage by 10%",
+            "level2": "Fortifies your stance and grants a 6% chance to reduce all damage by 12%",
+            "level3": "Fortifies your stance and grants a 7% chance to reduce all damage by 14%",
+            "level4": "Fortifies your stance and grants a 8% chance to reduce all damage by 16%",
+            "level5": "Fortifies your stance and grants a 9% chance to reduce all damage by 18%",
+            "level6": "Fortifies your stance and grants a 10% chance to reduce all damage by 20%",
+            "level7": "Fortifies your stance and grants a 11% chance to reduce all damage by 22%",
+            "level8": "Fortifies your stance and grants a 12% chance to reduce all damage by 24%",
+            "level9": "Fortifies your stance and grants a 13% chance to reduce all damage by 26%",
+            "level10": "Fortifies your stance and grants a 15% chance to reduce all damage by 30%"
+        }
+    ],
+    "Blades of Aika": [
+        {
+            "level1": "Summons an ancient relic to deal damage equivalent to 70% of weapon damage to enemies within 3 meters every second for 20 seconds. Deals 150% damage to demons and undead.",
+            "level2": "Summons an ancient relic to deal damage equivalent to 73% of weapon damage to enemies within 3 meters every second for 21 seconds. Deals 150% damage to demons and undead.",
+            "level3": "Summons an ancient relic to deal damage equivalent to 76% of weapon damage to enemies within 3 meters every second for 22 seconds. Deals 150% damage to demons and undead.",
+            "level4": "Summons an ancient relic to deal damage equivalent to 79% of weapon damage to enemies within 3 meters every second for 23 seconds. Deals 150% damage to demons and undead.",
+            "level5": "Summons an ancient relic to deal damage equivalent to 82% of weapon damage to enemies within 3 meters every second for 24 seconds. Deals 150% damage to demons and undead.",
+            "level6": "Summons an ancient relic to deal damage equivalent to 85% of weapon damage to enemies within 3 meters every second for 25 seconds. Deals 150% damage to demons and undead.",
+            "level7": "Summons an ancient relic to deal damage equivalent to 88% of weapon damage to enemies within 3 meters every second for 26 seconds. Deals 150% damage to demons and undead.",
+            "level8": "Summons an ancient relic to deal damage equivalent to 91% of weapon damage to enemies within 3 meters every second for 27 seconds. Deals 150% damage to demons and undead.",
+            "level9": "Summons an ancient relic to deal damage equivalent to 93% of weapon damage to enemies within 3 meters every second for 28 seconds. Deals 150% damage to demons and undead.",
+            "level10": "Summons an ancient relic to deal damage equivalent to 97% of weapon damage to enemies within 3 meters every second for 29 seconds. Deals 150% damage to demons and undead.",
+            "level11": "Summons an ancient relic to deal damage equivalent to 100% of weapon damage to enemies within 3 meters every second for 30 seconds. Deals 150% damage to demons and undead."
+        }
+    ],
+    "Sanctuary": [
+        {
+            "level1": "Deals 1316 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 20 seconds. Deals 150% damage instantly to evil and undead.",
+            "level2": "Deals 1484 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 22 seconds. Deals 150% damage instantly to evil and undead.",
+            "level3": "Deals 1668 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 24 seconds. Deals 150% damage instantly to evil and undead.",
+            "level4": "Deals 1876 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 26 seconds. Deals 150% damage instantly to evil and undead.",
+            "level5": "Deals 2088 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 28 seconds. Deals 150% damage instantly to evil and undead.",
+            "level6": "Deals 2320 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 30 seconds. Deals 150% damage instantly to evil and undead.",
+            "level7": "Deals 2576 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 32 seconds. Deals 150% damage instantly to evil and undead.",
+            "level8": "Deals 2864 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 34 seconds. Deals 150% damage instantly to evil and undead.",
+            "level9": "Deals 3180 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 36 seconds. Deals 150% damage instantly to evil and undead.",
+            "level10": "Deals 3532 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 38 seconds. Deals 150% damage instantly to evil and undead.",
+            "level11": "Deals 3724 physical damage instantly by consercrating a 6 meter area. This will deactiavte 1 beneficial skill and make enemies sensitive to holy magic for 40 seconds. Deals 150% damage instantly to evil and undead."
+        }
+    ],
+    "Judgement": [
+        {
+            "level1": "Divine righteousness increases physical attack by 12 and critical rate by 1.",
+            "level2": "Divine righteousness increases physical attack by 16 and critical rate by 2.",
+            "level3": "Divine righteousness increases physical attack by 20 and critical rate by 3.",
+            "level4": "Divine righteousness increases physical attack by 24 and critical rate by 4.",
+            "level5": "Divine righteousness increases physical attack by 28 and critical rate by 5.",
+            "level6": "Divine righteousness increases physical attack by 32 and critical rate by 6.",
+            "level7": "Divine righteousness increases physical attack by 36 and critical rate by 7.",
+            "level8": "Divine righteousness increases physical attack by 40 and critical rate by 8.",
+            "level9": "Divine righteousness increases physical attack by 44 and critical rate by 9.",
+            "level10": "Divine righteousness increases physical attack by 48 and critical rate by 10."
+        }
+    ],
+    "Immortal Faith": [
+        {
+            "level1": "A shield of faith increases HP by 2515 and increases HP recovery for 60 seconds.",
+            "level2": "A shield of faith increases HP by 2797 and increases HP recovery for 60 seconds.",
+            "level3": "A shield of faith increases HP by 3083 and increases HP recovery for 60 seconds.",
+            "level4": "A shield of faith increases HP by 3387 and increases HP recovery for 60 seconds.",
+            "level5": "A shield of faith increases HP by 3721 and increases HP recovery for 60 seconds.",
+            "level6": "A shield of faith increases HP by 4087 and increases HP recovery for 60 seconds.",
+            "level7": "A shield of faith increases HP by 4488 and increases HP recovery for 60 seconds.",
+            "level8": "A shield of faith increases HP by 4929 and increases HP recovery for 60 seconds.",
+            "level9": "A shield of faith increases HP by 5166 and increases HP recovery for 60 seconds."
+        }
+    ],
+    "Divine Cross": [
+        {
+            "level1": "Emits strong energy in form of a great cross and deals 1326 Physical Attack to all enemies in the path.",
+            "level2": "Emits strong energy in form of a great cross and deals 1485 Physical Attack to all enemies in the path.",
+            "level3": "Emits strong energy in form of a great cross and deals 1650 Physical Attack to all enemies in the path.",
+            "level4": "Emits strong energy in form of a great cross and deals 1833 Physical Attack to all enemies in the path.",
+            "level5": "Emits strong energy in form of a great cross and deals 2037 Physical Attack to all enemies in the path.",
+            "level6": "Emits strong energy in form of a great cross and deals 2262 Physical Attack to all enemies in the path.",
+            "level7": "Emits strong energy in form of a great cross and deals 2511 Physical Attack to all enemies in the path.",
+            "level8": "Emits strong energy in form of a great cross and deals 2793 Physical Attack to all enemies in the path."
+        }
+    ],
+    "Aika's Affection": [
+        {
+            "level1": "Recovers 30 HP and 30 Constitution value for 10 mins. And increases healing effect by 6%",
+            "level2": "Recovers 33 HP and 33 Constitution value for 10 mins. And increases healing effect by 7%",
+            "level3": "Recovers 36 HP and 36 Constitution value for 10 mins. And increases healing effect by 8%",
+            "level4": "Recovers 39 HP and 39 Constitution value for 10 mins. And increases healing effect by 9%",
+            "level5": "Recovers 42 HP and 42 Constitution value for 10 mins. And increases healing effect by 10%",
+            "level6": "Recovers 45 HP and 45 Constitution value for 10 mins. And increases healing effect by 11%",
+            "level7": "Recovers 48 HP and 48 Constitution value for 10 mins. And increases healing effect by 12%"
+        }
+    ],
+    "Divine Charge": [
+        {
+            "level1": "Charges to a target within 9 meters and deals 1100 Physical damage and decreases Physical/Madic Attack of the target by 25% for 6 secs.",
+            "level2": "Charges to a target within 9 meters and deals 1222 Physical damage and decreases Physical/Madic Attack of the target by 28% for 6 secs.",
+            "level3": "Charges to a target within 9 meters and deals 1358 Physical damage and decreases Physical/Madic Attack of the target by 31% for 6 secs.",
+            "level4": "Charges to a target within 9 meters and deals 1508 Physical damage and decreases Physical/Madic Attack of the target by 34% for 6 secs.",
+            "level5": "Charges to a target within 9 meters and deals 1674 Physical damage and decreases Physical/Madic Attack of the target by 37% for 6 secs.",
+            "level6": "Charges to a target within 9 meters and deals 1862 Physical damage and decreases Physical/Madic Attack of the target by 40% for 6 secs."
+        }
+    ],
+    "Heavenly Shield": [
+        {
+            "level1": "Increases PDEF by 1281, MDEF by 1028, and decreases damage received by 15% at a 10% chance. This skill stacks with [Stronghold] but not [Vanguard].",
+            "level2": "Increases PDEF by 1423, MDEF by 1142, and decreases damage received by 18% at a 12% chance. This skill stacks with [Stronghold] but not [Vanguard].",
+            "level3": "Increases PDEF by 1580, MDEF by 1268, and decreases damage received by 21% at a 14% chance. This skill stacks with [Stronghold] but not [Vanguard].",
+            "level4": "Increases PDEF by 1784, MDEF by 1432, and decreases damage received by 24% at a 16% chance. This skill stacks with [Stronghold] but not [Vanguard].",
+            "level5": "Increases PDEF by 2042, MDEF by 1650, and decreases damage received by 27% at a 18% chance. This skill stacks with [Stronghold] but not [Vanguard].",
+            "level6": "Increases PDEF by 2152, MDEF by 1739, and decreases damage received by 30% at a 20% chance. This skill stacks with [Stronghold] but not [Vanguard]."
+        }
+    ],
+    "Iron Forge": [
+        {
+            "level1": "Increase Physical and Magical defence of the party by 50% and increases Critical and Double Resistance by 5 for 12 seconds.",
+            "level2": "Increase Physical and Magical defence of the party by 55% and increases Critical and Double Resistance by 8 for 14 seconds.",
+            "level3": "Increase Physical and Magical defence of the party by 60% and increases Critical and Double Resistance by 10 for 16 seconds.",
+            "level4": "Increase Physical and Magical defence of the party by 65% and increases Critical and Double Resistance by 12 for 18 seconds.",
+            "level5": "Increase Physical and Magical defence of the party by 70% and increases Critical and Double Resistance by 15 for 20 seconds."
+        }
+    ],
+    "Reckless Savior": [
+        {
+            "level1": "Arrive with a dynamic entry and apply a shield that absorbs 20460 physical damage to the user and nearby party members. Adds a Quick Ward buff if Divine Ward is not activated.",
+            "level2": "Arrive with a dynamic entry and apply a shield that absorbs 22720 physical damage to the user and nearby party members. Adds a Quick Ward buff if Divine Ward is not activated.",
+            "level3": "Arrive with a dynamic entry and apply a shield that absorbs 25240 physical damage to the user and nearby party members. Adds a Quick Ward buff if Divine Ward is not activated.",
+            "level4": "Arrive with a dynamic entry and apply a shield that absorbs 26600 physical damage to the user and nearby party members. Adds a Quick Ward buff if Divine Ward is not activated."
+        }
+    ],
+    "Avenger's Shield": [
+        {
+            "level1": "Using the divine power of revenge, inflicts 2930 physical damage on enemies within 5m and makes them sensitive to holy spells for 1 minute. The skill user reflects all damage and sends it back for 5 seconds.",
+            "level2": "Using the divine power of revenge, inflicts 3259 physical damage on enemies within 5m and makes them sensitive to holy spells for 1 minute. The skill user reflects all damage and sends it back for 5 seconds."
+        }
     ]
 }
