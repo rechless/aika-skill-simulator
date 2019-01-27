@@ -1606,5 +1606,938 @@
             "level1": "Using the divine power of revenge, inflicts 2930 physical damage on enemies within 5m and makes them sensitive to holy spells for 1 minute. The skill user reflects all damage and sends it back for 5 seconds.",
             "level2": "Using the divine power of revenge, inflicts 3259 physical damage on enemies within 5m and makes them sensitive to holy spells for 1 minute. The skill user reflects all damage and sends it back for 5 seconds."
         }
+    ],
+    "FireBall": [
+        {
+            "level1": "Deals 75 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 25.",
+            "level2": "Deals 94 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 27.",
+            "level3": "Deals 127 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 29.",
+            "level4": "Deals 161 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 31.",
+            "level5": "Deals 199 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 33.",
+            "level6": "Deals 246 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 35.",
+            "level7": "Deals 299 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 37.",
+            "level8": "Deals 362 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 39.",
+            "level9": "Deals 439 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 41.",
+            "level10": "Deals 531 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 43.",
+            "level11": "Deals 640 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 45.",
+            "level12": "Deals 756 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 47.",
+            "level13": "Deals 892 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 49.",
+            "level14": "Deals 1037 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 51.",
+            "level15": "Deals 1199 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 53.",
+            "level16": "Deals 1380 fire magic damage and gives fire debuff for 3 seconds. Base critical rate of 55."
+        }
+    ],
+    "Enervate": [
+        {
+            "level1": "Deals 44 magic damage per second for 6 seconds and gives dark debuff.",
+            "level2": "Deals 59 magic damage per second for 6 seconds and gives dark debuff.",
+            "level3": "Deals 75 magic damage per second for 6 seconds and gives dark debuff.",
+            "level4": "Deals 93 magic damage per second for 6 seconds and gives dark debuff.",
+            "level5": "Deals 115 magic damage per second for 6 seconds and gives dark debuff.",
+            "level6": "Deals 140 magic damage per second for 6 seconds and gives dark debuff.",
+            "level7": "Deals 169 magic damage per second for 6 seconds and gives dark debuff.",
+            "level8": "Deals 205 magic damage per second for 6 seconds and gives dark debuff.",
+            "level9": "Deals 248 magic damage per second for 6 seconds and gives dark debuff.",
+            "level10": "Deals 299 magic damage per second for 6 seconds and gives dark debuff.",
+            "level11": "Deals 353 magic damage per second for 6 seconds and gives dark debuff.",
+            "level12": "Deals 417 magic damage per second for 6 seconds and gives dark debuff.",
+            "level13": "Deals 485 magic damage per second for 6 seconds and gives dark debuff.",
+            "level14": "Deals 561 magic damage per second for 6 seconds and gives dark debuff.",
+            "level15": "Deals 641 magic damage per second for 6 seconds and gives dark debuff.",
+            "level16": "Deals 725 magic damage per second for 6 seconds and gives dark debuff."
+        }
+    ],
+    "Polymorph": [
+        {
+            "level1": "Turns the target into a cute defenseless bunny and decreases move speed by 20 for 20 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level2": "Turns the target into a cute defenseless bunny and decreases move speed by 22 for 22 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level3": "Turns the target into a cute defenseless bunny and decreases move speed by 24 for 24 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level4": "Turns the target into a cute defenseless bunny and decreases move speed by 26 for 26 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level5": "Turns the target into a cute defenseless bunny and decreases move speed by 28 for 28 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level6": "Turns the target into a cute defenseless bunny and decreases move speed by 30 for 30 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level7": "Turns the target into a cute defenseless bunny and decreases move speed by 32 for 32 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level8": "Turns the target into a cute defenseless bunny and decreases move speed by 34 for 34 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level9": "Turns the target into a cute defenseless bunny and decreases move speed by 36 for 36 seconds. Can only polymorph one target and cannot be auto cast.",
+            "level10": "Turns the target into a cute defenseless bunny and decreases move speed by 40 for 38 seconds. Can only polymorph one target and cannot be auto cast."
+        }
+    ],
+    "Lighting Orb": [
+        {
+            "level1": "Deals 94 magic damage and decreases move speed by 15 for 3 seconds. Gives lighting debuff.",
+            "level2": "Deals 118 magic damage and decreases move speed by 16 for 3 seconds. Gives lighting debuff.",
+            "level3": "Deals 147 magic damage and decreases move speed by 17 for 3 seconds. Gives lighting debuff.",
+            "level4": "Deals 181 magic damage and decreases move speed by 18 for 3 seconds. Gives lighting debuff.",
+            "level5": "Deals 220 magic damage and decreases move speed by 19 for 3 seconds. Gives lighting debuff.",
+            "level6": "Deals 267 magic damage and decreases move speed by 20 for 3 seconds. Gives lighting debuff.",
+            "level7": "Deals 324 magic damage and decreases move speed by 21 for 3 seconds. Gives lighting debuff.",
+            "level8": "Deals 391 magic damage and decreases move speed by 22 for 3 seconds. Gives lighting debuff.",
+            "level9": "Deals 472 magic damage and decreases move speed by 23 for 3 seconds. Gives lighting debuff.",
+            "level10": "Deals 557 magic damage and decreases move speed by 24 for 3 seconds. Gives lighting debuff.",
+            "level11": "Deals 658 magic damage and decreases move speed by 25 for 3 seconds. Gives lighting debuff.",
+            "level12": "Deals 764 magic damage and decreases move speed by 26 for 3 seconds. Gives lighting debuff.",
+            "level13": "Deals 884 magic damage and decreases move speed by 27 for 3 seconds. Gives lighting debuff.",
+            "level14": "Deals 1010 magic damage and decreases move speed by 28 for 3 seconds. Gives lighting debuff.",
+            "level15": "Deals 1143 magic damage and decreases move speed by 29 for 3 seconds. Gives lighting debuff.",
+            "level16": "Deals 1283 magic damage and decreases move speed by 30 for 3 seconds. Gives lighting debuff."
+        }
+    ],
+    "Mana Shield": [
+        {
+            "level1": "Reduces 30% of damage taken at a cost of 2.25 times the mana instead",
+            "level2": "Reduces 32% of damage taken at a cost of 2.2 times the mana instead",
+            "level3": "Reduces 34% of damage taken at a cost of 2.15 times the mana instead",
+            "level4": "Reduces 36% of damage taken at a cost of 2.1 times the mana instead",
+            "level5": "Reduces 38% of damage taken at a cost of 2.05 times the mana instead",
+            "level6": "Reduces 40% of damage taken at a cost of 2 times the mana instead",
+            "level7": "Reduces 42% of damage taken at a cost of 1.95 times the mana instead",
+            "level8": "Reduces 44% of damage taken at a cost of 1.9 times the mana instead",
+            "level9": "Reduces 46% of damage taken at a cost of 1.85 times the mana instead",
+            "level10": "Reduces 48% of damage taken at a cost of 1.8 times the mana instead",
+            "level11": "Reduces 50% of damage taken at a cost of 1.75 times the mana instead",
+            "level12": "Reduces 52% of damage taken at a cost of 1.7 times the mana instead",
+            "level13": "Reduces 54% of damage taken at a cost of 1.65 times the mana instead",
+            "level14": "Reduces 56% of damage taken at a cost of 1.6 times the mana instead",
+            "level15": "Reduces 58% of damage taken at a cost of 1.55 times the mana instead",
+            "level16": "Reduces 60% of damage taken at a cost of 1.5 times the mana instead"
+        }
+    ],
+    "Hellfire": [
+        {
+            "level1": "Deals 213 magic damage and stuns for 3 seconds. Deals additional 107 magic damage to fire debuffed targets.",
+            "level2": "Deals 265 magic damage and stuns for 3 seconds. Deals additional 133 magic damage to fire debuffed targets.",
+            "level3": "Deals 327 magic damage and stuns for 3 seconds. Deals additional 164 magic damage to fire debuffed targets.",
+            "level4": "Deals 397 magic damage and stuns for 3 seconds. Deals additional 199 magic damage to fire debuffed targets.",
+            "level5": "Deals 481 magic damage and stuns for 3 seconds. Deals additional 241 magic damage to fire debuffed targets.",
+            "level6": "Deals 583 magic damage and stuns for 3 seconds. Deals additional 292 magic damage to fire debuffed targets.",
+            "level7": "Deals 705 magic damage and stuns for 3 seconds. Deals additional 353 magic damage to fire debuffed targets.",
+            "level8": "Deals 851 magic damage and stuns for 3 seconds. Deals additional 426 magic damage to fire debuffed targets.",
+            "level9": "Deals 1004 magic damage and stuns for 3 seconds. Deals additional 502 magic damage to fire debuffed targets.",
+            "level10": "Deals 1185 magic damage and stuns for 3 seconds. Deals additional 593 magic damage to fire debuffed targets.",
+            "level11": "Deals 1377 magic damage and stuns for 3 seconds. Deals additional 689 magic damage to fire debuffed targets.",
+            "level12": "Deals 1593 magic damage and stuns for 3 seconds. Deals additional 797 magic damage to fire debuffed targets.",
+            "level13": "Deals 1820 magic damage and stuns for 3 seconds. Deals additional 910 magic damage to fire debuffed targets.",
+            "level14": "Deals 2060 magic damage and stuns for 3 seconds. Deals additional 1030 magic damage to fire debuffed targets.",
+            "level15": "Deals 2314 magic damage and stuns for 3 seconds. Deals additional 1157 magic damage to fire debuffed targets.",
+            "level16": "Deals 2603 magic damage and stuns for 3 seconds. Deals additional 1302 magic damage to fire debuffed targets."
+        }
+    ],
+    "Aetheric Shackles": [
+        {
+            "level1": "Deals 104 magic damage and silences for 3 seconds. Silence duration doubles if target is casting. Deals additional 21 magic damage to dark debuffed targets.",
+            "level2": "Deals 128 magic damage and silences for 4 seconds. Silence duration doubles if target is casting. Deals additional 26 magic damage to dark debuffed targets.",
+            "level3": "Deals 154 magic damage and silences for 5 seconds. Silence duration doubles if target is casting. Deals additional 31 magic damage to dark debuffed targets.",
+            "level4": "Deals 187 magic damage and silences for 6 seconds. Silence duration doubles if target is casting. Deals additional 37 magic damage to dark debuffed targets.",
+            "level5": "Deals 227 magic damage and silences for 7 seconds. Silence duration doubles if target is casting. Deals additional 45 magic damage to dark debuffed targets.",
+            "level6": "Deals 275 magic damage and silences for 8 seconds. Silence duration doubles if target is casting. Deals additional 55 magic damage to dark debuffed targets.",
+            "level7": "Deals 328 magic damage and silences for 9 seconds. Silence duration doubles if target is casting. Deals additional 66 magic damage to dark debuffed targets.",
+            "level8": "Deals 387 magic damage and silences for 10 seconds. Silence duration doubles if target is casting. Deals additional 77 magic damage to dark debuffed targets.",
+            "level9": "Deals 457 magic damage and silences for 11 seconds. Silence duration doubles if target is casting. Deals additional 91 magic damage to dark debuffed targets.",
+            "level10": "Deals 529 magic damage and silences for 12 seconds. Silence duration doubles if target is casting. Deals additional 106 magic damage to dark debuffed targets."
+        }
+    ],
+    "Black Harvest": [
+        {
+            "level1": "By brandishing a scythe of darkness at enemies nearby, inflicts 173 magic damage, absorbs 100% of the the damage as HP and decreases Physical ATK by 30% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 9 magic damage per level.",
+            "level2": "By brandishing a scythe of darkness at enemies nearby, inflicts 210 magic damage, absorbs 105% of the the damage as HP and decreases Physical ATK by 33% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 11 magic damage per level.",
+            "level3": "By brandishing a scythe of darkness at enemies nearby, inflicts 255 magic damage, absorbs 110% of the the damage as HP and decreases Physical ATK by 36% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 13 magic damage per level.",
+            "level4": "By brandishing a scythe of darkness at enemies nearby, inflicts 309 magic damage, absorbs 115% of the the damage as HP and decreases Physical ATK by 39% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 15 magic damage per level.",
+            "level5": "By brandishing a scythe of darkness at enemies nearby, inflicts 375 magic damage, absorbs 120% of the the damage as HP and decreases Physical ATK by 42% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 19 magic damage per level.",
+            "level6": "By brandishing a scythe of darkness at enemies nearby, inflicts 453 magic damage, absorbs 125% of the the damage as HP and decreases Physical ATK by 45% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 23 magic damage per level.",
+            "level7": "By brandishing a scythe of darkness at enemies nearby, inflicts 536 magic damage, absorbs 130% of the the damage as HP and decreases Physical ATK by 48% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 27 magic damage per level.",
+            "level8": "By brandishing a scythe of darkness at enemies nearby, inflicts 633 magic damage, absorbs 135% of the the damage as HP and decreases Physical ATK by 51% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 32 magic damage per level.",
+            "level9": "By brandishing a scythe of darkness at enemies nearby, inflicts 738 magic damage, absorbs 140% of the the damage as HP and decreases Physical ATK by 54% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 37 magic damage per level.",
+            "level10": "By brandishing a scythe of darkness at enemies nearby, inflicts 854 magic damage, absorbs 145% of the the damage as HP and decreases Physical ATK by 57% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 43 magic damage per level.",
+            "level11": "By brandishing a scythe of darkness at enemies nearby, inflicts 980 magic damage, absorbs 150% of the the damage as HP and decreases Physical ATK by 60% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 49 magic damage per level.",
+            "level12": "By brandishing a scythe of darkness at enemies nearby, inflicts 1113 magic damage, absorbs 155% of the the damage as HP and decreases Physical ATK by 63% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 56 magic damage per level.",
+            "level13": "By brandishing a scythe of darkness at enemies nearby, inflicts 1250 magic damage, absorbs 160% of the the damage as HP and decreases Physical ATK by 66% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 63 magic damage per level.",
+            "level14": "By brandishing a scythe of darkness at enemies nearby, inflicts 1406 magic damage, absorbs 165% of the the damage as HP and decreases Physical ATK by 69% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 70 magic damage per level.",
+            "level15": "By brandishing a scythe of darkness at enemies nearby, inflicts 1575 magic damage, absorbs 170% of the the damage as HP and decreases Physical ATK by 72% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 79 magic damage per level.",
+            "level16": "By brandishing a scythe of darkness at enemies nearby, inflicts 1749 magic damage, absorbs 175% of the the damage as HP and decreases Physical ATK by 75% for 6 seconds. Furthermore, to enemies with active dark debuff, adds 87 magic damage per level."
+        }
+    ],
+    "Mana Torrent": [
+        {
+            "level1": "Overlaps Mana, increases Magic ATK by 5. An attack ignores 2% of Magic DEF buy consumes 3 extra MP.",
+            "level2": "Overlaps Mana, increases Magic ATK by 10. An attack ignores 3% of Magic DEF buy consumes 6 extra MP.",
+            "level3": "Overlaps Mana, increases Magic ATK by 15. An attack ignores 3% of Magic DEF buy consumes 9 extra MP.",
+            "level4": "Overlaps Mana, increases Magic ATK by 20. An attack ignores 4% of Magic DEF buy consumes 12 extra MP.",
+            "level5": "Overlaps Mana, increases Magic ATK by 25. An attack ignores 4% of Magic DEF buy consumes 15 extra MP.",
+            "level6": "Overlaps Mana, increases Magic ATK by 30. An attack ignores 5% of Magic DEF buy consumes 18 extra MP.",
+            "level7": "Overlaps Mana, increases Magic ATK by 35. An attack ignores 5% of Magic DEF buy consumes 21 extra MP.",
+            "level8": "Overlaps Mana, increases Magic ATK by 40. An attack ignores 6% of Magic DEF buy consumes 24 extra MP.",
+            "level9": "Overlaps Mana, increases Magic ATK by 45. An attack ignores 6% of Magic DEF buy consumes 27 extra MP.",
+            "level10": "Overlaps Mana, increases Magic ATK by 50. An attack ignores 7% of Magic DEF buy consumes 30 extra MP."
+        }
+    ],
+    "Meditate": [
+        {
+            "level1": "Harmonizes Mana, adds 6% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level2": "Harmonizes Mana, adds 7% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level3": "Harmonizes Mana, adds 8% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level4": "Harmonizes Mana, adds 9% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level5": "Harmonizes Mana, adds 10% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level6": "Harmonizes Mana, adds 11% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level7": "Harmonizes Mana, adds 12% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level8": "Harmonizes Mana, adds 13% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level9": "Harmonizes Mana, adds 14% of Max MP to max HP. The Max MP increase from buff is excluded from the effect",
+            "level10": "Harmonizes Mana, adds 15% of Max MP to max HP. The Max MP increase from buff is excluded from the effect"
+        }
+    ],
+    "Shadow Fall": [
+        {
+            "level1": "Deals 68 magic damage per second for 10 seconds to targets in range. Deals additional 7 magic damage to dark debuffed targets.",
+            "level2": "Deals 82 magic damage per second for 10 seconds to targets in range. Deals additional 8 magic damage to dark debuffed targets.",
+            "level3": "Deals 100 magic damage per second for 10 seconds to targets in range. Deals additional 10 magic damage to dark debuffed targets.",
+            "level4": "Deals 121 magic damage per second for 10 seconds to targets in range. Deals additional 12 magic damage to dark debuffed targets.",
+            "level5": "Deals 144 magic damage per second for 10 seconds to targets in range. Deals additional 14 magic damage to dark debuffed targets.",
+            "level6": "Deals 170 magic damage per second for 10 seconds to targets in range. Deals additional 17 magic damage to dark debuffed targets.",
+            "level7": "Deals 201 magic damage per second for 10 seconds to targets in range. Deals additional 20 magic damage to dark debuffed targets.",
+            "level8": "Deals 233 magic damage per second for 10 seconds to targets in range. Deals additional 23 magic damage to dark debuffed targets.",
+            "level9": "Deals 270 magic damage per second for 10 seconds to targets in range. Deals additional 27 magic damage to dark debuffed targets.",
+            "level10": "Deals 308 magic damage per second for 10 seconds to targets in range. Deals additional 31 magic damage to dark debuffed targets."
+        }
+    ],
+    "Soul Trap": [
+        {
+            "level1": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 389 magic damage to all enemies in a 4 meter radius. Deals 38 additional magic damage to targets under dark debuff.",
+            "level2": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 471 magic damage to all enemies in a 4 meter radius. Deals 47 additional magic damage to targets under dark debuff.",
+            "level3": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 572 magic damage to all enemies in a 4 meter radius. Deals 57 additional magic damage to targets under dark debuff.",
+            "level4": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 691 magic damage to all enemies in a 4 meter radius. Deals 69 additional magic damage to targets under dark debuff.",
+            "level5": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 817 magic damage to all enemies in a 4 meter radius. Deals 81 additional magic damage to targets under dark debuff.",
+            "level6": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 966 magic damage to all enemies in a 4 meter radius. Deals 96 additional magic damage to targets under dark debuff.",
+            "level7": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 1126 magic damage to all enemies in a 4 meter radius. Deals 112 additional magic damage to targets under dark debuff.",
+            "level8": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 1302 magic damage to all enemies in a 4 meter radius. Deals 130 additional magic damage to targets under dark debuff.",
+            "level9": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 1494 magic damage to all enemies in a 4 meter radius. Deals 149 additional magic damage to targets under dark debuff.",
+            "level10": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 1698 magic damage to all enemies in a 4 meter radius. Deals 169 additional magic damage to targets under dark debuff.",
+            "level11": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 1906 magic damage to all enemies in a 4 meter radius. Deals 190 additional magic damage to targets under dark debuff.",
+            "level12": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 2144 magic damage to all enemies in a 4 meter radius. Deals 214 additional magic damage to targets under dark debuff.",
+            "level13": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 2402 magic damage to all enemies in a 4 meter radius. Deals 240 additional magic damage to targets under dark debuff.",
+            "level14": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 2668 magic damage to all enemies in a 4 meter radius. Deals 266 additional magic damage to targets under dark debuff.",
+            "level15": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 2965 magic damage to all enemies in a 4 meter radius. Deals 296 additional magic damage to targets under dark debuff.",
+            "level16": "Explodes if target's HP drops below 50% or after 20 seconds. Deals 3292 magic damage to all enemies in a 4 meter radius. Deals 329 additional magic damage to targets under dark debuff."
+        }
+    ],
+    "Aether Flare": [
+        {
+            "level1": "Deals 378 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 132 damage to lighting debuffed targets.",
+            "level2": "Deals 456 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 160 damage to lighting debuffed targets.",
+            "level3": "Deals 551 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 193 damage to lighting debuffed targets.",
+            "level4": "Deals 651 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 228 damage to lighting debuffed targets.",
+            "level5": "Deals 768 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 269 damage to lighting debuffed targets.",
+            "level6": "Deals 893 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 313 damage to lighting debuffed targets.",
+            "level7": "Deals 1033 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 362 damage to lighting debuffed targets.",
+            "level8": "Deals 1180 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 413 damage to lighting debuffed targets.",
+            "level9": "Deals 1335 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 467 damage to lighting debuffed targets.",
+            "level10": "Deals 1500 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 526 damage to lighting debuffed targets.",
+            "level11": "Deals 1687 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 590 damage to lighting debuffed targets.",
+            "level12": "Deals 1887 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 660 damage to lighting debuffed targets.",
+            "level13": "Deals 2095 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 733 damage to lighting debuffed targets.",
+            "level14": "Deals 2328 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 815 damage to lighting debuffed targets.",
+            "level15": "Deals 2586 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 905 damage to lighting debuffed targets.",
+            "level16": "Deals 2872 magic damage and vanishes defense skills a maximum of 2 times. Deals additional 1005 damage to lighting debuffed targets."
+        }
+    ],
+    "Inferno": [
+        {
+            "level1": "Deals 476 magic damage to enemies in range. Decreases move speed by 20 for 8 seconds. Deals additional 119 magic damage to fire debuffed targets.",
+            "level2": "Deals 576 magic damage to enemies in range. Decreases move speed by 22 for 8 seconds. Deals additional 144 magic damage to fire debuffed targets.",
+            "level3": "Deals 684 magic damage to enemies in range. Decreases move speed by 24 for 8 seconds. Deals additional 171 magic damage to fire debuffed targets.",
+            "level4": "Deals 804 magic damage to enemies in range. Decreases move speed by 26 for 8 seconds. Deals additional 202 magic damage to fire debuffed targets.",
+            "level5": "Deals 948 magic damage to enemies in range. Decreases move speed by 28 for 8 seconds. Deals additional 237 magic damage to fire debuffed targets.",
+            "level6": "Deals 1096 magic damage to enemies in range. Decreases move speed by 30 for 8 seconds. Deals additional 274 magic damage to fire debuffed targets.",
+            "level7": "Deals 1264 magic damage to enemies in range. Decreases move speed by 32 for 8 seconds. Deals additional 316 magic damage to fire debuffed targets.",
+            "level8": "Deals 1440 magic damage to enemies in range. Decreases move speed by 34 for 8 seconds. Deals additional 360 magic damage to fire debuffed targets.",
+            "level9": "Deals 1618 magic damage to enemies in range. Decreases move speed by 36 for 8 seconds. Deals additional 405 magic damage to fire debuffed targets.",
+            "level10": "Deals 1818 magic damage to enemies in range. Decreases move speed by 38 for 8 seconds. Deals additional 455 magic damage to fire debuffed targets.",
+            "level11": "Deals 2044 magic damage to enemies in range. Decreases move speed by 40 for 8 seconds. Deals additional 511 magic damage to fire debuffed targets.",
+            "level12": "Deals 2272 magic damage to enemies in range. Decreases move speed by 42 for 8 seconds. Deals additional 568 magic damage to fire debuffed targets.",
+            "level13": "Deals 2524 magic damage to enemies in range. Decreases move speed by 44 for 8 seconds. Deals additional 631 magic damage to fire debuffed targets.",
+            "level14": "Deals 2804 magic damage to enemies in range. Decreases move speed by 46 for 8 seconds. Deals additional 701 magic damage to fire debuffed targets.",
+            "level15": "Deals 3112 magic damage to enemies in range. Decreases move speed by 48 for 8 seconds. Deals additional 778 magic damage to fire debuffed targets.",
+            "level16": "Deals 3458 magic damage to enemies in range. Decreases move speed by 50 for 8 seconds. Deals additional 865 magic damage to fire debuffed targets."
+        }
+    ],
+    "Nightmare": [
+        {
+            "level1": "Puts enemies within 5 meters to sleep for 4 seconds. This skill cannot be automatically recast.",
+            "level2": "Puts enemies within 5 meters to sleep for 8 seconds. This skill cannot be automatically recast.",
+            "level3": "Puts enemies within 5 meters to sleep for 12 seconds. This skill cannot be automatically recast.",
+            "level4": "Puts enemies within 5 meters to sleep for 16 seconds. This skill cannot be automatically recast.",
+            "level5": "Puts enemies within 5 meters to sleep for 20 seconds. This skill cannot be automatically recast.",
+            "level6": "Puts enemies within 5 meters to sleep for 24 seconds. This skill cannot be automatically recast.",
+            "level7": "Puts enemies within 5 meters to sleep for 28 seconds. This skill cannot be automatically recast.",
+            "level8": "Puts enemies within 5 meters to sleep for 32 seconds. This skill cannot be automatically recast.",
+            "level9": "Puts enemies within 5 meters to sleep for 36 seconds. This skill cannot be automatically recast.",
+            "level10": "Puts enemies within 5 meters to sleep for 40 seconds. This skill cannot be automatically recast."
+        }
+    ],
+    "Rend Soul": [
+        {
+            "level1": "The dark hand decreases Magic DEF by 6% and inflicts fire, dark, lighting debuff LVL 1 for 10 seconds.",
+            "level2": "The dark hand decreases Magic DEF by 7% and inflicts fire, dark, lighting debuff LVL 2 for 11 seconds.",
+            "level3": "The dark hand decreases Magic DEF by 8% and inflicts fire, dark, lighting debuff LVL 3 for 12 seconds.",
+            "level4": "The dark hand decreases Magic DEF by 9% and inflicts fire, dark, lighting debuff LVL 4 for 13 seconds.",
+            "level5": "The dark hand decreases Magic DEF by 10% and inflicts fire, dark, lighting debuff LVL 5 for 14 seconds.",
+            "level6": "The dark hand decreases Magic DEF by 11% and inflicts fire, dark, lighting debuff LVL 6 for 15 seconds.",
+            "level7": "The dark hand decreases Magic DEF by 12% and inflicts fire, dark, lighting debuff LVL 7 for 16 seconds.",
+            "level8": "The dark hand decreases Magic DEF by 13% and inflicts fire, dark, lighting debuff LVL 8 for 17 seconds.",
+            "level9": "The dark hand decreases Magic DEF by 14% and inflicts fire, dark, lighting debuff LVL 9 for 18 seconds.",
+            "level10": "The dark hand decreases Magic DEF by 15% and inflicts fire, dark, lighting debuff LVL 10 for 20 seconds."
+        }
+    ],
+    "Mass Teleport": [
+        {
+            "level1": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 1 locations can be saved.",
+            "level2": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 2 locations can be saved.",
+            "level3": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 3 locations can be saved.",
+            "level4": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 4 locations can be saved.",
+            "level5": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 5 locations can be saved.",
+            "level6": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 5 locations can be saved.",
+            "level7": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 5 locations can be saved.",
+            "level8": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 5 locations can be saved.",
+            "level9": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 5 locations can be saved.",
+            "level10": "Teleports to the saved location with all party members who are within 10 meters. Maximum of 5 locations can be saved."
+        }
+    ],
+    "Meteor": [
+        {
+            "level1": "Deals 2399 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 239 additional magic damage to targets under dark debuff.",
+            "level2": "Deals 2833 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 283 additional magic damage to targets under dark debuff.",
+            "level3": "Deals 3343 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 334 additional magic damage to targets under dark debuff.",
+            "level4": "Deals 3884 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 388 additional magic damage to targets under dark debuff.",
+            "level5": "Deals 4493 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 449 additional magic damage to targets under dark debuff.",
+            "level6": "Deals 5133 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 513 additional magic damage to targets under dark debuff.",
+            "level7": "Deals 5811 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 581 additional magic damage to targets under dark debuff.",
+            "level8": "Deals 6527 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 652 additional magic damage to targets under dark debuff.",
+            "level9": "Deals 7342 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 734 additional magic damage to targets under dark debuff.",
+            "level10": "Deals 8210 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 821 additional magic damage to targets under dark debuff.",
+            "level11": "Deals 9116 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 911 additional magic damage to targets under dark debuff.",
+            "level12": "Deals 10129 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 1012 additional magic damage to targets under dark debuff.",
+            "level13": "Deals 11249 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 1124 additional magic damage to targets under dark debuff.",
+            "level14": "Deals 12384 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 1238 additional magic damage to targets under dark debuff.",
+            "level15": "Deals 13633 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 1363 additional magic damage to targets under dark debuff.",
+            "level16": "Deals 15011 magic damage to all enemies in a 6 meter radius and stuns for 5 seconds. Deals 1501 additional magic damage to targets under dark debuff."
+        }
+    ],
+    "Mirrored Agony": [
+        {
+            "level1": "Deals 984 magic damage to target and 75% of inflicted damage to caster. Deals additional 197 magic damage to dark debuffed targets.",
+            "level2": "Deals 1138 magic damage to target and 73% of inflicted damage to caster. Deals additional 228 magic damage to dark debuffed targets.",
+            "level3": "Deals 1304 magic damage to target and 71% of inflicted damage to caster. Deals additional 261 magic damage to dark debuffed targets.",
+            "level4": "Deals 1484 magic damage to target and 69% of inflicted damage to caster. Deals additional 297 magic damage to dark debuffed targets.",
+            "level5": "Deals 1668 magic damage to target and 67% of inflicted damage to caster. Deals additional 334 magic damage to dark debuffed targets.",
+            "level6": "Deals 1874 magic damage to target and 65% of inflicted damage to caster. Deals additional 375 magic damage to dark debuffed targets.",
+            "level7": "Deals 2102 magic damage to target and 63% of inflicted damage to caster. Deals additional 420 magic damage to dark debuffed targets.",
+            "level8": "Deals 2332 magic damage to target and 61% of inflicted damage to caster. Deals additional 466 magic damage to dark debuffed targets.",
+            "level9": "Deals 2592 magic damage to target and 59% of inflicted damage to caster. Deals additional 518 magic damage to dark debuffed targets.",
+            "level10": "Deals 2880 magic damage to target and 57% of inflicted damage to caster. Deals additional 576 magic damage to dark debuffed targets.",
+            "level11": "Deals 3198 magic damage to target and 55% of inflicted damage to caster. Deals additional 640 magic damage to dark debuffed targets.",
+            "level12": "Deals 3550 magic damage to target and 53% of inflicted damage to caster. Deals additional 710 magic damage to dark debuffed targets.",
+            "level13": "Deals 3944 magic damage to target and 50% of inflicted damage to caster. Deals additional 789 magic damage to dark debuffed targets."
+        }
+    ],
+    "Ahriman's Blessing": [
+        {
+            "level1": "Increases the probablity of resisting against silence and fear by 5% and 3% respectively.",
+            "level2": "Increases the probablity of resisting against silence and fear by 10% and 6% respectively.",
+            "level3": "Increases the probablity of resisting against silence and fear by 15% and 9% respectively.",
+            "level4": "Increases the probablity of resisting against silence and fear by 20% and 12% respectively.",
+            "level5": "Increases the probablity of resisting against silence and fear by 25% and 15% respectively.",
+            "level6": "Increases the probablity of resisting against silence and fear by 30% and 18% respectively.",
+            "level7": "Increases the probablity of resisting against silence and fear by 35% and 21% respectively.",
+            "level8": "Increases the probablity of resisting against silence and fear by 40% and 24% respectively.",
+            "level9": "Increases the probablity of resisting against silence and fear by 45% and 27% respectively.",
+            "level10": "Increases the probablity of resisting against silence and fear by 50% and 30% respectively."
+        }
+    ],
+    "Calamity": [
+        {
+            "level1": "Deals 572 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 10. Deals 57 additional magic damage to targets under dark debuff.",
+            "level2": "Deals 646 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 12. Deals 64 additional magic damage to targets under dark debuff.",
+            "level3": "Deals 725 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 14. Deals 72 additional magic damage to targets under dark debuff.",
+            "level4": "Deals 815 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 16. Deals 81 additional magic damage to targets under dark debuff.",
+            "level5": "Deals 914 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 18. Deals 91 additional magic damage to targets under dark debuff.",
+            "level6": "Deals 1014 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 20. Deals 101 additional magic damage to targets under dark debuff.",
+            "level7": "Deals 1128 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 22. Deals 112 additional magic damage to targets under dark debuff.",
+            "level8": "Deals 1252 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 24. Deals 125 additional magic damage to targets under dark debuff.",
+            "level9": "Deals 1390 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 26. Deals 139 additional magic damage to targets under dark debuff.",
+            "level10": "Deals 1544 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 28. Deals 154 additional magic damage to targets under dark debuff.",
+            "level11": "Deals 1715 magic damage per second to all enemies within target area for 12 seconds and decreases move speed by 30. Deals 171 additional magic damage to targets under dark debuff."
+        }
+    ],
+    "Incinerate": [
+        {
+            "level1": "Summon a blazing flame pillar to deal 1678 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 553 damage when Shock ends and 420 magical damage to enemies in Flame acceleration state.",
+            "level2": "Summon a blazing flame pillar to deal 1886 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 622 damage when Shock ends and 472 magical damage to enemies in Flame acceleration state.",
+            "level3": "Summon a blazing flame pillar to deal 2122 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 700 damage when Shock ends and 531 magical damage to enemies in Flame acceleration state.",
+            "level4": "Summon a blazing flame pillar to deal 2386 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 787 damage when Shock ends and 597 magical damage to enemies in Flame acceleration state.",
+            "level5": "Summon a blazing flame pillar to deal 2657 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 876 damage when Shock ends and 664 magical damage to enemies in Flame acceleration state.",
+            "level6": "Summon a blazing flame pillar to deal 2950 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 973 damage when Shock ends and 738 magical damage to enemies in Flame acceleration state.",
+            "level7": "Summon a blazing flame pillar to deal 3276 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 1081 damage when Shock ends and 819 magical damage to enemies in Flame acceleration state.",
+            "level8": "Summon a blazing flame pillar to deal 3638 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 1200 damage when Shock ends and 910 magical damage to enemies in Flame acceleration state.",
+            "level9": "Summon a blazing flame pillar to deal 4042 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 1333 damage when Shock ends and 1011 magical damage to enemies in Flame acceleration state.",
+            "level10": "Summon a blazing flame pillar to deal 4490 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 1481 damage when Shock ends and 1123 magical damage to enemies in Flame acceleration state.",
+            "level11": "Summon a blazing flame pillar to deal 4730 magical damage to an enemy and its surroundings within a 4m radius and Shock them for 3sec. Adds additional 1560 damage when Shock ends and 1183 magical damage to enemies in Flame acceleration state."
+        }
+    ],
+    "Focus Magic": [
+        {
+            "level1": "Decreases your chance to be interrupted by any attack by 4% and decreases mana consumption by 5%",
+            "level2": "Decreases your chance to be interrupted by any attack by 8% and decreases mana consumption by 6%",
+            "level3": "Decreases your chance to be interrupted by any attack by 12% and decreases mana consumption by 7%",
+            "level4": "Decreases your chance to be interrupted by any attack by 16% and decreases mana consumption by 8%",
+            "level5": "Decreases your chance to be interrupted by any attack by 20% and decreases mana consumption by 9%",
+            "level6": "Decreases your chance to be interrupted by any attack by 24% and decreases mana consumption by 10%",
+            "level7": "Decreases your chance to be interrupted by any attack by 28% and decreases mana consumption by 11%",
+            "level8": "Decreases your chance to be interrupted by any attack by 32% and decreases mana consumption by 12%",
+            "level9": "Decreases your chance to be interrupted by any attack by 36% and decreases mana consumption by 13%",
+            "level10": "Decreases your chance to be interrupted by any attack by 40% and decreases mana consumption by 15%"
+        }
+    ],
+    "Volt Rain": [
+        {
+            "level1": "Deals 884 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 159 damage to lighting debuffed targets.",
+            "level2": "Deals 994 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 179 damage to lighting debuffed targets.",
+            "level3": "Deals 1107 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 199 damage to lighting debuffed targets.",
+            "level4": "Deals 1229 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 221 damage to lighting debuffed targets.",
+            "level5": "Deals 1365 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 246 damage to lighting debuffed targets.",
+            "level6": "Deals 1516 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 273 damage to lighting debuffed targets.",
+            "level7": "Deals 1684 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 303 damage to lighting debuffed targets.",
+            "level8": "Deals 1871 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 337 damage to lighting debuffed targets.",
+            "level9": "Deals 1971 damage to enemies in range 5 times. Decreases move speed and vanishes protect buffs 3 times. Deals additional 355 damage to lighting debuffed targets."
+        }
+    ],
+    "Shadow Mist": [
+        {
+            "level1": "Absorbs 8848 Physical Attack for 120 secs and increases max skill attack by 890, Critical Rate by 25 and Dodge Rate by 31. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level2": "Absorbs 9919 Physical Attack for 120 secs and increases max skill attack by 997, Critical Rate by 28 and Dodge Rate by 33. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level3": "Absorbs 11018 Physical Attack for 120 secs and increases max skill attack by 1107, Critical Rate by 31 and Dodge Rate by 35. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level4": "Absorbs 12243 Physical Attack for 120 secs and increases max skill attack by 1231, Critical Rate by 34 and Dodge Rate by 37. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level5": "Absorbs 13601 Physical Attack for 120 secs and increases max skill attack by 1367, Critical Rate by 37 and Dodge Rate by 39. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level6": "Absorbs 15099 Physical Attack for 120 secs and increases max skill attack by 1518, Critical Rate by 40 and Dodge Rate by 41. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level7": "Absorbs 16765 Physical Attack for 120 secs and increases max skill attack by 1686, Critical Rate by 43 and Dodge Rate by 43. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached.",
+            "level8": "Absorbs 18620 Physical Attack for 120 secs and increases max skill attack by 1872, Critical Rate by 46 and Dodge Rate by 45. Absorbs 25% Physical damage received from a wide range attack. It deactivates if max absorb value is reached."
+        }
+    ],
+    "Black Hole": [
+        {
+            "level1": "Causes explosion on the selected area and deals 2940 nagic Attack. Decreases max of 3675 Mana and deals equivalent additional Damage. Deals Additional 661 Magic Attack to targets under dark debuff.",
+            "level2": "Causes explosion on the selected area and deals 3265 nagic Attack. Decreases max of 4081 Mana and deals equivalent additional Damage. Deals Additional 734 Magic Attack to targets under dark debuff.",
+            "level3": "Causes explosion on the selected area and deals 3629 nagic Attack. Decreases max of 4536 Mana and deals equivalent additional Damage. Deals Additional 816 Magic Attack to targets under dark debuff.",
+            "level4": "Causes explosion on the selected area and deals 4029 nagic Attack. Decreases max of 5037 Mana and deals equivalent additional Damage. Deals Additional 906 Magic Attack to targets under dark debuff.",
+            "level5": "Causes explosion on the selected area and deals 4474 nagic Attack. Decreases max of 5593 Mana and deals equivalent additional Damage. Deals Additional 1006 Magic Attack to targets under dark debuff.",
+            "level6": "Causes explosion on the selected area and deals 4970 nagic Attack. Decreases max of 6213 Mana and deals equivalent additional Damage. Deals Additional 1118 Magic Attack to targets under dark debuff.",
+            "level7": "Causes explosion on the selected area and deals 5519 nagic Attack. Decreases max of 6899 Mana and deals equivalent additional Damage. Deals Additional 1241 Magic Attack to targets under dark debuff."
+        }
+    ],
+    "Ruinous Thunder": [
+        {
+            "level1": "Deals 2099 Magic Attack to target and nearby enemies within 3 M. Increases magic damage received by taget by 20% for 3 secs. Deals additional 378 magic damage to target under electric debuff and removes mult. defense skills 2 times.",
+            "level2": "Deals 2333 Magic Attack to target and nearby enemies within 3 M. Increases magic damage received by taget by 22% for 3 secs. Deals additional 420 magic damage to target under electric debuff and removes mult. defense skills 2 times.",
+            "level3": "Deals 2590 Magic Attack to target and nearby enemies within 3 M. Increases magic damage received by taget by 24% for 3 secs. Deals additional 466 magic damage to target under electric debuff and removes mult. defense skills 2 times.",
+            "level4": "Deals 2876 Magic Attack to target and nearby enemies within 3 M. Increases magic damage received by taget by 26% for 3 secs. Deals additional 518 magic damage to target under electric debuff and removes mult. defense skills 2 times.",
+            "level5": "Deals 3195 Magic Attack to target and nearby enemies within 3 M. Increases magic damage received by taget by 28% for 3 secs. Deals additional 575 magic damage to target under electric debuff and removes mult. defense skills 2 times.",
+            "level6": "Deals 3548 Magic Attack to target and nearby enemies within 3 M. Increases magic damage received by taget by 30% for 3 secs. Deals additional 639 magic damage to target under electric debuff and removes mult. defense skills 2 times."
+        }
+    ],
+    "Mana Barbs": [
+        {
+            "level1": "Sends crystalized mana into your target, dealing 2151 magical damage plus an additional damage of 5% current mana",
+            "level2": "Sends crystalized mana into your target, dealing 2389 magical damage plus an additional damage of 6% current mana",
+            "level3": "Sends crystalized mana into your target, dealing 2653 magical damage plus an additional damage of 7% current mana",
+            "level4": "Sends crystalized mana into your target, dealing 2947 magical damage plus an additional damage of 8% current mana",
+            "level5": "Sends crystalized mana into your target, dealing 3274 magical damage plus an additional damage of 9% current mana"
+        }
+    ],
+    "Blizzard": [
+        {
+            "level1": "Conjure an icy tornado around the user to deal 2948 magical damage to enemies within a 5m radius and stun them for 3 sec.",
+            "level2": "Conjure an icy tornado around the user to deal 3276 magical damage to enemies within a 5m radius and stun them for 4 sec.",
+            "level3": "Conjure an icy tornado around the user to deal 3637 magical damage to enemies within a 5m radius and stun them for 5 sec.",
+            "level4": "Conjure an icy tornado around the user to deal 4041 magical damage to enemies within a 5m radius and stun them for 6 sec.",
+            "level5": "Conjure an icy tornado around the user to deal 4257 magical damage to enemies within a 5m radius and stun them for 7 sec."
+        }
+    ],
+    "Black Twister": [
+        {
+            "level1": "Summon a shadowy gale to Shock enemies and coat the user with a DEF boosting Black Shroud. When the Shock state ends, enemies receive 6064 damage.",
+            "level2": "Summon a shadowy gale to Shock enemies and coat the user with a DEF boosting Black Shroud. When the Shock state ends, enemies receive 6736 damage.",
+            "level3": "Summon a shadowy gale to Shock enemies and coat the user with a DEF boosting Black Shroud. When the Shock state ends, enemies receive 7484 damage.",
+            "level4": "Summon a shadowy gale to Shock enemies and coat the user with a DEF boosting Black Shroud. When the Shock state ends, enemies receive 7884 damage."
+        }
+    ],
+    "Abyssal Gate": [
+        {
+            "level1": "The Abyssal Gate opened within 6m radius of a targeted point inflicts 3453 magical damage per seconds for 8 seconds and decreases Movement Speed(can't be cancelled). By responding all debuff states, adds 132 magical damage per debuff level.",
+            "level2": "The Abyssal Gate opened within 6m radius of a targeted point inflicts 3834 magical damage per seconds for 8 seconds and decreases Movement Speed(can't be cancelled). By responding all debuff states, adds 158 magical damage per debuff level."
+        }
+    ],
+    "Holy Arrow": [
+        {
+            "level1": "Deals 63 magic damage. Deals 150% damage to demons and undead.",
+            "level2": "Deals 77 magic damage. Deals 150% damage to demons and undead.",
+            "level3": "Deals 103 magic damage. Deals 150% damage to demons and undead.",
+            "level4": "Deals 132 magic damage. Deals 150% damage to demons and undead.",
+            "level5": "Deals 165 magic damage. Deals 150% damage to demons and undead.",
+            "level6": "Deals 205 magic damage. Deals 150% damage to demons and undead.",
+            "level7": "Deals 248 magic damage. Deals 150% damage to demons and undead.",
+            "level8": "Deals 303 magic damage. Deals 150% damage to demons and undead.",
+            "level9": "Deals 366 magic damage. Deals 150% damage to demons and undead.",
+            "level10": "Deals 443 magic damage. Deals 150% damage to demons and undead.",
+            "level11": "Deals 535 magic damage. Deals 150% damage to demons and undead.",
+            "level12": "Deals 630 magic damage. Deals 150% damage to demons and undead.",
+            "level13": "Deals 744 magic damage. Deals 150% damage to demons and undead.",
+            "level14": "Deals 862 magic damage. Deals 150% damage to demons and undead.",
+            "level15": "Deals 1000 magic damage. Deals 150% damage to demons and undead.",
+            "level16": "Deals 1149 magic damage. Deals 150% damage to demons and undead."
+        }
+    ],
+    "Cure": [
+        {
+            "level1": "Heals the target for 93.",
+            "level2": "Heals the target for 124.",
+            "level3": "Heals the target for 155.",
+            "level4": "Heals the target for 190.",
+            "level5": "Heals the target for 235.",
+            "level6": "Heals the target for 280.",
+            "level7": "Heals the target for 337.",
+            "level8": "Heals the target for 404.",
+            "level9": "Heals the target for 484.",
+            "level10": "Heals the target for 579.",
+            "level11": "Heals the target for 676.",
+            "level12": "Heals the target for 789.",
+            "level13": "Heals the target for 907.",
+            "level14": "Heals the target for 1039.",
+            "level15": "Heals the target for 1173.",
+            "level16": "Heals the target for 1316."
+        }
+    ],
+    "Angelic Armor": [
+        {
+            "level1": "Absorbs 438 physical damage for a maximum of 60 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level2": "Absorbs 570 physical damage for a maximum of 64 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level3": "Absorbs 714 physical damage for a maximum of 68 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level4": "Absorbs 882 physical damage for a maximum of 72 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level5": "Absorbs 1086 physical damage for a maximum of 76 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level6": "Absorbs 1314 physical damage for a maximum of 80 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level7": "Absorbs 1590 physical damage for a maximum of 84 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level8": "Absorbs 1926 physical damage for a maximum of 88 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level9": "Absorbs 2334 physical damage for a maximum of 92 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level10": "Absorbs 2772 physical damage for a maximum of 96 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level11": "Absorbs 3270 physical damage for a maximum of 100 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level12": "Absorbs 3840 physical damage for a maximum of 104 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level13": "Absorbs 4446 physical damage for a maximum of 108 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level14": "Absorbs 5130 physical damage for a maximum of 112 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level15": "Absorbs 5832 physical damage for a maximum of 116 seconds. Reduces area physical damage by 25% and absorbs the rest.",
+            "level16": "Absorbs 6558 physical damage for a maximum of 120 seconds. Reduces area physical damage by 25% and absorbs the rest."
+        }
+    ],
+    "Bless": [
+        {
+            "level1": "Increases physical attack by 13 and magic attack by 17 for 10 minutes",
+            "level2": "Increases physical attack by 16 and magic attack by 21 for 10 minutes",
+            "level3": "Increases physical attack by 20 and magic attack by 25 for 10 minutes",
+            "level4": "Increases physical attack by 24 and magic attack by 31 for 10 minutes",
+            "level5": "Increases physical attack by 28 and magic attack by 37 for 10 minutes",
+            "level6": "Increases physical attack by 34 and magic attack by 44 for 10 minutes",
+            "level7": "Increases physical attack by 40 and magic attack by 52 for 10 minutes",
+            "level8": "Increases physical attack by 48 and magic attack by 61 for 10 minutes",
+            "level9": "Increases physical attack by 56 and magic attack by 72 for 10 minutes",
+            "level10": "Increases physical attack by 64 and magic attack by 83 for 10 minutes",
+            "level11": "Increases physical attack by 74 and magic attack by 96 for 10 minutes",
+            "level12": "Increases physical attack by 86 and magic attack by 111 for 10 minutes",
+            "level13": "Increases physical attack by 98 and magic attack by 127 for 10 minutes",
+            "level14": "Increases physical attack by 111 and magic attack by 143 for 10 minutes",
+            "level15": "Increases physical attack by 124 and magic attack by 160 for 10 minutes",
+            "level16": "Increases physical attack by 145 and magic attack by 187 for 10 minutes within 20 meter radius of the target. (Mass Bless)"
+        }
+    ],
+    "Rejuvenate": [
+        {
+            "level1": "Heals self or a friendly target for 79 every 2 seconds. Lasts for 10 seconds",
+            "level2": "Heals self or a friendly target for 98 every 2 seconds. Lasts for 10 seconds",
+            "level3": "Heals self or a friendly target for 120 every 2 seconds. Lasts for 10 seconds",
+            "level4": "Heals self or a friendly target for 146 every 2 seconds. Lasts for 10 seconds",
+            "level5": "Heals self or a friendly target for 176 every 2 seconds. Lasts for 10 seconds",
+            "level6": "Heals self or a friendly target for 210 every 2 seconds. Lasts for 10 seconds",
+            "level7": "Heals self or a friendly target for 252 every 2 seconds. Lasts for 10 seconds",
+            "level8": "Heals self or a friendly target for 303 every 2 seconds. Lasts for 10 seconds",
+            "level9": "Heals self or a friendly target for 356 every 2 seconds. Lasts for 10 seconds",
+            "level10": "Heals self or a friendly target for 416 every 2 seconds. Lasts for 10 seconds",
+            "level12": "Heals self or a friendly target for 483 every 2 seconds. Lasts for 10 seconds",
+            "level13": "Heals self or a friendly target for 553 every 2 seconds. Lasts for 10 seconds",
+            "level14": "Heals self or a friendly target for 630 every 2 seconds. Lasts for 10 seconds",
+            "level15": "Heals self or a friendly target for 711 every 2 seconds. Lasts for 10 seconds",
+            "level16": "Heals self or a friendly target for 792 every 2 seconds. Lasts for 10 seconds",
+            "level17": "Heals self or a friendly target for 880 every 2 seconds. Lasts for 10 seconds"
+        }
+    ],
+    "Resurrect": [
+        {
+            "level1": "Resurrects a party member with 10% of his/her HP and MP.",
+            "level2": "Resurrects a party member with 20% of his/her HP and MP.",
+            "level3": "Resurrects a party member with 30% of his/her HP and MP.",
+            "level4": "Resurrects a party member with 40% of his/her HP and MP.",
+            "level5": "Resurrects a party member with 50% of his/her HP and MP.",
+            "level6": "Resurrects a party member with 60% of his/her HP and MP.",
+            "level7": "Resurrects a party member with 70% of his/her HP and MP.",
+            "level8": "Resurrects a party member with 80% of his/her HP and MP.",
+            "level9": "Resurrects a party member with 90% of his/her HP and MP.",
+            "level10": "Resurrects a party member with 100% of his/her HP and MP."
+        }
+    ],
+    "Haste": [
+        {
+            "level1": "Increase target's move speed by 5 for 10 minutes",
+            "level2": "Increase target's move speed by 6 for 10 minutes",
+            "level3": "Increase target's move speed by 7 for 10 minutes",
+            "level4": "Increase target's move speed by 8 for 10 minutes",
+            "level5": "Increase target's move speed by 9 for 10 minutes",
+            "level6": "Increase target's move speed by 10 for 10 minutes",
+            "level7": "Increase target's move speed by 11 for 10 minutes",
+            "level8": "Increase target's move speed by 12 for 10 minutes",
+            "level9": "Increase target's move speed by 13 for 10 minutes",
+            "level10": "Increase target's move speed by 15 for 10 minutes within 20 meter radius of the target. (Mass Haste)"
+        }
+    ],
+    "Holy signet": [
+        {
+            "level1": "Deals 84 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level2": "Deals 102 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level3": "Deals 124 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level4": "Deals 150 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level5": "Deals 181 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level6": "Deals 219 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level7": "Deals 259 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level8": "Deals 305 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level9": "Deals 357 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level10": "Deals 412 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level11": "Deals 473 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level12": "Deals 538 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level13": "Deals 605 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level14": "Deals 679 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level15": "Deals 761 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic.",
+            "level16": "Deals 846 magic damage every 2 seconds to all enemies within 4 meter radius for 12 seconds and causes vulnerbility to holy magic."
+        }
+    ],
+    "Exalt": [
+        {
+            "level1": "Increases heal amount by 120 and decreases MP required for healing by 10%",
+            "level2": "Increases heal amount by 240 and decreases MP required for healing by 12%",
+            "level3": "Increases heal amount by 360 and decreases MP required for healing by 14%",
+            "level4": "Increases heal amount by 480 and decreases MP required for healing by 16%",
+            "level5": "Increases heal amount by 600 and decreases MP required for healing by 18%",
+            "level6": "Increases heal amount by 720 and decreases MP required for healing by 20%",
+            "level7": "Increases heal amount by 840 and decreases MP required for healing by 22%",
+            "level8": "Increases heal amount by 960 and decreases MP required for healing by 24%",
+            "level9": "Increases heal amount by 1080 and decreases MP required for healing by 26%",
+            "level10": "Increases heal amount by 1200 and decreases MP required for healing by 30%"
+        } 
+    ],
+    "Shroud of Turin": [
+        {
+            "level1": "Increases buff duration by 2 minutes and decreases the MP required to cast the skill by 10%.",
+            "level2": "Increases buff duration by 4 minutes and decreases the MP required to cast the skill by 12%.",
+            "level3": "Increases buff duration by 6 minutes and decreases the MP required to cast the skill by 14%.",
+            "level4": "Increases buff duration by 8 minutes and decreases the MP required to cast the skill by 16%.",
+            "level5": "Increases buff duration by 10 minutes and decreases the MP required to cast the skill by 18%.",
+            "level6": "Increases buff duration by 12 minutes and decreases the MP required to cast the skill by 20%.",
+            "level7": "Increases buff duration by 14 minutes and decreases the MP required to cast the skill by 22%.",
+            "level8": "Increases buff duration by 16 minutes and decreases the MP required to cast the skill by 24%.",
+            "level9": "Increases buff duration by 18 minutes and decreases the MP required to cast the skill by 26%.",
+            "level10": "Increases buff duration by 20 minutes and decreases the MP required to cast the skill by 30%."
+        }
+    ],
+    "Healing Corona": [
+        {
+            "level1": "Recovers 441 HP of all party members within 6m radius and creates a shield that absorbs 331 physical damage for 60 seconds.",
+            "level2": "Recovers 530 HP of all party members within 6m radius and creates a shield that absorbs 398 physical damage for 60 seconds.",
+            "level3": "Recovers 638 HP of all party members within 6m radius and creates a shield that absorbs 479 physical damage for 60 seconds.",
+            "level4": "Recovers 764 HP of all party members within 6m radius and creates a shield that absorbs 573 physical damage for 60 seconds.",
+            "level5": "Recovers 900 HP of all party members within 6m radius and creates a shield that absorbs 675 physical damage for 60 seconds.",
+            "level6": "Recovers 1053 HP of all party members within 6m radius and creates a shield that absorbs 790 physical damage for 60 seconds.",
+            "level7": "Recovers 1229 HP of all party members within 6m radius and creates a shield that absorbs 922 physical damage for 60 seconds.",
+            "level8": "Recovers 1407 HP of all party members within 6m radius and creates a shield that absorbs 1055 physical damage for 60 seconds.",
+            "level9": "Recovers 1613 HP of all party members within 6m radius and creates a shield that absorbs 1209 physical damage for 60 seconds.",
+            "level10": "Recovers 1820 HP of all party members within 6m radius and creates a shield that absorbs 1364 physical damage for 60 seconds.",
+            "level11": "Recovers 2027 HP of all party members within 6m radius and creates a shield that absorbs 1520 physical damage for 60 seconds.",
+            "level12": "Recovers 2256 HP of all party members within 6m radius and creates a shield that absorbs 1692 physical damage for 60 seconds.",
+            "level13": "Recovers 2510 HP of all party members within 6m radius and creates a shield that absorbs 1883 physical damage for 60 seconds.",
+            "level14": "Recovers 2766 HP of all party members within 6m radius and creates a shield that absorbs 2075 physical damage for 60 seconds.",
+            "level15": "Recovers 3039 HP of all party members within 6m radius and creates a shield that absorbs 2279 physical damage for 60 seconds.",
+            "level16": "Recovers 3339 HP of all party members within 6m radius and creates a shield that absorbs 2504 physical damage for 60 seconds."
+        }
+    ],
+    "Holy Tempest": [
+        {
+            "level1": "Inflicts 284 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level2": "Inflicts 334 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level3": "Inflicts 416 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level4": "Inflicts 504 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level5": "Inflicts 596 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level6": "Inflicts 702 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level7": "Inflicts 820 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level8": "Inflicts 948 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level9": "Inflicts 1088 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level10": "Inflicts 1236 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level11": "Inflicts 1390 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level12": "Inflicts 1562 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level13": "Inflicts 1750 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level14": "Inflicts 1944 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level15": "Inflicts 2160 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead.",
+            "level16": "Inflicts 2398 magic damage on all enemies within 4 meters of the target. Deals 150% damage to demons and undead."
+        }
+    ],
+    "Rapture": [
+        {
+            "level1": "Recovers the mana of all party members in a 6 meters radius by 217 per second for 10 seconds.",
+            "level2": "Recovers the mana of all party members in a 6 meters radius by 260 per second for 10 seconds.",
+            "level3": "Recovers the mana of all party members in a 6 meters radius by 316 per second for 10 seconds.",
+            "level4": "Recovers the mana of all party members in a 6 meters radius by 380 per second for 10 seconds.",
+            "level5": "Recovers the mana of all party members in a 6 meters radius by 450 per second for 10 seconds.",
+            "level6": "Recovers the mana of all party members in a 6 meters radius by 530 per second for 10 seconds.",
+            "level7": "Recovers the mana of all party members in a 6 meters radius by 613 per second for 10 seconds.",
+            "level8": "Recovers the mana of all party members in a 6 meters radius by 704 per second for 10 seconds.",
+            "level9": "Recovers the mana of all party members in a 6 meters radius by 802 per second for 10 seconds.",
+            "level10": "Recovers the mana of all party members in a 6 meters radius by 905 per second for 10 seconds.",
+            "level11": "Recovers the mana of all party members in a 6 meters radius by 1012 per second for 10 seconds.",
+            "level12": "Recovers the mana of all party members in a 6 meters radius by 1125 per second for 10 seconds.",
+            "level13": "Recovers the mana of all party members in a 6 meters radius by 1250 per second for 10 seconds.",
+            "level14": "Recovers the mana of all party members in a 6 meters radius by 1386 per second for 10 seconds.",
+            "level15": "Recovers the mana of all party members in a 6 meters radius by 1524 per second for 10 seconds.",
+            "level16": "Recovers the mana of all party members in a 6 meters radius by 1763 per second for 10 seconds."
+        }
+    ],
+    "Holy Intervention": [
+        {
+            "level1": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 663.",
+            "level2": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 797.",
+            "level3": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 936.",
+            "level4": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 1094.",
+            "level5": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 1272.",
+            "level6": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 1457.",
+            "level7": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 1659.",
+            "level8": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 1871.",
+            "level9": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 2084.",
+            "level10": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 2315.",
+            "level11": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 2570.",
+            "level12": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 2831.",
+            "level13": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 3111.",
+            "level14": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 3419.",
+            "level15": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 3755.",
+            "level16": "Activates when the caster's HP drops below 50% or after 1 minute to recover HP by 4124."
+        }
+    ],
+    "Desperate Prayer": [
+        {
+            "level1": "Immune to all attacks for 3 seconds but cannot use skills.",
+            "level2": "Immune to all attacks for 3 seconds but cannot use skills.",
+            "level3": "Immune to all attacks for 3 seconds but cannot use skills.",
+            "level4": "Immune to all attacks for 4 seconds but cannot use skills.",
+            "level5": "Immune to all attacks for 4 seconds but cannot use skills.",
+            "level6": "Immune to all attacks for 4 seconds but cannot use skills.",
+            "level7": "Immune to all attacks for 5 seconds but cannot use skills.",
+            "level8": "Immune to all attacks for 5 seconds but cannot use skills.",
+            "level9": "Immune to all attacks for 5 seconds but cannot use skills.",
+            "level10": "Immune to all attacks for 6 seconds but cannot use skills."
+        }
+    ],
+    "Castigation": [
+        {
+            "level1": "Cancels enemy's helpful spells up to 2 and each cancelled spell inflicts 360 magic damage.",
+            "level2": "Cancels enemy's helpful spells up to 2 and each cancelled spell inflicts 428 magic damage.",
+            "level3": "Cancels enemy's helpful spells up to 2 and each cancelled spell inflicts 511 magic damage.",
+            "level4": "Cancels enemy's helpful spells up to 3 and each cancelled spell inflicts 593 magic damage.",
+            "level5": "Cancels enemy's helpful spells up to 3 and each cancelled spell inflicts 825 magic damage.",
+            "level6": "Cancels enemy's helpful spells up to 3 and each cancelled spell inflicts 1056 magic damage.",
+            "level7": "Cancels enemy's helpful spells up to 4 and each cancelled spell inflicts 1160 magic damage.",
+            "level8": "Cancels enemy's helpful spells up to 4 and each cancelled spell inflicts 1264 magic damage.",
+            "level9": "Cancels enemy's helpful spells up to 4 and each cancelled spell inflicts 1399 magic damage.",
+            "level10": "Cancels enemy's helpful spells up to 5 and each cancelled spell inflicts 1534 magic damage."
+        }
+    ],
+    "Archangel's Light": [
+        {
+            "level1": "Charges weapon to deal 10% additional damage for 10 min to demons and undead.",
+            "level2": "Charges weapon to deal 12% additional damage for 10 min to demons and undead.",
+            "level3": "Charges weapon to deal 14% additional damage for 10 min to demons and undead.",
+            "level4": "Charges weapon to deal 16% additional damage for 10 min to demons and undead.",
+            "level5": "Charges weapon to deal 18% additional damage for 10 min to demons and undead.",
+            "level6": "Charges weapon to deal 20% additional damage for 10 min to demons and undead.",
+            "level7": "Charges weapon to deal 22% additional damage for 10 min to demons and undead.",
+            "level8": "Charges weapon to deal 24% additional damage for 10 min to demons and undead.",
+            "level9": "Charges weapon to deal 26% additional damage for 10 min to demons and undead.",
+            "level10": "Charges target's weapon within 20 meter radius to deal 30% additional damage for 10 min to demons and undead (Mass Archangel's Light)."
+        }
+    ],
+    "Revelation": [
+        {
+            "level1": "Recovers 1737 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level2": "Recovers 2028 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level3": "Recovers 2367 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level4": "Recovers 2721 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level5": "Recovers 3117 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level6": "Recovers 3519 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level7": "Recovers 3948 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level8": "Recovers 4389 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level9": "Recovers 4887 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level10": "Recovers 5403 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level12": "Recovers 5937 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level13": "Recovers 6522 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level14": "Recovers 7149 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level15": "Recovers 7791 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level16": "Recovers 8499 HP of the skill user or any ally while cancelling all cursed spell diseases.",
+            "level17": "Recovers 9210 HP of the skill user or any ally while cancelling all cursed spell diseases."
+        }
+    ],
+    "Archangel's Blade": [
+        {
+            "level1": "Increases target's critical rate by 2 and critical damage by 10% for 10 minutes.",
+            "level2": "Increases target's critical rate by 4 and critical damage by 12% for 10 minutes.",
+            "level3": "Increases target's critical rate by 6 and critical damage by 14% for 10 minutes.",
+            "level4": "Increases target's critical rate by 8 and critical damage by 16% for 10 minutes.",
+            "level5": "Increases target's critical rate by 10 and critical damage by 18% for 10 minutes.",
+            "level6": "Increases target's critical rate by 12 and critical damage by 20% for 10 minutes.",
+            "level7": "Increases target's critical rate by 14 and critical damage by 22% for 10 minutes.",
+            "level8": "Increases target's critical rate by 16 and critical damage by 24% for 10 minutes.",
+            "level9": "Increases target's critical rate by 18 and critical damage by 26% for 10 minutes.",
+            "level10": "Increases critical rate of targets in range by 20 and critical damage by 30% for 10 minutes. (Mass Archangel's Blade)"
+        }
+    ],
+    "Iron Will": [
+        {
+            "level1": "Increases chance to resist stun and shock effects by 5% and 3% respectively",
+            "level2": "Increases chance to resist stun and shock effects by 10% and 6% respectively",
+            "level3": "Increases chance to resist stun and shock effects by 15% and 9% respectively",
+            "level4": "Increases chance to resist stun and shock effects by 20% and 12% respectively",
+            "level5": "Increases chance to resist stun and shock effects by 25% and 15% respectively",
+            "level6": "Increases chance to resist stun and shock effects by 30% and 18% respectively",
+            "level7": "Increases chance to resist stun and shock effects by 35% and 21% respectively",
+            "level8": "Increases chance to resist stun and shock effects by 40% and 24% respectively",
+            "level9": "Increases chance to resist stun and shock effects by 45% and 27% respectively",
+            "level10": "Increases chance to resist stun and shock effects by 50% and 30% respectively"
+        }
+    ],
+    "Aika's Grace": [
+        {
+            "level1": "Recovers the HP and MP of the target by 5750 and makes the target immune to all attacks for 5 seconds",
+            "level2": "Recovers the HP and MP of the target by 6410 and makes the target immune to all attacks for 5 seconds",
+            "level3": "Recovers the HP and MP of the target by 7130 and makes the target immune to all attacks for 6 seconds",
+            "level4": "Recovers the HP and MP of the target by 7930 and makes the target immune to all attacks for 6 seconds",
+            "level5": "Recovers the HP and MP of the target by 8795 and makes the target immune to all attacks for 7 seconds",
+            "level6": "Recovers the HP and MP of the target by 9660 and makes the target immune to all attacks for 7 seconds",
+            "level7": "Recovers the HP and MP of the target by 10620 and makes the target immune to all attacks for 8 seconds",
+            "level8": "Recovers the HP and MP of the target by 11670 and makes the target immune to all attacks for 8 seconds",
+            "level9": "Recovers the HP and MP of the target by 12815 and makes the target immune to all attacks for 9 seconds",
+            "level10": "Recovers the HP and MP of the target by 14070 and makes the target immune to all attacks for 9 seconds",
+            "level11": "Recovers the HP and MP of the target by 15450 and makes the target immune to all attacks for 10 seconds"
+        }
+    ],
+    "Holy Shield": [
+        {
+            "level1": "Absorbs 4194 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level2": "Absorbs 4716 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level3": "Absorbs 5304 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level4": "Absorbs 5964 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level5": "Absorbs 6642 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level6": "Absorbs 7374 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level7": "Absorbs 8190 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level8": "Absorbs 9096 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level9": "Absorbs 10104 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute.",
+            "level10": "Absorbs 11226 magic damage and reduces magical area damage taken by the party by 25%. Lasts 1 minute."
+        }
+    ],
+    "Penance": [
+        {
+            "level1": "Increases healing done by spells within 1 second or greater cast time by 20%",
+            "level2": "Increases healing done by spells within 1 second or greater cast time by 23%",
+            "level3": "Increases healing done by spells within 1 second or greater cast time by 26%",
+            "level4": "Increases healing done by spells within 1 second or greater cast time by 29%",
+            "level5": "Increases healing done by spells within 1 second or greater cast time by 32%",
+            "level6": "Increases healing done by spells within 1 second or greater cast time by 35%",
+            "level7": "Increases healing done by spells within 1 second or greater cast time by 38%",
+            "level8": "Increases healing done by spells within 1 second or greater cast time by 41%",
+            "level9": "Increases healing done by spells within 1 second or greater cast time by 44%",
+            "level10": "Increases healing done by spells within 1 second or greater cast time by 50%"
+        }
+    ],
+    "Divine Sermon": [
+        {
+            "level1": "Recovers HP of party members within 10 meter radius by 752 every second for 10 seconds. Also removes one harmful effect.",
+            "level2": "Recovers HP of party members within 10 meter radius by 836 every second for 10 seconds. Also removes one harmful effect.",
+            "level3": "Recovers HP of party members within 10 meter radius by 922 every second for 10 seconds. Also removes one harmful effect.",
+            "level4": "Recovers HP of party members within 10 meter radius by 1013 every second for 10 seconds. Also removes one harmful effect.",
+            "level5": "Recovers HP of party members within 10 meter radius by 1113 every second for 10 seconds. Also removes one harmful effect.",
+            "level6": "Recovers HP of party members within 10 meter radius by 1222 every second for 10 seconds. Also removes one harmful effect.",
+            "level7": "Recovers HP of party members within 10 meter radius by 1342 every second for 10 seconds. Also removes one harmful effect.",
+            "level8": "Recovers HP of party members within 10 meter radius by 1474 every second for 10 seconds. Also removes one harmful effect.",
+            "level9": "Recovers HP of party members within 10 meter radius by 1545 every second for 10 seconds. Also removes one harmful effect."
+        }
+    ],
+    "Exorcism": [
+        {
+            "level1": "Deals 1874 Magic Attack and decreases Physical/Magic attack by 28% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level2": "Deals 2100 Magic Attack and decreases Physical/Magic attack by 31% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level3": "Deals 2333 Magic Attack and decreases Physical/Magic attack by 34% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level4": "Deals 2592 Magic Attack and decreases Physical/Magic attack by 37% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level5": "Deals 2878 Magic Attack and decreases Physical/Magic attack by 40% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level6": "Deals 3197 Magic Attack and decreases Physical/Magic attack by 43% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level7": "Deals 3550 Magic Attack and decreases Physical/Magic attack by 46% for 10 secs. Deals Additional 150% damage to demon and undead.",
+            "level8": "Deals 3941 Magic Attack and decreases Physical/Magic attack by 50% for 10 secs. Deals Additional 150% damage to demon and undead."
+        }
+    ],
+    "Holy Water": [
+        {
+            "level1": "Creates LVL 1 Holy Water in the inventory. Only one can be stored.",
+            "level2": "Creates LVL 2 Holy Water in the inventory. Only one can be stored.",
+            "level3": "Creates LVL 3 Holy Water in the inventory. Only one can be stored.",
+            "level4": "Creates LVL 4 Holy Water in the inventory. Only one can be stored.",
+            "level5": "Creates LVL 5 Holy Water in the inventory. Only one can be stored.",
+            "level6": "Creates LVL 6 Holy Water in the inventory. Only one can be stored.",
+            "level7": "Creates LVL 7 Holy Water in the inventory. Only one can be stored."
+        }
+    ],
+    "Glory's Flowers": [
+        {
+            "level1": "Generates holy flower on all party members within 20 M radius of the selected area and recovers 580 HP for 10 seconds. Increases healing effect by 20%.",
+            "level2": "Generates holy flower on all party members within 20 M radius of the selected area and recovers 637 HP for 10 seconds. Increases healing effect by 22%.",
+            "level3": "Generates holy flower on all party members within 20 M radius of the selected area and recovers 700 HP for 10 seconds. Increases healing effect by 24%.",
+            "level4": "Generates holy flower on all party members within 20 M radius of the selected area and recovers 769 HP for 10 seconds. Increases healing effect by 26%.",
+            "level5": "Generates holy flower on all party members within 20 M radius of the selected area and recovers 844 HP for 10 seconds. Increases healing effect by 28%.",
+            "level6": "Generates holy flower on all party members within 20 M radius of the selected area and recovers 927 HP for 10 seconds. Increases healing effect by 30%."
+        }
+    ],
+    "Enchanced Cure": [
+        {
+            "level1": "Recovers 2026 HP of the skill user or an ally.[Cure][Healing Corona][Revelation][Aika's Grace][Divine Sermon], that are applied to a recovered target in 6 seconds, heals extra HP equaivalent to 6% of Max HP.",
+            "level2": "Recovers 2226 HP of the skill user or an ally.[Cure][Healing Corona][Revelation][Aika's Grace][Divine Sermon], that are applied to a recovered target in 6 seconds, heals extra HP equaivalent to 7% of Max HP.",
+            "level3": "Recovers 2445 HP of the skill user or an ally.[Cure][Healing Corona][Revelation][Aika's Grace][Divine Sermon], that are applied to a recovered target in 6 seconds, heals extra HP equaivalent to 8% of Max HP.",
+            "level4": "Recovers 2685 HP of the skill user or an ally.[Cure][Healing Corona][Revelation][Aika's Grace][Divine Sermon], that are applied to a recovered target in 6 seconds, heals extra HP equaivalent to 9% of Max HP.",
+            "level5": "Recovers 2949 HP of the skill user or an ally.[Cure][Healing Corona][Revelation][Aika's Grace][Divine Sermon], that are applied to a recovered target in 6 seconds, heals extra HP equaivalent to 10% of Max HP.",
+            "level6": "Recovers 3090 HP of the skill user or an ally.[Cure][Healing Corona][Revelation][Aika's Grace][Divine Sermon], that are applied to a recovered target in 6 seconds, heals extra HP equaivalent to 11% of Max HP."
+        }
+    ],
+    "Soul Gem": [
+        {
+            "level1": "A wish contracts the target's soul into a gem for 300 seconds. A second after death, they are revived with 30% HP and MP and are invulnarable for 5 seconds.",
+            "level2": "A wish contracts the target's soul into a gem for 300 seconds. A second after death, they are revived with 35% HP and MP and are invulnarable for 5 seconds.",
+            "level3": "A wish contracts the target's soul into a gem for 300 seconds. A second after death, they are revived with 40% HP and MP and are invulnarable for 5 seconds.",
+            "level4": "A wish contracts the target's soul into a gem for 300 seconds. A second after death, they are revived with 45% HP and MP and are invulnarable for 5 seconds.",
+            "level5": "A wish contracts the target's soul into a gem for 300 seconds. A second after death, they are revived with 50% HP and MP and are invulnarable for 5 seconds."
+        }
+    ],
+    "Mereiful Eden": [
+        {
+            "level1": "Purify the area with sacred light to mercifully deal 1011 magical damage up to 5 times within a 6m radius. Each hit purifies buffs of enemies and deals 632 damage each by using the power of kidness.",
+            "level2": "Purify the area with sacred light to mercifully deal 1122 magical damage up to 5 times within a 6m radius. Each hit purifies buffs of enemies and deals 702 damage each by using the power of kidness.",
+            "level3": "Purify the area with sacred light to mercifully deal 1246 magical damage up to 5 times within a 6m radius. Each hit purifies buffs of enemies and deals 779 damage each by using the power of kidness.",
+            "level4": "Purify the area with sacred light to mercifully deal 1324 magical damage up to 5 times within a 6m radius. Each hit purifies buffs of enemies and deals 821 damage each by using the power of kidness."
+        }
+    ],
+    "Dixit Dominus": [
+        {
+            "level1": "With concentrated divine power, inflicts 3550 magical damage on enemies within 4m and stuns them for 1 second. Inflicts 300% damage on Demon and Undead.",
+            "level2": "With concentrated divine power, inflicts 3941 magical damage on enemies within 4m and stuns them for 1 second. Inflicts 300% damage on Demon and Undead."
+        }
     ]
 }
