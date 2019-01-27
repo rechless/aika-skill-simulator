@@ -706,7 +706,7 @@
     ],
     "Armor Break": [
         {
-            "level1": "Inflicts 62 physical damage and for 12 seconds, it decreases physical DEF by 100, Evasion by 4, and Movement Speed slightly.",
+            "Inflicts": "Inflicts 62 physical damage and for 12 seconds, it decreases physical DEF by 100, Evasion by 4, and Movement Speed slightly.",
             "level2": "Inflicts 80 physical damage and for 12 seconds, it decreases physical DEF by 131, Evasion by 6, and Movement Speed slightly.",
             "level3": "Inflicts 101 physical damage and for 12 seconds, it decreases physical DEF by 164, Evasion by 8, and Movement Speed slightly.",
             "level4": "Inflicts 124 physical damage and for 12 seconds, it decreases physical DEF by 203, Evasion by 10, and Movement Speed slightly.",
@@ -2539,5 +2539,925 @@
             "level1": "With concentrated divine power, inflicts 3550 magical damage on enemies within 4m and stuns them for 1 second. Inflicts 300% damage on Demon and Undead.",
             "level2": "With concentrated divine power, inflicts 3941 magical damage on enemies within 4m and stuns them for 1 second. Inflicts 300% damage on Demon and Undead."
         }
+    ],
+    "Countdown": [
+        {
+            "level1": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 10 physical damaga and after 3 seconds, adds 51 extra damage to surroundings upon exploding.",
+            "level2": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 13 physical damaga and after 3 seconds, adds 66 extra damage to surroundings upon exploding.",
+            "level3": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 17 physical damaga and after 3 seconds, adds 88 extra damage to surroundings upon exploding.",
+            "level4": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 22 physical damaga and after 3 seconds, adds 111 extra damage to surroundings upon exploding.",
+            "level5": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 28 physical damaga and after 3 seconds, adds 138 extra damage to surroundings upon exploding.",
+            "level6": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 35 physical damaga and after 3 seconds, adds 173 extra damage to surroundings upon exploding.",
+            "level7": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 42 physical damaga and after 3 seconds, adds 210 extra damage to surroundings upon exploding.",
+            "level8": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 51 physical damaga and after 3 seconds, adds 253 extra damage to surroundings upon exploding.",
+            "level9": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 62 physical damaga and after 3 seconds, adds 309 extra damage to surroundings upon exploding.",
+            "level10": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 75 physical damaga and after 3 seconds, adds 375 extra damage to surroundings upon exploding.",
+            "level11": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 90 physical damaga and after 3 seconds, adds 451 extra damage to surroundings upon exploding.",
+            "level12": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 107 physical damaga and after 3 seconds, adds 533 extra damage to surroundings upon exploding.",
+            "level13": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 126 physical damaga and after 3 seconds, adds 628 extra damage to surroundings upon exploding.",
+            "level14": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 146 physical damaga and after 3 seconds, adds 729 extra damage to surroundings upon exploding.",
+            "level15": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 169 physical damaga and after 3 seconds, adds 844 extra damage to surroundings upon exploding.",
+            "level16": "Shoots a special bullet that explodes in the enemy's body. The bullet inflicts 194 physical damaga and after 3 seconds, adds 969 extra damage to surroundings upon exploding."
+        }
+    ]
+    ,"Rupture": [
+        {
+            "level1": "Inflicts 47 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 57 and abnormal states RES by 10 for 20 seconds.",
+            "level2": "Inflicts 63 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 77 and abnormal states RES by 12 for 20 seconds.",
+            "level3": "Inflicts 79 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 98 and abnormal states RES by 14 for 20 seconds.",
+            "level4": "Inflicts 98 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 121 and abnormal states RES by 16 for 20 seconds.",
+            "level5": "Inflicts 123 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 155 and abnormal states RES by 18 for 20 seconds.",
+            "level6": "Inflicts 150 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 193 and abnormal states RES by 20 for 20 seconds.",
+            "level7": "Inflicts 181 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 233 and abnormal states RES by 22 for 20 seconds.",
+            "level8": "Inflicts 221 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 283 and abnormal states RES by 24 for 20 seconds.",
+            "level9": "Inflicts 268 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 343 and abnormal states RES by 26 for 20 seconds.",
+            "level10": "Inflicts 322 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 413 and abnormal states RES by 28 for 20 seconds.",
+            "level11": "Inflicts 381 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 487 and abnormal states RES by 30 for 20 seconds.",
+            "level12": "Inflicts 448 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 575 and abnormal states RES by 32 for 20 seconds.",
+            "level13": "Inflicts 520 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 685 and abnormal states RES by 34 for 20 seconds.",
+            "level14": "Inflicts 603 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 802 and abnormal states RES by 36 for 20 seconds.",
+            "level15": "Inflicts 692 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 923 and abnormal states RES by 38 for 20 seconds.",
+            "level16": "Inflicts 778 physical damage on an enemy and by exposing its weaknesses, decreases Physical DEF by 1051 and abnormal states RES by 40 for 20 seconds."
+        }
+    ],
+    "Hollow Point": [
+        {
+            "level1": "Fires an aimed shot to inflict 154 physical damage. Critical rate increases by 25.",
+            "level2": "Fires an aimed shot to inflict 200 physical damage. Critical rate increases by 27.",
+            "level3": "Fires an aimed shot to inflict 250 physical damage. Critical rate increases by 29.",
+            "level4": "Fires an aimed shot to inflict 313 physical damage. Critical rate increases by 31.",
+            "level5": "Fires an aimed shot to inflict 388 physical damage. Critical rate increases by 33.",
+            "level6": "Fires an aimed shot to inflict 467 physical damage. Critical rate increases by 35.",
+            "level7": "Fires an aimed shot to inflict 567 physical damage. Critical rate increases by 37.",
+            "level8": "Fires an aimed shot to inflict 688 physical damage. Critical rate increases by 39.",
+            "level9": "Fires an aimed shot to inflict 833 physical damage. Critical rate increases by 41.",
+            "level10": "Fires an aimed shot to inflict 992 physical damage. Critical rate increases by 43.",
+            "level11": "Fires an aimed shot to inflict 1167 physical damage. Critical rate increases by 45.",
+            "level12": "Fires an aimed shot to inflict 1371 physical damage. Critical rate increases by 47.",
+            "level13": "Fires an aimed shot to inflict 1588 physical damage. Critical rate increases by 49.",
+            "level14": "Fires an aimed shot to inflict 1834 physical damage. Critical rate increases by 51.",
+            "level15": "Fires an aimed shot to inflict 2084 physical damage. Critical rate increases by 53.",
+            "level16": "Fires an aimed shot to inflict 2342 physical damage. Critical rate increases by 55."
+        }
+    ]
+    ,"Leg Shot": [
+        {
+            "level1": "Deals 65 Physical damage and reduces target's movement speed by 15 for 10 seconds.",
+            "level2": "Deals 81 Physical damage and reduces target's movement speed by 18 for 11 seconds.",
+            "level3": "Deals 101 Physical damage and reduces target's movement speed by 21 for 12 seconds.",
+            "level4": "Deals 126 Physical damage and reduces target's movement speed by 24 for 13 seconds.",
+            "level5": "Deals 153 Physical damage and reduces target's movement speed by 27 for 14 seconds.",
+            "level6": "Deals 185 Physical damage and reduces target's movement speed by 30 for 15 seconds.",
+            "level7": "Deals 225 Physical damage and reduces target's movement speed by 33 for 16 seconds.",
+            "level8": "Deals 273 Physical damage and reduces target's movement speed by 36 for 17 seconds.",
+            "level9": "Deals 329 Physical damage and reduces target's movement speed by 39 for 18 seconds.",
+            "level10": "Deals 389 Physical damage and reduces target's movement speed by 42 for 20 seconds."
+        }
+    ]
+    ,"riflemanStealth": [
+        {
+            "level1": "Hides for 30 sec to reset threat rate and decreases move speed by 20.",
+            "level2": "Hides for 33 sec to reset threat rate and decreases move speed by 15.",
+            "level3": "Hides for 36 sec to reset threat rate and decreases move speed by 10.",
+            "level4": "Hides for 39 sec to reset threat rate and decreases move speed by 5.",
+            "level5": "Hides for 42 sec to reset threat rate.",
+            "level6": "Hides for 45 sec to reset threat rate and increases move speed by 2.",
+            "level7": "Hides for 48 sec to reset threat rate and increases move speed by 4.",
+            "level8": "Hides for 51 sec to reset threat rate and increases move speed by 6.",
+            "level9": "Hides for 54 sec to reset threat rate and increases move speed by 8.",
+            "level10": "Hides for 60 sec to reset threat rate and increases move speed by 10."
+        }
+    ],
+    "Hawk Eye": [
+        {
+            "level1": "Increases skill attack by 57 and skill success rate by 5% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level2": "Increases skill attack by 71 and skill success rate by 8% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level3": "Increases skill attack by 89 and skill success rate by 11% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level4": "Increases skill attack by 109 and skill success rate by 14% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level5": "Increases skill attack by 131 and skill success rate by 17% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level6": "Increases skill attack by 160 and skill success rate by 20% for all skills with a cast time of more than once second. Lasts for 10 minutes6.",
+            "level7": "Increases skill attack by 194 and skill success rate by 23% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level8": "Increases skill attack by 233 and skill success rate by 26% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level9": "Increases skill attack by 276 and skill success rate by 29% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level10": "Increases skill attack by 325 and skill success rate by 32% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level11": "Increases skill attack by 377 and skill success rate by 35% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level12": "Increases skill attack by 436 and skill success rate by 38% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level13": "Increases skill attack by 498 and skill success rate by 41% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level14": "Increases skill attack by 563 and skill success rate by 44% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level15": "Increases skill attack by 633 and skill success rate by 47% for all skills with a cast time of more than once second. Lasts for 10 minutes.",
+            "level16": "Increases skill attack by 712 and skill success rate by 50% for all skills with a cast time of more than once second. Lasts for 10 minutes."
+        }
+    ],
+    "Crimson Bullet": [
+        {
+            "level1": "Makes an enemy bleed for 6 seconds, inflicts 66 physical damage per sec and decreases healing ability by 50%.",
+            "level2": "Makes an enemy bleed for 6 seconds, inflicts 81 physical damage per sec and decreases healing ability by 52%.",
+            "level3": "Makes an enemy bleed for 6 seconds, inflicts 98 physical damage per sec and decreases healing ability by 54%.",
+            "level4": "Makes an enemy bleed for 6 seconds, inflicts 120 physical damage per sec and decreases healing ability by 56%.",
+            "level5": "Makes an enemy bleed for 6 seconds, inflicts 145 physical damage per sec and decreases healing ability by 58%.",
+            "level6": "Makes an enemy bleed for 6 seconds, inflicts 176 physical damage per sec and decreases healing ability by 60%.",
+            "level7": "Makes an enemy bleed for 6 seconds, inflicts 210 physical damage per sec and decreases healing ability by 62%.",
+            "level8": "Makes an enemy bleed for 6 seconds, inflicts 247 physical damage per sec and decreases healing ability by 64%.",
+            "level9": "Makes an enemy bleed for 6 seconds, inflicts 292 physical damage per sec and decreases healing ability by 66%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level10": "Makes an enemy bleed for 6 seconds, inflicts 338 physical damage per sec and decreases healing ability by 68%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level11": "Makes an enemy bleed for 6 seconds, inflicts 391 physical damage per sec and decreases healing ability by 70%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level12": "Makes an enemy bleed for 6 seconds, inflicts 446 physical damage per sec and decreases healing ability by 72%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level13": "Makes an enemy bleed for 6 seconds, inflicts 502 physical damage per sec and decreases healing ability by 74%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level14": "Makes an enemy bleed for 6 seconds, inflicts 564 physical damage per sec and decreases healing ability by 76%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level15": "Makes an enemy bleed for 6 seconds, inflicts 635 physical damage per sec and decreases healing ability by 78%. This skill uses a special bullet that doesen't allow any spell to cancel the effects.",
+            "level16": "Makes an enemy bleed for 6 seconds, inflicts 707 physical damage per sec and decreases healing ability by 80%. This skill uses a special bullet that doesen't allow any spell to cancel the effects."
+        }
+    ],
+    "Eagle Eye": [
+        {
+            "level1": "Increases your Hit Rate by 5 and your Crit Rate by 3 for 1 minute.",
+            "level2": "Increases your Hit Rate by 6 and your Crit Rate by 6 for 1 minute.",
+            "level3": "Increases your Hit Rate by 7 and your Crit Rate by 9 for 1 minute.",
+            "level4": "Increases your Hit Rate by 8 and your Crit Rate by 12 for 1 minute.",
+            "level5": "Increases your Hit Rate by 9 and your Crit Rate by 15 for 1 minute.",
+            "level6": "Increases your Hit Rate by 10 and your Crit Rate by 18 for 1 minute.",
+            "level7": "Increases your Hit Rate by 11 and your Crit Rate by 21 for 1 minute.",
+            "level8": "Increases your Hit Rate by 12 and your Crit Rate by 24 for 1 minute.",
+            "level9": "Increases your Hit Rate by 13 and your Crit Rate by 27 for 1 minute.",
+            "level10": "Increases your Hit Rate by 15 and your Crit Rate by 30 for 1 minute."
+        }
+    ],
+    "Concentration": [
+        {
+            "level1": "Increasesthe chance to resist casting interruption by 20% and increases hit rate by 2.",
+            "level2": "Increasesthe chance to resist casting interruption by 32% and increases hit rate by 4.",
+            "level3": "Increasesthe chance to resist casting interruption by 44% and increases hit rate by 6.",
+            "level4": "Increasesthe chance to resist casting interruption by 52% and increases hit rate by 8.",
+            "level5": "Increasesthe chance to resist casting interruption by 60% and increases hit rate by 10.",
+            "level6": "Increasesthe chance to resist casting interruption by 68% and increases hit rate by 12.",
+            "level7": "Increasesthe chance to resist casting interruption by 76% and increases hit rate by 14.",
+            "level8": "Increasesthe chance to resist casting interruption by 84% and increases hit rate by 16.",
+            "level9": "Increasesthe chance to resist casting interruption by 92% and increases hit rate by 18.",
+            "level10": "Increasesthe chance to resist casting interruption by 100% and increases hit rate by 20."
+        }
+    ],
+    "Sharpshooter": [
+        {
+           "level1": "Increasescritical hit damage by 10%.",
+           "level2": "Increasescritical hit damage by 15%.",
+           "level3": "Increasescritical hit damage by 20%.",
+           "level4": "Increasescritical hit damage by 25%.",
+           "level5": "Increasescritical hit damage by 30%.",
+           "level6": "Increasescritical hit damage by 35%.",
+           "level7": "Increasescritical hit damage by 40%.",
+           "level8": "Increasescritical hit damage by 45%.",
+           "level9": "Increasescritical hit damage by 50%.",
+           "level10": "Increasescritical hit damage by 55%."
+        }
+    ],
+    "Incendiary Round": [
+        {
+            "level1": "Deals 187 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level2": "Deals 228 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level3": "Deals 277 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level4": "Deals 334 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level5": "Deals 399 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level6": "Deals 471 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level7": "Deals 555 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level8": "Deals 642 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level9": "Deals 744 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level10": "Deals 849 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level11": "Deals 956 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level12": "Deals 1073 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level13": "Deals 1208 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level14": "Deals 1344 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level15": "Deals 1495 physical damage to all enemies within 4 meters and prevents casting for 3 seconds.",
+            "level16": "Deals 1659 physical damage to all enemies within 4 meters and prevents casting for 3 seconds."
+        }
+    ],
+    "Ambush": [
+        {
+            "level1": "Attacks the enemy from stealth to cause 327 physical damage and stun the enemy for 5 seconds.",
+            "level2": "Attacks the enemy from stealth to cause 393 physical damage and stun the enemy for 5 seconds.",
+            "level3": "Attacks the enemy from stealth to cause 476 physical damage and stun the enemy for 5 seconds.",
+            "level4": "Attacks the enemy from stealth to cause 578 physical damage and stun the enemy for 5 seconds.",
+            "level5": "Attacks the enemy from stealth to cause 682 physical damage and stun the enemy for 5 seconds.",
+            "level6": "Attacks the enemy from stealth to cause 803 physical damage and stun the enemy for 5 seconds.",
+            "level7": "Attacks the enemy from stealth to cause 938 physical damage and stun the enemy for 5 seconds.",
+            "level8": "Attacks the enemy from stealth to cause 1086 physical damage and stun the enemy for 5 seconds.",
+            "level9": "Attacks the enemy from stealth to cause 1245 physical damage and stun the enemy for 5 seconds.",
+            "level10": "Attacks the enemy from stealth to cause 1416 physical damage and stun the enemy for 5 seconds.",
+            "level11": "Attacks the enemy from stealth to cause 1590 physical damage and stun the enemy for 5 seconds.",
+            "level12": "Attacks the enemy from stealth to cause 1790 physical damage and stun the enemy for 5 seconds.",
+            "level13": "Attacks the enemy from stealth to cause 2005 physical damage and stun the enemy for 5 seconds.",
+            "level14": "Attacks the enemy from stealth to cause 2225 physical damage and stun the enemy for 5 seconds.",
+            "level15": "Attacks the enemy from stealth to cause 2475 physical damage and stun the enemy for 5 seconds.",
+            "level16": "Attacks the enemy from stealth to cause 2747 physical damage and stun the enemy for 5 seconds."
+        }
+    ],
+    "Terminate": [
+        {
+            "level1": "Shoots a target whose HP is below 25% for 525 physical damage.",
+            "level2": "Shoots a target whose HP is below 25% for 639 physical damage.",
+            "level3": "Shoots a target whose HP is below 25% for 767 physical damage.",
+            "level4": "Shoots a target whose HP is below 25% for 907 physical damage.",
+            "level5": "Shoots a target whose HP is below 25% for 1068 physical damage.",
+            "level6": "Shoots a target whose HP is below 25% for 1239 physical damage.",
+            "level7": "Shoots a target whose HP is below 25% for 1435 physical damage.",
+            "level8": "Shoots a target whose HP is below 25% for 1638 physical damage.",
+            "level9": "Shoots a target whose HP is below 25% for 1852 physical damage.",
+            "level10": "Shoots a target whose HP is below 25% for 2083 physical damage.",
+            "level11": "Shoots a target whose HP is below 25% for 2342 physical damage.",
+            "level12": "Shoots a target whose HP is below 25% for 2622 physical damage.",
+            "level13": "Shoots a target whose HP is below 25% for 2909 physical damage.",
+            "level14": "Shoots a target whose HP is below 25% for 3234 physical damage.",
+            "level15": "Shoots a target whose HP is below 25% for 3591 physical damage.",
+            "level16": "Shoots a target whose HP is below 25% for 3987 physical damage."
+        }
+    ],
+    "Sonic Blast": [
+        {
+            "level1": "Deals 618 physical damage to all enemies in 4 meter radius and silences them for 6 seconds. Base critical rate of 25.",
+            "level2": "Deals 749 physical damage to all enemies in 4 meter radius and silences them for 6 seconds. Base critical rate of 27.",
+            "level3": "Deals 891 physical damage to all enemies in 4 meter radius and silences them for 6 seconds. Base critical rate of 29.",
+            "level4": "Deals 1048 physical damage to all enemies in 4 meter radius and silences them for 7 seconds. Base critical rate of 31.",
+            "level5": "Deals 1232 physical damage to all enemies in 4 meter radius and silences them for 7 seconds. Base critical rate of 33.",
+            "level6": "Deals 1426 physical damage to all enemies in 4 meter radius and silences them for 7 seconds. Base critical rate of 35.",
+            "level7": "Deals 1651 physical damage to all enemies in 4 meter radius and silences them for 8 seconds. Base critical rate of 37.",
+            "level8": "Deals 1872 physical damage to all enemies in 4 meter radius and silences them for 8 seconds. Base critical rate of 39.",
+            "level9": "Deals 2104 physical damage to all enemies in 4 meter radius and silences them for 8 seconds. Base critical rate of 41.",
+            "level10": "Deals 2362 physical damage to all enemies in 4 meter radius and silences them for 9 seconds. Base critical rate of 43.",
+            "level11": "Deals 2658 physical damage to all enemies in 4 meter radius and silences them for 9 seconds. Base critical rate of 45.",
+            "level12": "Deals 2950 physical damage to all enemies in 4 meter radius and silences them for 9 seconds. Base critical rate of 47.",
+            "level13": "Deals 3280 physical damage to all enemies in 4 meter radius and silences them for 10 seconds. Base critical rate of 49.",
+            "level14": "Deals 3643 physical damage to all enemies in 4 meter radius and silences them for 10 seconds. Base critical rate of 51.",
+            "level15": "Deals 4047 physical damage to all enemies in 4 meter radius and silences them for 10 seconds. Base critical rate of 53.",
+            "level16": "Deals 4497 physical damage to all enemies in 4 meter radius and silences them for 10 seconds. Base critical rate of 55."
+        }
+    ],
+    "Rifle Smash": [
+        {
+            "level1": "Deals 182 physical damage breaks the target's concentration for 6 seconds.",
+            "level2": "Deals 219 physical damage breaks the target's concentration for 7 seconds.",
+            "level3": "Deals 259 physical damage breaks the target's concentration for 8 seconds.",
+            "level4": "Deals 305 physical damage breaks the target's concentration for 9 seconds.",
+            "level5": "Deals 354 physical damage breaks the target's concentration for 10 seconds.",
+            "level6": "Deals 410 physical damage breaks the target's concentration for 11 seconds.",
+            "level7": "Deals 468 physical damage breaks the target's concentration for 12 seconds.",
+            "level8": "Deals 529 physical damage breaks the target's concentration for 13 seconds.",
+            "level9": "Deals 595 physical damage breaks the target's concentration for 14 seconds.",
+            "level10": "Deals 669 physical damage breaks the target's concentration for 15 seconds."
+        }
+    ],
+    "Pinpoint Weakness": [ 
+        {
+            "level1": "Decreases dodge rate and critical hit resistance of target by 5 for 12 seconds, adds 10% to HP treshold for Terminate. Effects one target at a time.",
+            "level2": "Decreases dodge rate and critical hit resistance of target by 7 for 12 seconds, adds 12% to HP treshold for Terminate. Effects one target at a time.",
+            "level3": "Decreases dodge rate and critical hit resistance of target by 9 for 12 seconds, adds 14% to HP treshold for Terminate. Effects one target at a time.",
+            "level4": "Decreases dodge rate and critical hit resistance of target by 11 for 12 seconds, adds 16% to HP treshold for Terminate. Effects one target at a time.",
+            "level5": "Decreases dodge rate and critical hit resistance of target by 13 for 12 seconds, adds 18% to HP treshold for Terminate. Effects one target at a time.",
+            "level6": "Decreases dodge rate and critical hit resistance of target by 15 for 12 seconds, adds 20% to HP treshold for Terminate. Effects one target at a time.",
+            "level7": "Decreases dodge rate and critical hit resistance of target by 17 for 12 seconds, adds 22% to HP treshold for Terminate. Effects one target at a time.",
+            "level8": "Decreases dodge rate and critical hit resistance of target by 19 for 12 seconds, adds 23% to HP treshold for Terminate. Effects one target at a time.",
+            "level9": "Decreases dodge rate and critical hit resistance of target by 21 for 12 seconds, adds 24% to HP treshold for Terminate. Effects one target at a time.",
+            "level10": "Decreases dodge rate and critical hit resistance of target by 25 for 12 seconds, adds 25% to HP treshold for Terminate. Effects one target at a time."
+        }
+    ],
+    "Deploy Turret": [
+        {
+            "level1": "Installs a fixed turret Level 40 on a selected location and lets it attack enemies within range for 40 seconds.",
+            "level2": "Installs a fixed turret Level 44 on a selected location and lets it attack enemies within range for 42 seconds.",
+            "level3": "Installs a fixed turret Level 48 on a selected location and lets it attack enemies within range for 44 seconds.",
+            "level4": "Installs a fixed turret Level 52 on a selected location and lets it attack enemies within range for 46 seconds.",
+            "level5": "Installs a fixed turret Level 56 on a selected location and lets it attack enemies within range for 48 seconds.",
+            "level6": "Installs a fixed turret Level 60 on a selected location and lets it attack enemies within range for 50 seconds.",
+            "level7": "Installs a fixed turret Level 64 on a selected location and lets it attack enemies within range for 52 seconds.",
+            "level8": "Installs a fixed turret Level 68 on a selected location and lets it attack enemies within range for 54 seconds.",
+            "level9": "Installs a fixed turret Level 72 on a selected location and lets it attack enemies within range for 56 seconds.",
+            "level10": "Installs a fixed turret Level 76 on a selected location and lets it attack enemies within range for 60 seconds."
+        }
+    ],
+    "Headshot": [
+        {
+            "level1": "By sniping an enemy, inflicts 1409 physical damage, blows off a maximum of 1071 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 50.",
+            "level2": "By sniping an enemy, inflicts 1665 physical damage, blows off a maximum of 1257 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 52.",
+            "level3": "By sniping an enemy, inflicts 1962 physical damage, blows off a maximum of 1475 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 54.",
+            "level4": "By sniping an enemy, inflicts 2277 physical damage, blows off a maximum of 1704 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 56.",
+            "level5": "By sniping an enemy, inflicts 2637 physical damage, blows off a maximum of 1965 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 58.",
+            "level6": "By sniping an enemy, inflicts 3015 physical damage, blows off a maximum of 2249 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 60.",
+            "level7": "By sniping an enemy, inflicts 3407 physical damage, blows off a maximum of 2517 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 62.",
+            "level8": "By sniping an enemy, inflicts 3830 physical damage, blows off a maximum of 2815 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 64.",
+            "level9": "By sniping an enemy, inflicts 4307 physical damage, blows off a maximum of 3152 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 66.",
+            "level10": "By sniping an enemy, inflicts 4815 physical damage, blows off a maximum of 3507 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 68.",
+            "level11": "By sniping an enemy, inflicts 5346 physical damage, blows off a maximum of 3878 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 70",
+            "level12": "By sniping an enemy, inflicts 5940 physical damage, blows off a maximum of 4287 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 72.",
+            "level13": "By sniping an enemy, inflicts 6597 physical damage, blows off a maximum of 4739 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 74.",
+            "level14": "By sniping an enemy, inflicts 7263 physical damage, blows off a maximum of 5240 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 76.",
+            "level15": "By sniping an enemy, inflicts 7992 physical damage, blows off a maximum of 5792 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 78.",
+            "level16": "By sniping an enemy, inflicts 8802 physical damage, blows off a maximum of 6243 Mana, and adds extra damage as much as Mana loss. Critical Rate increases by 80."
+        }
+    ],
+    "Knockout Shot": [
+        {
+            "level1": "A blow to the head deals 512 physical damage to the target and stund it for 3 seconds.",
+            "level2": "A blow to the head deals 593 physical damage to the target and stund it for 3 seconds.",
+            "level3": "A blow to the head deals 686 physical damage to the target and stund it for 3 seconds.",
+            "level4": "A blow to the head deals 773 physical damage to the target and stund it for 3 seconds.",
+            "level5": "A blow to the head deals 867 physical damage to the target and stund it for 3 seconds.",
+            "level6": "A blow to the head deals 977 physical damage to the target and stund it for 3 seconds.",
+            "level7": "A blow to the head deals 1094 physical damage to the target and stund it for 3 seconds.",
+            "level8": "A blow to the head deals 1214 physical damage to the target and stund it for 3 seconds.",
+            "level9": "A blow to the head deals 1350 physical damage to the target and stund it for 3 seconds.",
+            "level10": "A blow to the head deals 1499 physical damage to the target and stund it for 3 seconds.",
+            "level11": "A blow to the head deals 1665 physical damage to the target and stund it for 3 seconds.",
+            "level12": "A blow to the head deals 1848 physical damage to the target and stund it for 3 seconds.",
+            "level13": "A blow to the head deals 2054 physical damage to the target and stund it for 3 seconds."
+        }
+    ],
+    "Ultimatum": [
+        {
+            "level1": "Powerful finish incflicts 100 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level2": "Powerful finish incflicts 150 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level3": "Powerful finish incflicts 200 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level4": "Powerful finish incflicts 250 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level5": "Powerful finish incflicts 300 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level6": "Powerful finish incflicts 350 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level7": "Powerful finish incflicts 400 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level8": "Powerful finish incflicts 450 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level9": "Powerful finish incflicts 500 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2.",
+            "level10": "Powerful finish incflicts 550 additional damage when attacking enemies whose HP is below 25%.Increases the caster's movespeed by 2."
+        }
+    ],
+    "Predator": [
+        {
+            "level1": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 20 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level2": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 21 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level3": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 22 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level4": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 23 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level5": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 24 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level6": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 25 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level7": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 26 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level8": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 27 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level9": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 28 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level10": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 29 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage.",
+            "level11": "When triggered in sniping mode, resets cool down of Stealth and lets the skill user attack enemies while hiding for 30 seconds.However, Movement Speed is decreased by 50 and the effect is cancelled after receiving damage."
+        }
+    ],
+    "Spot Weakness": [
+        {
+            "level1": "Exposes a weakness in the target's armor 2 times for 2 minutes.",
+            "level2": "Exposes a weakness in the target's armor 3 times for 2 minutes.",
+            "level3": "Exposes a weakness in the target's armor 4 times for 2 minutes.",
+            "level4": "Exposes a weakness in the target's armor 5 times for 2 minutes.",
+            "level5": "Exposes a weakness in the target's armor 6 times for 2 minutes.",
+            "level6": "Exposes a weakness in the target's armor 7 times for 2 minutes.",
+            "level7": "Exposes a weakness in the target's armor 8 times for 2 minutes.",
+            "level8": "Exposes a weakness in the target's armor 9 times for 2 minutes.",
+            "level9": "Exposes a weakness in the target's armor 10 times for 2 minutes.",
+            "level10": "Exposes a weakness in the target's armor 12 times for 2 minutes."
+        }
+    ],
+    "Roll With It": [
+        {
+            "level1": "Increases critical and double attack resistance by 3.",
+            "level2": "Increases critical and double attack resistance by 6.",
+            "level3": "Increases critical and double attack resistance by 9.",
+            "level4": "Increases critical and double attack resistance by 12.",
+            "level5": "Increases critical and double attack resistance by 15.",
+            "level6": "Increases critical and double attack resistance by 18.",
+            "level7": "Increases critical and double attack resistance by 21.",
+            "level8": "Increases critical and double attack resistance by 24.",
+            "level9": "Increases critical and double attack resistance by 27.",
+            "level10": "Increases critical and double attack resistance by 30."
+        }
+    ],
+    "Go Postal": [
+        {
+            "level1": "Inflicts 2575 physical damage on enemies within 4m of the target. Each blow adds 490 extra damage for 6 seconds. Critical Rate increases by 25.",
+            "level2": "Inflicts 2898 physical damage on enemies within 4m of the target. Each blow adds 552 extra damage for 6 seconds. Critical Rate increases by 27.",
+            "level3": "Inflicts 3226 physical damage on enemies within 4m of the target. Each blow adds 614 extra damage for 6 seconds. Critical Rate increases by 29.",
+            "level4": "Inflicts 3587 physical damage on enemies within 4m of the target. Each blow adds 683 extra damage for 6 seconds. Critical Rate increases by 31.",
+            "level5": "Inflicts 3982 physical damage on enemies within 4m of the target. Each blow adds 758 extra damage for 6 seconds. Critical Rate increases by 33.",
+            "level6": "Inflicts 4423 physical damage on enemies within 4m of the target. Each blow adds 842 extra damage for 6 seconds. Critical Rate increases by 35.",
+            "level7": "Inflicts 4910 physical damage on enemies within 4m of the target. Each blow adds 935 extra damage for 6 seconds. Critical Rate increases by 37.",
+            "level8": "Inflicts 5456 physical damage on enemies within 4m of the target. Each blow adds 1039 extra damage for 6 seconds. Critical Rate increases by 39.",
+            "level9": "Inflicts 5750 physical damage on enemies within 4m of the target. Each blow adds 1095 extra damage for 6 seconds. Critical Rate increases by 41."
+        }
+    ],
+    "Bloodlust": [
+        {
+            "level1": "Deals 1302 Physical Attack and converts 80% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 25% of Max HP.",
+            "level2": "Deals 1458 Physical Attack and converts 85% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 30% of Max HP.",
+            "level3": "Deals 1618 Physical Attack and converts 90% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 35% of Max HP.",
+            "level4": "Deals 1800 Physical Attack and converts 95% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 40% of Max HP.",
+            "level5": "Deals 1998 Physical Attack and converts 100% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 45% of Max HP.",
+            "level6": "Deals 2220 Physical Attack and converts 105% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 50% of Max HP.",
+            "level7": "Deals 2464 Physical Attack and converts 110% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 55% of Max HP.",
+            "level8": "Deals 2738 Physical Attack and converts 120% of the damage value to own HP. if the target is killed with this skill, recovers additional HP equivalent to 60% of Max HP."
+        }
+    ],
+    "Death Kneell": [
+        {
+            "level1": "Deals 2552 Physical Attack and instantly kills an elite monster with 39% probability. Deals double damage to a players with 26% probability.",
+            "level2": "Deals 2832 Physical Attack and instantly kills an elite monster with 45% probability. Deals double damage to a players with 30% probability.",
+            "level3": "Deals 3150 Physical Attack and instantly kills an elite monster with 51% probability. Deals double damage to a players with 34% probability.",
+            "level4": "Deals 3497 Physical Attack and instantly kills an elite monster with 57% probability. Deals double damage to a players with 38% probability.",
+            "level5": "Deals 3885 Physical Attack and instantly kills an elite monster with 63% probability. Deals double damage to a players with 42% probability.",
+            "level6": "Deals 4312 Physical Attack and instantly kills an elite monster with 69% probability. Deals double damage to a players with 46% probability.",
+            "level7": "Deals 4792 Physical Attack and instantly kills an elite monster with 75% probability. Deals double damage to a players with 50% probability."
+        }
+    ],
+    "Ghost Stance:": [
+        {
+            "level1": "Right after inflicting 2225 physical damage, the user goes into Ghost Stance and hides itself for 6 seconds. Movement Speed inceases by 10.",
+            "level2": "Right after inflicting 2475 physical damage, the user goes into Ghost Stance and hides itself for 6 seconds. Movement Speed inceases by 10.",
+            "level3": "Right after inflicting 2747 physical damage, the user goes into Ghost Stance and hides itself for 6 seconds. Movement Speed inceases by 10.",
+            "level4": "Right after inflicting 3053 physical damage, the user goes into Ghost Stance and hides itself for 6 seconds. Movement Speed inceases by 10.",
+            "level5": "Right after inflicting 3388 physical damage, the user goes into Ghost Stance and hides itself for 6 seconds. Movement Speed inceases by 10.",
+            "level6": "Right after inflicting 3765 physical damage, the user goes into Ghost Stance and hides itself for 6 seconds. Movement Speed inceases by 10."
+        }
+    ],
+    "Napalm Strike": [
+        {
+            "level1": "Shoots a bullet that heats the ground. It deals 2562 damage to enemies within a 6m radius and the armor of the damaged enemies is melted fo 10 seconds.",
+            "level2": "Shoots a bullet that heats the ground. It deals 2844 damage to enemies within a 6m radius and the armor of the damaged enemies is melted fo 12 seconds.",
+            "level3": "Shoots a bullet that heats the ground. It deals 3159 damage to enemies within a 6m radius and the armor of the damaged enemies is melted fo 14 seconds.",
+            "level4": "Shoots a bullet that heats the ground. It deals 3507 damage to enemies within a 6m radius and the armor of the damaged enemies is melted fo 16 seconds.",
+            "level5": "Shoots a bullet that heats the ground. It deals 3897 damage to enemies within a 6m radius and the armor of the damaged enemies is melted fo 18 seconds."
+        }
+    ],
+    "Multi Trap": [
+        {
+            "level1": "Deals 1896 physical damage to a target and enemies within 6 meters and slow them down by 18 for 4 seconds",
+            "level2": "Deals 2106 physical damage to a target and enemies within 6 meters and slow them down by 21 for 5 seconds",
+            "level3": "Deals 2338 physical damage to a target and enemies within 6 meters and slow them down by 24 for 6 seconds",
+            "level4": "Deals 2598 physical damage to a target and enemies within 6 meters and slow them down by 27 for 7 seconds"
+        }
+    ],
+    "Bullet May Cry": [
+        {
+            "level1": "Imbue the gun barrel with awesome power for 8 seconds. Increase double attack value by 14, ignores 24% of enemy's physical DEF, and adds splash damage to normal attacks equivalent to 80% of physical ATK.",
+            "level2": "Imbue the gun barrel with awesome power for 8 seconds. Increase double attack value by 16, ignores 26% of enemy's physical DEF, and adds splash damage to normal attacks equivalent to 80% of physical ATK.",
+            "level3": "Imbue the gun barrel with awesome power for 8 seconds. Increase double attack value by 18, ignores 28% of enemy's physical DEF, and adds splash damage to normal attacks equivalent to 80% of physical ATK.",
+            "level4": "Imbue the gun barrel with awesome power for 8 seconds. Increase double attack value by 20, ignores 30% of enemy's physical DEF, and adds splash damage to normal attacks equivalent to 80% of physical ATK."
+        }
+    ],
+    "Destination": [
+        {
+            "level1": "By shooting an enemy with special bullet, completely ignores its Physical DEF and inflicts 2587 physical damage. Adds 4312 extra damage when using the skill while hiding.",
+            "level2": "By shooting an enemy with special bullet, completely ignores its Physical DEF and inflicts 2875 physical damage. Adds 4792 extra damage when using the skill while hiding."
+        }
+    ],
+    "Corrosive Round": [
+        {
+            "level1": "Deals 11 physical damage on impact and an additional 57 damage after 3 seconds",
+            "level2": "Deals 14 physical damage on impact and an additional 69 damage after 3 seconds",
+            "level3": "Deals 19 physical damage on impact and an additional 92 damage after 3 seconds",
+            "level4": "Deals 24 physical damage on impact and an additional 120 damage after 3 seconds",
+            "level5": "Deals 30 physical damage on impact and an additional 150 damage after 3 seconds",
+            "level6": "Deals 37 physical damage on impact and an additional 186 damage after 3 seconds",
+            "level7": "Deals 45 physical damage on impact and an additional 225 damage after 3 seconds",
+            "level8": "Deals 54 physical damage on impact and an additional 272 damage after 3 seconds",
+            "level9": "Deals 66 physical damage on impact and an additional 332 damage after 3 seconds",
+            "level10": "Deals 80 physical damage on impact and an additional 401 damage after 3 seconds",
+            "level11": "Deals 97 physical damage on impact and an additional 484 damage after 3 seconds",
+            "level12": "Deals 114 physical damage on impact and an additional 570 damage after 3 seconds",
+            "level13": "Deals 135 physical damage on impact and an additional 673 damage after 3 seconds",
+            "level14": "Deals 156 physical damage on impact and an additional 782 damage after 3 seconds",
+            "level15": "Deals 181 physical damage on impact and an additional 906 damage after 3 seconds",
+            "level16": "Deals 208 physical damage on impact and an additional 1040 damage after 3 seconds"
+        }
+    ],
+    "Poison Ivy": [
+        {
+            "level1": "Creates venomous ivy under enemy's feet to immobilize it for 3 seconds. For the duration, this inflicts 33 physical damage per sec and decreases abnormal states RES by 6.",
+            "level2": "Creates venomous ivy under enemy's feet to immobilize it for 3 seconds. For the duration, this inflicts 44 physical damage per sec and decreases abnormal states RES by 7.",
+            "level3": "Creates venomous ivy under enemy's feet to immobilize it for 3 seconds. For the duration, this inflicts 58 physical damage per sec and decreases abnormal states RES by 8.",
+            "level4": "Creates venomous ivy under enemy's feet to immobilize it for 3 seconds. For the duration, this inflicts 72 physical damage per sec and decreases abnormal states RES by 9.",
+            "level5": "Creates venomous ivy under enemy's feet to immobilize it for 4 seconds. For the duration, this inflicts 89 physical damage per sec and decreases abnormal states RES by 10.",
+            "level6": "Creates venomous ivy under enemy's feet to immobilize it for 4 seconds. For the duration, this inflicts 108 physical damage per sec and decreases abnormal states RES by 11.",
+            "level7": "Creates venomous ivy under enemy's feet to immobilize it for 4 seconds. For the duration, this inflicts 131 physical damage per sec and decreases abnormal states RES by 12.",
+            "level8": "Creates venomous ivy under enemy's feet to immobilize it for 4 seconds. For the duration, this inflicts 160 physical damage per sec and decreases abnormal states RES by 13.",
+            "level9": "Creates venomous ivy under enemy's feet to immobilize it for 5 seconds. For the duration, this inflicts 193 physical damage per sec and decreases abnormal states RES by 14.",
+            "level10": "Creates venomous ivy under enemy's feet to immobilize it for 5 seconds. For the duration, this inflicts 233 physical damage per sec and decreases abnormal states RES by 15.",
+            "level11": "Creates venomous ivy under enemy's feet to immobilize it for 5 seconds. For the duration, this inflicts 275 physical damage per sec and decreases abnormal states RES by 16.",
+            "level12": "Creates venomous ivy under enemy's feet to immobilize it for 5 seconds. For the duration, this inflicts 324 physical damage per sec and decreases abnormal states RES by 17.",
+            "level13": "Creates venomous ivy under enemy's feet to immobilize it for 6 seconds. For the duration, this inflicts 376 physical damage per sec and decreases abnormal states RES by 18.",
+            "level14": "Creates venomous ivy under enemy's feet to immobilize it for 6 seconds. For the duration, this inflicts 436 physical damage per sec and decreases abnormal states RES by 19.",
+            "level15": "Creates venomous ivy under enemy's feet to immobilize it for 6 seconds. For the duration, this inflicts 498 physical damage per sec and decreases abnormal states RES by 20.",
+            "level16": "Creates venomous ivy under enemy's feet to immobilize it for 6 seconds. For the duration, this inflicts 563 physical damage per sec and decreases abnormal states RES by 21."
+        }
+    ],
+    "Quicksilver": [
+        {
+            "level1": "Increases Movement Speed by 10 and Evasion by 14 for 20 seconds.",
+            "level2": "Increases Movement Speed by 10 and Evasion by 16 for 21 seconds.",
+            "level3": "Increases Movement Speed by 10 and Evasion by 18 for 22 seconds.",
+            "level4": "Increases Movement Speed by 10 and Evasion by 20 for 23 seconds.",
+            "level5": "Increases Movement Speed by 10 and Evasion by 22 for 24 seconds.",
+            "level6": "Increases Movement Speed by 10 and Evasion by 24 for 25 seconds.",
+            "level7": "Increases Movement Speed by 10 and Evasion by 26 for 26 seconds.",
+            "level8": "Increases Movement Speed by 10 and Evasion by 28 for 27 seconds.",
+            "level9": "Increases Movement Speed by 10 and Evasion by 30 for 28 seconds.",
+            "level10": "Increases Movement Speed by 10 and Evasion by 33 for 30 seconds. Applies Quick Step to the user and lets it hide shortly."
+        }
+    ],
+    "Hot Shot": [
+        {
+            "level1": "By filling dual pistols with magical power, increases physical damage by 10 and skill ATK by 39.",
+            "level2": "By filling dual pistols with magical power, increases physical damage by 13 and skill ATK by 49.",
+            "level3": "By filling dual pistols with magical power, increases physical damage by 16 and skill ATK by 61.",
+            "level4": "By filling dual pistols with magical power, increases physical damage by 19 and skill ATK by 75.",
+            "level5": "By filling dual pistols with magical power, increases physical damage by 22 and skill ATK by 91.",
+            "level6": "By filling dual pistols with magical power, increases physical damage by 27 and skill ATK by 110.",
+            "level7": "By filling dual pistols with magical power, increases physical damage by 32 and skill ATK by 134.",
+            "level8": "By filling dual pistols with magical power, increases physical damage by 38 and skill ATK by 162.",
+            "level9": "By filling dual pistols with magical power, increases physical damage by 44 and skill ATK by 196.",
+            "level10": "By filling dual pistols with magical power, increases physical damage by 51 and skill ATK by 231.",
+            "level11": "By filling dual pistols with magical power, increases physical damage by 59 and skill ATK by 273.",
+            "level12": "By filling dual pistols with magical power, increases physical damage by 68 and skill ATK by 317.",
+            "level13": "By filling dual pistols with magical power, increases physical damage by 78 and skill ATK by 367.",
+            "level14": "By filling dual pistols with magical power, increases physical damage by 88 and skill ATK by 422.",
+            "level15": "By filling dual pistols with magical power, increases physical damage by 99 and skill ATK by 474.",
+            "level16": "By filling dual pistols with magical power, increases physical damage by 116 and skill ATK by 534."
+        }
+    ],
+    "dualStealth": [
+        {
+            "level1": "While hiding for 20 seconds, Threat is reset and Movement Speed is decreased by 12.",
+            "level2": "While hiding for 21 seconds, Threat is reset and Movement Speed is decreased by 6.",
+            "level3": "While hiding for 22 seconds, Threat is reset and Movement Speed is decreased by 3.",
+            "level4": "While hiding for 23 seconds, Threat is reset.",
+            "level5": "While hiding for 24 seconds, Threat is reset and Movement Speed is increased by 3.",
+            "level6": "While hiding for 25 seconds, Threat is reset and Movement Speed is increased by 6.",
+            "level7": "While hiding for 26 seconds, Threat is reset and Movement Speed is increased by 9.",
+            "level8": "While hiding for 27 seconds, Threat is reset and Movement Speed is increased by 12.",
+            "level9": "While hiding for 28 seconds, Threat is reset and Movement Speed is increased by 15.",
+            "level10": "While hiding for 30 seconds, Threat is reset and Movement Speed is increased by 18."
+        }
+    ],
+    "Full Auto": [
+        {
+            "level1": "Rapid-fires pistols causing 174 physical damage.",
+            "level2": "Rapid-fires pistols causing 217 physical damage.",
+            "level3": "Rapid-fires pistols causing 268 physical damage.",
+            "level4": "Rapid-fires pistols causing 325 physical damage.",
+            "level5": "Rapid-fires pistols causing 393 physical damage.",
+            "level6": "Rapid-fires pistols causing 479 physical damage.",
+            "level7": "Rapid-fires pistols causing 579 physical damage.",
+            "level8": "Rapid-fires pistols causing 698 physical damage.",
+            "level9": "Rapid-fires pistols causing 824 physical damage.",
+            "level10": "Rapid-fires pistols causing 972 physical damage.",
+            "level11": "Rapid-fires pistols causing 1129 physical damage.",
+            "level12": "Rapid-fires pistols causing 1308 physical damage.",
+            "level13": "Rapid-fires pistols causing 1496 physical damage.",
+            "level14": "Rapid-fires pistols causing 1690 physical damage.",
+            "level15": "Rapid-fires pistols causing 1901 physical damage.",
+            "level16": "Rapid-fires pistols causing 2138 physical damage."
+        }
+    ],
+    "Foxglove": [
+        {
+            "level1": "Shoots a venomous bullet that decreases Movement Speed by 15 and inflicts 77 physical damage per sec for 8 seconds.",
+            "level2": "Shoots a venomous bullet that decreases Movement Speed by 17 and inflicts 94 physical damage per sec for 8 seconds.",
+            "level3": "Shoots a venomous bullet that decreases Movement Speed by 19 and inflicts 114 physical damage per sec for 8 seconds.",
+            "level4": "Shoots a venomous bullet that decreases Movement Speed by 21 and inflicts 138 physical damage per sec for 8 seconds.",
+            "level5": "Shoots a venomous bullet that decreases Movement Speed by 23 and inflicts 168 physical damage per sec for 8 seconds.",
+            "level6": "Shoots a venomous bullet that decreases Movement Speed by 25 and inflicts 203 physical damage per sec for 8 seconds.",
+            "level7": "Shoots a venomous bullet that decreases Movement Speed by 27 and inflicts 242 physical damage per sec for 8 seconds.",
+            "level8": "Shoots a venomous bullet that decreases Movement Speed by 29 and inflicts 286 physical damage per sec for 8 seconds.",
+            "level9": "Shoots a venomous bullet that decreases Movement Speed by 31 and inflicts 337 physical damage per sec for 8 seconds.",
+            "level10": "Shoots a venomous bullet that decreases Movement Speed by 33 and inflicts 390 physical damage per sec for 8 seconds.",
+            "level11": "Shoots a venomous bullet that decreases Movement Speed by 35 and inflicts 452 physical damage per sec for 8 seconds.",
+            "level12": "Shoots a venomous bullet that decreases Movement Speed by 37 and inflicts 516 physical damage per sec for 8 seconds.",
+            "level13": "Shoots a venomous bullet that decreases Movement Speed by 39 and inflicts 580 physical damage per sec for 8 seconds.",
+            "level14": "Shoots a venomous bullet that decreases Movement Speed by 41 and inflicts 653 physical damage per sec for 8 seconds.",
+            "level15": "Shoots a venomous bullet that decreases Movement Speed by 43 and inflicts 733 physical damage per sec for 8 seconds.",
+            "level16": "Shoots a venomous bullet that decreases Movement Speed by 45 and inflicts 818 physical damage per sec for 8 seconds."
+        }
+    ],
+    "Maelstrom": [
+        {
+            "level1": "Places an enemy under a covenant of death, inflicts 75 extra damage for each blow and decreases Accuracy by 9 for 10 seconds.",
+            "level2": "Places an enemy under a covenant of death, inflicts 915 extra damage for each blow and decreases Accuracy by 11 for 10 seconds.",
+            "level3": "Places an enemy under a covenant of death, inflicts 1105 extra damage for each blow and decreases Accuracy by 13 for 10 seconds.",
+            "level4": "Places an enemy under a covenant of death, inflicts 1325 extra damage for each blow and decreases Accuracy by 15 for 10 seconds.",
+            "level5": "Places an enemy under a covenant of death, inflicts 1595 extra damage for each blow and decreases Accuracy by 17 for 10 seconds.",
+            "level6": "Places an enemy under a covenant of death, inflicts 1925 extra damage for each blow and decreases Accuracy by 19 for 10 seconds.",
+            "level7": "Places an enemy under a covenant of death, inflicts 2265 extra damage for each blow and decreases Accuracy by 21 for 10 seconds.",
+            "level8": "Places an enemy under a covenant of death, inflicts 2665 extra damage for each blow and decreases Accuracy by 23 for 10 seconds.",
+            "level9": "Places an enemy under a covenant of death, inflicts 3105 extra damage for each blow and decreases Accuracy by 25 for 10 seconds.",
+            "level10": "Places an enemy under a covenant of death, inflicts 3585 extra damage for each blow and decreases Accuracy by 27 for 10 seconds.",
+            "level11": "Places an enemy under a covenant of death, inflicts 4145 extra damage for each blow and decreases Accuracy by 29 for 10 seconds.",
+            "level12": "Places an enemy under a covenant of death, inflicts 4655 extra damage for each blow and decreases Accuracy by 31 for 10 seconds.",
+            "level13": "Places an enemy under a covenant of death, inflicts 5225 extra damage for each blow and decreases Accuracy by 33 for 10 seconds.",
+            "level14": "Places an enemy under a covenant of death, inflicts 5865 extra damage for each blow and decreases Accuracy by 35 for 10 seconds.",
+            "level15": "Places an enemy under a covenant of death, inflicts 6575 extra damage for each blow and decreases Accuracy by 37 for 10 seconds.",
+            "level16": "Places an enemy under a covenant of death, inflicts 7305 extra damage for each blow and decreases Accuracy by 40 for 10 seconds."
+        }
+    ],
+    "Tiger Eye": [
+        {
+            "level1": "Increases critical rate by 1 and critical damage by 3%",
+            "level2": "Increases critical rate by 2 and critical damage by 6%",
+            "level3": "Increases critical rate by 3 and critical damage by 9%",
+            "level4": "Increases critical rate by 4 and critical damage by 12%",
+            "level5": "Increases critical rate by 5 and critical damage by 15%",
+            "level6": "Increases critical rate by 6 and critical damage by 18%",
+            "level7": "Increases critical rate by 7 and critical damage by 21%",
+            "level8": "Increases critical rate by 8 and critical damage by 24%",
+            "level9": "Increases critical rate by 9 and critical damage by 27%",
+            "level10": "Increases critical rate by 10 and critical damage by 30%"
+        }
+    ],
+    "Sirocco": [
+        {
+            "level1": "Increases dodge rate by 3.",
+            "level2": "Increases dodge rate by 4.",
+            "level3": "Increases dodge rate by 5.",
+            "level4": "Increases dodge rate by 6.",
+            "level5": "Increases dodge rate by 7.",
+            "level6": "Increases dodge rate by 8.",
+            "level7": "Increases dodge rate by 9.",
+            "level8": "Increases dodge rate by 10.",
+            "level9": "Increases dodge rate by 11.",
+            "level10": "Increases dodge rate by 12."
+        }
+    ],
+    "Black Rose": [
+        {
+            "level1": "Increases critical rate by 20 for 2 minutes.",
+            "level2": "Increases critical rate by 23 for 2 minutes.",
+            "level3": "Increases critical rate by 26 for 2 minutes.",
+            "level4": "Increases critical rate by 29 for 2 minutes.",
+            "level5": "Increases critical rate by 32 for 2 minutes.",
+            "level6": "Increases critical rate by 35 for 2 minutes.",
+            "level7": "Increases critical rate by 38 for 2 minutes.",
+            "level8": "Increases critical rate by 41 for 2 minutes.",
+            "level9": "Increases critical rate by 44 for 2 minutes.",
+            "level10": "Increases critical rate by 50 for 2 minutes."
+        }
+    ],
+    "Hemlock": [
+        {
+            "level1": "Shoots a venomous bullet that responds to Mana. This inflicts 133 physical damage and takes 8% of Max Mana apart and converts into extra damage.",
+            "level2": "Shoots a venomous bullet that responds to Mana. This inflicts 160 physical damage and takes 8% of Max Mana apart and converts into extra damage.",
+            "level3": "Shoots a venomous bullet that responds to Mana. This inflicts 194 physical damage and takes 9% of Max Mana apart and converts into extra damage.",
+            "level4": "Shoots a venomous bullet that responds to Mana. This inflicts 235 physical damage and takes 9% of Max Mana apart and converts into extra damage.",
+            "level5": "Shoots a venomous bullet that responds to Mana. This inflicts 277 physical damage and takes 10% of Max Mana apart and converts into extra damage.",
+            "level6": "Shoots a venomous bullet that responds to Mana. This inflicts 328 physical damage and takes 10% of Max Mana apart and converts into extra damage.",
+            "level7": "Shoots a venomous bullet that responds to Mana. This inflicts 382 physical damage and takes 11% of Max Mana apart and converts into extra damage.",
+            "level8": "Shoots a venomous bullet that responds to Mana. This inflicts 442 physical damage and takes 11% of Max Mana apart and converts into extra damage.",
+            "level9": "Shoots a venomous bullet that responds to Mana. This inflicts 506 physical damage and takes 12% of Max Mana apart and converts into extra damage.",
+            "level10": "Shoots a venomous bullet that responds to Mana. This inflicts 576 physical damage and takes 12% of Max Mana apart and converts into extra damage.",
+            "level11": "Shoots a venomous bullet that responds to Mana. This inflicts 648 physical damage and takes 13% of Max Mana apart and converts into extra damage.",
+            "level12": "Shoots a venomous bullet that responds to Mana. This inflicts 728 physical damage and takes 13% of Max Mana apart and converts into extra damage.",
+            "level13": "Shoots a venomous bullet that responds to Mana. This inflicts 816 physical damage and takes 14% of Max Mana apart and converts into extra damage.",
+            "level14": "Shoots a venomous bullet that responds to Mana. This inflicts 907 physical damage and takes 14% of Max Mana apart and converts into extra damage.",
+            "level15": "Shoots a venomous bullet that responds to Mana. This inflicts 1008 physical damage and takes 15% of Max Mana apart and converts into extra damage.",
+            "level16": "Shoots a venomous bullet that responds to Mana. This inflicts 1120 physical damage and takes 15% of Max Mana apart and converts into extra damage."
+        }
+    ],
+    "Crossfire": [
+        {
+            "level1": "Deals 538 physical damage to enemies within 5 meters.",
+            "level2": "Deals 650 physical damage to enemies within 5 meters.",
+            "level3": "Deals 784 physical damage to enemies within 5 meters.",
+            "level4": "Deals 925 physical damage to enemies within 5 meters.",
+            "level5": "Deals 1091 physical damage to enemies within 5 meters.",
+            "level6": "Deals 1267 physical damage to enemies within 5 meters.",
+            "level7": "Deals 1469 physical damage to enemies within 5 meters.",
+            "level8": "Deals 1686 physical damage to enemies within 5 meters.",
+            "level9": "Deals 1898 physical damage to enemies within 5 meters.",
+            "level10": "Deals 2134 physical damage to enemies within 5 meters.",
+            "level11": "Deals 2400 physical damage to enemies within 5 meters.",
+            "level12": "Deals 2682 physical damage to enemies within 5 meters.",
+            "level13": "Deals 2979 physical damage to enemies within 5 meters.",
+            "level14": "Deals 3309 physical damage to enemies within 5 meters.",
+            "level15": "Deals 3677 physical damage to enemies within 5 meters.",
+            "level16": "Deals 4083 physical damage to enemies within 5 meters."
+        }
+    ],
+    "Concussive Shock": [
+        {
+            "level1": "Stuns enemy for 10 seconds. Target takes 230 additional damage when attacked. This skill cannot be automatically recast.",
+            "level2": "Stuns enemy for 12 seconds. Target takes 280 additional damage when attacked. This skill cannot be automatically recast.",
+            "level3": "Stuns enemy for 14 seconds. Target takes 333 additional damage when attacked. This skill cannot be automatically recast.",
+            "level4": "Stuns enemy for 16 seconds. Target takes 393 additional damage when attacked. This skill cannot be automatically recast.",
+            "level5": "Stuns enemy for 18 seconds. Target takes 460 additional damage when attacked. This skill cannot be automatically recast.",
+            "level6": "Stuns enemy for 20 seconds. Target takes 534 additional damage when attacked. This skill cannot be automatically recast.",
+            "level7": "Stuns enemy for 22 seconds. Target takes 616 additional damage when attacked. This skill cannot be automatically recast.",
+            "level8": "Stuns enemy for 24 seconds. Target takes 700 additional damage when attacked. This skill cannot be automatically recast.",
+            "level9": "Stuns enemy for 26 seconds. Target takes 788 additional damage when attacked. This skill cannot be automatically recast.",
+            "level10": "Stuns enemy for 30 seconds. Target takes 884 additional damage when attacked. This skill cannot be automatically recast."
+        }
+    ],
+    "Flashbang": [
+        {
+            "level1": "Deals 244 physical damage to all enemies within 3 meters and binds them for 3 seconds.",
+            "level2": "Deals 294 physical damage to all enemies within 3 meters and binds them for 4 seconds.",
+            "level3": "Deals 347 physical damage to all enemies within 3 meters and binds them for 5 seconds.",
+            "level4": "Deals 409 physical damage to all enemies within 3 meters and binds them for 6 seconds.",
+            "level5": "Deals 475 physical damage to all enemies within 3 meters and binds them for 7 seconds.",
+            "level6": "Deals 551 physical damage to all enemies within 3 meters and binds them for 8 seconds.",
+            "level7": "Deals 631 physical damage to all enemies within 3 meters and binds them for 9 seconds.",
+            "level8": "Deals 712 physical damage to all enemies within 3 meters and binds them for 10 seconds.",
+            "level9": "Deals 800 physical damage to all enemies within 3 meters and binds them for 11 seconds.",
+            "level10": "Deals 900 physical damage to all enemies within 3 meters and binds them for 12 seconds."
+        }
+    ],
+    "Belladonna": [
+        {
+            "level1": "Poisons the target to deal damage equivalent to 100% of the recovery when cured. Lasts for 3 cure offects or 10 seconds.",
+            "level2": "Poisons the target to deal damage equivalent to 110% of the recovery when cured. Lasts for 3 cure offects or 15 seconds.",
+            "level3": "Poisons the target to deal damage equivalent to 120% of the recovery when cured. Lasts for 3 cure offects or 20 seconds.",
+            "level4": "Poisons the target to deal damage equivalent to 130% of the recovery when cured. Lasts for 3 cure offects or 25 seconds.",
+            "level5": "Poisons the target to deal damage equivalent to 140% of the recovery when cured. Lasts for 3 cure offects or 30 seconds.",
+            "level6": "Poisons the target to deal damage equivalent to 150% of the recovery when cured. Lasts for 3 cure offects or 35 seconds.",
+            "level7": "Poisons the target to deal damage equivalent to 160% of the recovery when cured. Lasts for 3 cure offects or 40 seconds.",
+            "level8": "Poisons the target to deal damage equivalent to 170% of the recovery when cured. Lasts for 3 cure offects or 45 seconds.",
+            "level9": "Poisons the target to deal damage equivalent to 180% of the recovery when cured. Lasts for 3 cure offects or 50 seconds.",
+            "level10": "Poisons the target to deal damage equivalent to 200% of the recovery when cured. Lasts for 3 cure offects or 60 seconds."
+        }
+    ],
+    "Reload": [
+        {
+            "level1": "Resets cooldown time of all skills and decreases all cooldown times by 25% for 30 seconds.",
+            "level2": "Resets cooldown time of all skills and decreases all cooldown times by 30% for 40 seconds.",
+            "level3": "Resets cooldown time of all skills and decreases all cooldown times by 35% for 50 seconds.",
+            "level4": "Resets cooldown time of all skills and decreases all cooldown times by 40% for 60 seconds.",
+            "level5": "Resets cooldown time of all skills and decreases all cooldown times by 45% for 70 seconds.",
+            "level6": "Resets cooldown time of all skills and decreases all cooldown times by 50% for 80 seconds.",
+            "level7": "Resets cooldown time of all skills and decreases all cooldown times by 55% for 90 seconds.",
+            "level8": "Resets cooldown time of all skills and decreases all cooldown times by 57% for 100 seconds.",
+            "level9": "Resets cooldown time of all skills and decreases all cooldown times by 59% for 110 seconds.",
+            "level10": "Resets cooldown time of all skills and decreases all cooldown times by 60% for 120 seconds."
+        }
+    ],
+    "Heartbreaker": [
+        {
+            "level1": "Inflcits 613 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level2": "Inflcits 723 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level3": "Inflcits 853 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level4": "Inflcits 990 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level5": "Inflcits 1148 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level6": "Inflcits 1313 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level7": "Inflcits 1483 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level8": "Inflcits 1668 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 1 second.",
+            "level9": "Inflcits 1875 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level10": "Inflcits 2095 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level11": "Inflcits 2328 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level12": "Inflcits 2585 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level13": "Inflcits 2873 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level14": "Inflcits 3163 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level15": "Inflcits 3480 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second.",
+            "level16": "Inflcits 3833 physical damage and weakens and enemy's heart for 10 seconds. Every Critical hit stuns an enemy for 2 second."
+        }
+    ]
+    ,"Nightshade": [
+        {
+            "level1": "Poisoned bullet deals 764 physical damage to the target and paralyzes them for 3 seconds.",
+            "level2": "Poisoned bullet deals 884 physical damage to the target and paralyzes them for 3 seconds.",
+            "level3": "Poisoned bullet deals 1012 physical damage to the target and paralyzes them for 3 seconds.",
+            "level4": "Poisoned bullet deals 1152 physical damage to the target and paralyzes them for 3 seconds.",
+            "level5": "Poisoned bullet deals 1296 physical damage to the target and paralyzes them for 3 seconds.",
+            "level6": "Poisoned bullet deals 1456 physical damage to the target and paralyzes them for 3 seconds.",
+            "level7": "Poisoned bullet deals 1632 physical damage to the target and paralyzes them for 3 seconds.",
+            "level8": "Poisoned bullet deals 1814 physical damage to the target and paralyzes them for 3 seconds.",
+            "level9": "Poisoned bullet deals 2016 physical damage to the target and paralyzes them for 3 seconds.",
+            "level10": "Poisoned bullet deals 2240 physical damage to the target and paralyzes them for 3 seconds."
+        }
+    ]
+    ,"Elude": [
+        {
+            "level1": "Increases resistance to snaring effects by 5% and immobilizing effects by 3%.",
+            "level2": "Increases resistance to snaring effects by 10% and immobilizing effects by 6%.",
+            "level3": "Increases resistance to snaring effects by 15% and immobilizing effects by 9%.",
+            "level4": "Increases resistance to snaring effects by 20% and immobilizing effects by 12%.",
+            "level5": "Increases resistance to snaring effects by 25% and immobilizing effects by 15%.",
+            "level6": "Increases resistance to snaring effects by 30% and immobilizing effects by 18%.",
+            "level7": "Increases resistance to snaring effects by 35% and immobilizing effects by 21%.",
+            "level8": "Increases resistance to snaring effects by 40% and immobilizing effects by 24%.",
+            "level9": "Increases resistance to snaring effects by 45% and immobilizing effects by 27%.",
+            "level10": "Increases resistance to snaring effects by 50% and immobilizing effects by 30%."
+        }
+    ],
+    "Bloody Rose": [
+        {
+            "level1": "Cast while in Hot Shot(Above Level 1), for 20 seconds, Normal attack deal splash damage equivalent to 20% of Physical ATK, double ATK is increased by 20, and the skill user absorbs 20% of damage on enemies as HP.",
+            "level2": "Cast while in Hot Shot(Above Level 1), for 22 seconds, Normal attack deal splash damage equivalent to 25% of Physical ATK, double ATK is increased by 22, and the skill user absorbs 25% of damage on enemies as HP.",
+            "level3": "Cast while in Hot Shot(Above Level 1), for 24 seconds, Normal attack deal splash damage equivalent to 30% of Physical ATK, double ATK is increased by 24, and the skill user absorbs 30% of damage on enemies as HP.",
+            "level4": "Cast while in Hot Shot(Above Level 1), for 26 seconds, Normal attack deal splash damage equivalent to 35% of Physical ATK, double ATK is increased by 26, and the skill user absorbs 35% of damage on enemies as HP.",
+            "level5": "Cast while in Hot Shot(Above Level 1), for 28 seconds, Normal attack deal splash damage equivalent to 40% of Physical ATK, double ATK is increased by 28, and the skill user absorbs 40% of damage on enemies as HP.",
+            "level6": "Cast while in Hot Shot(Above Level 1), for 30 seconds, Normal attack deal splash damage equivalent to 45% of Physical ATK, double ATK is increased by 30, and the skill user absorbs 45% of damage on enemies as HP.",
+            "level7": "Cast while in Hot Shot(Above Level 1), for 32 seconds, Normal attack deal splash damage equivalent to 50% of Physical ATK, double ATK is increased by 32, and the skill user absorbs 50% of damage on enemies as HP.",
+            "level8": "Cast while in Hot Shot(Above Level 1), for 34 seconds, Normal attack deal splash damage equivalent to 55% of Physical ATK, double ATK is increased by 34, and the skill user absorbs 55% of damage on enemies as HP.",
+            "level9": "Cast while in Hot Shot(Above Level 1), for 36 seconds, Normal attack deal splash damage equivalent to 60% of Physical ATK, double ATK is increased by 36, and the skill user absorbs 60% of damage on enemies as HP.",
+            "level10": "Cast while in Hot Shot(Above Level 1), for 40 seconds, Normal attack deal splash damage equivalent to 70% of Physical ATK, double ATK is increased by 38, and the skill user absorbs 70% of damage on enemies as HP.",
+            "level11": "Cast while in Hot Shot(Above Level 1), for 40 seconds, Normal attack deal splash damage equivalent to 70% of Physical ATK, double ATK is increased by 40, and the skill user absorbs 70% of damage on enemies as HP."
+        }
+    ],
+    "Exploit Weakness": [
+        {
+            "leve1": "Deals 1086 physical damage. 150% damage dealt if the target is stunned.",
+            "leve2": "Deals 1222 physical damage. 152% damage dealt if the target is stunned.",
+            "leve3": "Deals 1376 physical damage. 154% damage dealt if the target is stunned.",
+            "leve4": "Deals 1544 physical damage. 156% damage dealt if the target is stunned.",
+            "leve5": "Deals 1722 physical damage. 158% damage dealt if the target is stunned.",
+            "leve6": "Deals 1912 physical damage. 160% damage dealt if the target is stunned.",
+            "leve7": "Deals 2122 physical damage. 162% damage dealt if the target is stunned.",
+            "leve8": "Deals 2358 physical damage. 164% damage dealt if the target is stunned.",
+            "leve9": "Deals 2618 physical damage. 166% damage dealt if the target is stunned.",
+            "leve10": "Deals 2910 physical damage. 168% damage dealt if the target is stunned.",
+            "leve11": "Deals 3066 physical damage. 170% damage dealt if the target is stunned."
+        }
+    ],
+    "Misdirection": [
+        {
+            "level1": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 10%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level2": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 12%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level3": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 14%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level4": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 16%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level5": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 18%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level6": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 20%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level7": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 22%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level8": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 24%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level9": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 26%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%.",
+            "level10": "Decreases threat generated by all attacks and actions and Mana cost of single target skills by 28%. Also, reduces damage from enemies under [Cover Fire] debuff by 75%."
+        }
+    ],
+    "Lead Rain": [
+        {
+            "level1": "Deals 2473 physical damage to all enemies within 4 meters of the target.",
+            "level2": "Deals 2779 physical damage to all enemies within 4 meters of the target.",
+            "level3": "Deals 3100 physical damage to all enemies within 4 meters of the target.",
+            "level4": "Deals 3442 physical damage to all enemies within 4 meters of the target.",
+            "level5": "Deals 3820 physical damage to all enemies within 4 meters of the target.",
+            "level6": "Deals 4244 physical damage to all enemies within 4 meters of the target.",
+            "level7": "Deals 4712 physical damage to all enemies within 4 meters of the target.",
+            "level8": "Deals 5238 physical damage to all enemies within 4 meters of the target.",
+            "level9": "Deals 5519 physical damage to all enemies within 4 meters of the target."
+        }
+    ],
+    "Death Mark": [
+        {
+            "level1": "Deals 1274 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 202 HP each hit for 10 seconds.",
+            "level2": "Deals 1428 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 225 HP each hit for 10 seconds.",
+            "level3": "Deals 1587 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 247 HP each hit for 10 seconds.",
+            "level4": "Deals 1764 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 271 HP each hit for 10 seconds.",
+            "level5": "Deals 1960 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 298 HP each hit for 10 seconds.",
+            "level6": "Deals 2175 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 328 HP each hit for 10 seconds.",
+            "level7": "Deals 2415 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 360 HP each hit for 10 seconds.",
+            "level8": "Deals 2683 Physical Attack and engraves mark of assasin that all those who attack the target with the mark recovers 396 HP each hit for 10 seconds."
+        }
+    ],
+    "Assassinate": [
+        {
+            "level1": "Deals 1836 Physical Attack and additional damage, max of 2814, proportinal to HP decrease of the target.",
+            "level2": "Deals 2041 Physical Attack and additional damage, max of 3092, proportinal to HP decrease of the target.",
+            "level3": "Deals 2268 Physical Attack and additional damage, max of 3396, proportinal to HP decrease of the target.",
+            "level4": "Deals 2520 Physical Attack and additional damage, max of 3734, proportinal to HP decrease of the target.",
+            "level5": "Deals 2797 Physical Attack and additional damage, max of 4100, proportinal to HP decrease of the target.",
+            "level6": "Deals 3105 Physical Attack and additional damage, max of 4502, proportinal to HP decrease of the target.",
+            "level7": "Deals 3449 Physical Attack and additional damage, max of 4944, proportinal to HP decrease of the target."
+        }
+    ],
+    "Chain Reaction": [
+        {
+            "level1": "Deals 2268 Physical Attack and additional 330 damage for each harmful buffs. Enters into chain movement mode.",
+            "level2": "Deals 2520 Physical Attack and additional 366 damage for each harmful buffs. Enters into chain movement mode.",
+            "level3": "Deals 2800 Physical Attack and additional 407 damage for each harmful buffs. Enters into chain movement mode.",
+            "level4": "Deals 3108 Physical Attack and additional 454 damage for each harmful buffs. Enters into chain movement mode.",
+            "level5": "Deals 3450 Physical Attack and additional 504 damage for each harmful buffs. Enters into chain movement mode.",
+            "level6": "Deals 3833 Physical Attack and additional 560 damage for each harmful buffs. Enters into chain movement mode."
+        }
+    ],
+    "Cover Fire": [
+        {
+            "level1": "Deals 2629 physical damage to enemies with 4m radius. If you spent at least one skill point on skill [Misdirection], damage received decrease by 75% for 10 seconds.",
+            "level2": "Deals 2918 physical damage to enemies with 4m radius. If you spent at least one skill point on skill [Misdirection], damage received decrease by 75% for 12 seconds.",
+            "level3": "Deals 3424 physical damage to enemies with 4m radius. If you spent at least one skill point on skill [Misdirection], damage received decrease by 75% for 14 seconds.",
+            "level4": "Deals 3600 physical damage to enemies with 4m radius. If you spent at least one skill point on skill [Misdirection], damage received decrease by 75% for 16 seconds.",
+            "level5": "Deals 4001 physical damage to enemies with 4m radius. If you spent at least one skill point on skill [Misdirection], damage received decrease by 75% for 18 seconds.",
+            "level6": "Deals 4216 physical damage to enemies with 4m radius. If you spent at least one skill point on skill [Misdirection], damage received decrease by 75% for 20 seconds."
+        }
+    ],
+    "Breakthrough": [
+        {
+            "level1": "Maximizes the capacity of dual pistols, increases physical damage by 40% for 8 seconds. However, durability decreases rate will increase by 20%",
+            "level2": "Maximizes the capacity of dual pistols, increases physical damage by 45% for 8 seconds. However, durability decreases rate will increase by 25%",
+            "level3": "Maximizes the capacity of dual pistols, increases physical damage by 50% for 8 seconds. However, durability decreases rate will increase by 30%",
+            "level4": "Maximizes the capacity of dual pistols, increases physical damage by 55% for 8 seconds. However, durability decreases rate will increase by 35%",
+            "level5": "Maximizes the capacity of dual pistols, increases physical damage by 60% for 8 seconds. However, durability decreases rate will increase by 40%"
+        }
+    ],
+    "Gunblaze Festival": [
+        {
+            "level1": "Shoot wildly to deal 3867 damage to nearby enemies and instill Fear 3 sec. The skill user then hides within the smokescreen.",
+            "level2": "Shoot wildly to deal 4294 damage to nearby enemies and instill Fear 3 sec. The skill user then hides within the smokescreen.",
+            "level3": "Shoot wildly to deal 4772 damage to nearby enemies and instill Fear 3 sec. The skill user then hides within the smokescreen.",
+            "level4": "Shoot wildly to deal 5028 damage to nearby enemies and instill Fear 3 sec. The skill user then hides within the smokescreen."
+        }
+    ],
+    "Wicked Timer": [
+        {
+            "level1": "Inflicts 2760 physical damage, adds 447 extra damage per one buff effect of a target, and plants a bomb on the target. The bomb hinders the target from attacking and using skills and after 5 seconds, it adds 2070 damage upon exploding.",
+            "level2": "Inflicts 3066 physical damage, adds 496 extra damage per one buff effect of a target, and plants a bomb on the target. The bomb hinders the target from attacking and using skills and after 5 seconds, it adds 2300 damage upon exploding."
+        } 
     ]
 }
