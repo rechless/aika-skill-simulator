@@ -1,0 +1,35 @@
+function setLanguage() {
+  let language = document.getElementsByName("language-selector")[0].value;
+  console.log("Default Language: " + language);
+  changeLanguage(language);
+}
+
+function changeLanguage(language) {
+  console.log("change language method: " + language);
+  getLanguageFromServer(language);
+}
+
+function setPTBR() {
+
+}
+
+function getLanguageFromServer(language) {
+  console.log("getLanguageFromServer method: " + language)
+  var xhttp = new XMLHttpRequest();
+  console.log(xhttp);
+  console.log(url);
+  xhttp.open("GET", url, true);
+  xhttp.setRequestHeader('content-type', 'application/json');
+  xhttp.onreadystatechange = function() {
+    if(this.readyState == 4 && this.status == 200) {
+      var interfaceLanguage = JSON.parse(xhttp.responseText);
+      console.log(interfaceLanguage);
+      console.log('done');
+    }
+  }
+  xhttp.send();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  setLanguage();
+});

@@ -1,43 +1,4 @@
 {
-    "project": [
-        {
-            "name": "Aika Skill Simulator"
-        }
-    ],
-    "forms": [
-        {
-            "copy-button": "Copy"
-        }
-    ],
-    "classes": [
-        {
-            "warrior": "Warrior",
-            "paladin": "Paladin",
-            "warlock": "Warlock",
-            "cleric": "Cleric",
-            "rifleman": "Rifleman",
-            "dual-gunner": "Dual-Gunner"
-        }
-    ],
-    "settings": [
-        {
-            "classes": "Classes",
-            "level": "Level",
-            "extra-points": "Extra-points",
-            "cd-reduction": "CD Reduction",
-            "points-left": "Points Left"
-        }
-    ],
-    "tiers_title": [
-        {
-            "tier1-skill": "Tier 1 Skills",
-            "tier2-skill": "Tier 2 Skills",
-            "tier3-skill": "Tier 3 Skills",
-            "tier4-skill": "Tier 4 Skills",
-            "tier5-skill": "Tier 5 Skills",
-            "tier6-skill": "Tier 6 Skills"
-        }
-    ],
     "warrior-skills": [
         {
             "skill1": "Slash",

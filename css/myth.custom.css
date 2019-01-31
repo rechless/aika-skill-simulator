@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+
+:root {
+    --primary-font:  'Oswald', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-color: #24272C;
+    --secondary-color: #6b6c71;
+    --highlight-color: #ff443e;
+    --light-color: #e8eaef;
+    --background-color: #31343B;
+    --white-color: #fff;
+    --settings-color: #fe4e3f;
+}
+
+/* Start CSS Grid Align itens */
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;   
+}
+
+.justify-self-start {
+    justify-content: start;
+}
+
+.justify-self-center {
+    justify-content: center;
+}
+
+.justify-self-end {
+    justify-content: end;   
+}
+
+.align-items-start {
+    align-items: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.justify-items-start {
+    justify-items: center;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-items-end {
+    justify-items: center;
+}
+/* End CSS Grid Align itens */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button {
+    font-family: var(--primary-font);
+}
+
+.inline-grid {
+    display: inline-grid;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+body {
+    background: var(--background-color);
+}
+
+header {
+    background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    grid-template-areas: "header header"
+                         "settings simulator";
+    grid-template-columns: 0.8fr 2fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+.settings {
+    grid-area: settings;
+    grid-template-areas: "level-title"
+                         "level"
+                         "level-controls"
+                         "extra-points";
+    grid-template-rows: 0.1fr 0.2fr 0.1fr 1fr;
+    grid-template-columns: 1fr;
+    background: var(--settings-color);
+}
+
+.level {
+    grid-area: level;
+    grid-template-areas: "level-list";
+    grid-template-columns: 0.2fr;
+    grid-template-rows: 0.1fr;
+    justify-content: center;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none !important;
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.level-list {
+    grid-area: level-list;
+    flex-flow: row nowrap;
+    margin-right: 100px;
+}
+
+/* .level-list li {
+    padding: 1vw;
+    cursor: pointer;
+    transition: 0.7s all;
+} */
+
+/* .level-list li:hover {
+    background: var(--background-color);
+    color: var(--white-color);
+} */
+
+.level-list li {
+    cursor: pointer;
+    box-shadow: inset 0 -2px 0 -1px var(--background-color);
+    transition: box-shadow .30s ease-in-out;
+    color: var(--primary-color);
+    line-height: 40px;
+    padding: 0.5vw;
+}
+    
+.level-list li:hover {
+    color: white;
+    /* box-shadow: inset 0 -40px 0 -1px var(--background-color); */
+}
+.level-list li:focus {
+    color: white;
+    box-shadow: inset 0 -40px 0 -1px var(--background-color);
+}
+
+.last-clicked {
+    color: white !important;
+    box-shadow: inset 0 -40px 0 -1px var(--background-color) !important;
+}
+
+.active-level {
+    color: white !important;
+    box-shadow: inset 0 -40px 0 -1px var(--background-color) !important;
+}
+
+.level-controls {
+    grid-area: level-controls;
+    grid-template-areas: "left-arrow new-level-input right-arrow"; 
+    grid-template-rows: 0.1fr;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+}
+
+.level-title {
+    grid-area: level-title;
+    color: var(--light-color);
+}
+
+.arrow, .new-level-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: var(--secondary-color);
+    transition: 0.7s all;
+    color: var(--white-color);
+}
+
+.new-level-input::placeholder {
+    color: var(--white-color);
+}
+
+.left-arrow {
+    grid-area: left-arrow;
+}
+
+.left-arrow:hover {
+    grid-area: left-arrow;
+    cursor: pointer;
+    background: var(--primary-color);
+}
+
+.new-level-input {
+    grid-area: new-level-input;
+    border: none;
+}
+
+.new-level-input:focus {
+    box-shadow: inset 0 -2px 0 -1px var(--background-color);
+    color: var(--white-color);
+}
+
+.right-arrow {
+    grid-area: right-arrow;
+    border: none;
+}
+
+.right-arrow:hover {
+    grid-area: right-arrow;
+    border: none;
+    cursor: pointer;
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
+.new-level-input {
+    grid-area: new-level-input;
+}
+
+.simulator {
+    grid-area: simulator;
+}
+
+header {
+    grid-area: header;
+    grid-template-areas:
+                        "title nav";
+    grid-template-columns: 0.8fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.title {
+    font-size: 2.2vw;
+    grid-area: title;
+    background: var(--highlight-color);
+    color: var(--white-color);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.classes-menu {
+    grid-template-areas: 
+        "warrior-menu-icon paladin-menu-icon warlock-menu-icon cleric-menu-icon rifleman-menu-icon dual-menu-icon"
+        "warrior-menu-link paladin-menu-link warlock-menu-link cleric-menu-link rifleman-menu-link dual-menu-link";
+    grid-template-rows: 0.8fr 0.2fr;
+    grid-template-columns: repeat(6, minmax(80px, 0.1fr));
+    justify-items: center;
+}
+
+.classes-menu a {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 2vh;
+    transition: 0.3s all;
+}
+
+.classes-menu a:hover {
+    color: var(--light-color);
+    box-shadow: inset 0 -2px 0 var(--highlight-color);
+}
+
+.classes-menu img {
+    filter: grayscale(1);
+}
+
+.warrior-menu-link {
+    grid-area: warrior-menu-link;
+}
+.warrior-menu-icon {
+    grid-area: warrior-menu-icon;
+}
+
+.paladin-menu-link {
+    grid-area: paladin-menu-link;
+}
+.paladin-menu-icon {
+    grid-area: paladin-menu-icon;
+}
+
+.warlock-menu-link {
+    grid-area: warlock-menu-link;
+}
+.warlock-menu-icon {
+    grid-area: warlock-menu-icon;
+}
+
+.cleric-menu-link {
+    grid-area: cleric-menu-link;
+}
+.cleric-menu-icon {
+    grid-area: cleric-menu-icon;
+}
+
+.rifleman-menu-link {
+    grid-area: rifleman-menu-link;
+}
+.rifleman-menu-icon {
+    grid-area: rifleman-menu-icon;
+}
+
+.dual-menu-link {
+    grid-area: dual-menu-link;
+}
+.dual-menu-icon {
+    grid-area: dual-menu-icon;
+}
+
+.language-selector {
+    grid-area: language-selector;
+    grid-template-areas: "brazil-flag";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.brazil-flag {
+    grid-area: brazil-flag;
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        grid-template-areas:
+                            "title"
+                            "nav";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .classes-menu {
+        justify-content: center !important;
+    }
+}

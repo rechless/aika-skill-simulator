@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>ASS - Aika Skill Simulator</title>
+  <title>ASS - Aika Skill Siamulator</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta name="description" content="A skill simulator for the game Aika online">
   <meta name="author" content="rech">
   <!-- start tags -->
@@ -20,560 +20,90 @@
     simulator,
     online skill simulator">
   <!-- end tags -->
-  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-  <link rel="stylesheet" href="css/live-custom.css">
+  <link rel="stylesheet" href="css/myth.custom.css">
+  <script src="js/main.js"></script>
 </head>
 <body>
-  <main>
-    <header>
-      <section class="share">
-        <input tabindex="1" class="share-link input-default" type="text" value="http://aikaskill.com/class/build">
-        <button tabindex="2" class="button copy-button">copy</button>
+  <main class="grid">
+    <header class="grid align-itens-center">
+      <section class="title justify-self-center flex">
+          <h1>Aika Skill Simulator</h1>
       </section>
-      <section class="language">
-        <select name="language-selector" class="button selector">
-          <option class="button" value="pt-br">
-            Português Brasileiro
-          </option>
-          <option class="button" value="en-us">
-            English
-          </option>
-        </select>
-      </section>
+        <nav class="classes-menu grid justify-content-end">
+          <figure class="warrior-menu-icon">
+            <img id="warrior-icon" src="images/skills/warrior/smash.jpg" alt="warrior skill image">
+          </figure>
+          <a onmouseover="scaleImage('warrior-icon');"
+             onmouseout="unscaleImage('warrior-icon');"
+             class="warrior-menu-link text-align-center text-align-center"
+             href="#">Warrior</a>
+
+          <figure class="paladin-menu-icon">
+            <img id="paladin-icon" src="images/skills/paladin/reflect_blow.jpg" alt="paladin skill image">
+          </figure>
+          <a onmouseover="scaleImage('paladin-icon');"
+             onmouseout="unscaleImage('paladin-icon');" 
+             class="paladin-menu-link text-align-center text-align-center" href="#">Paladin</a>
+
+          <figure class="warlock-menu-icon">
+            <img id="warlock-icon" src="images/skills/warlock/fireball.jpg" alt="warlock skill image">
+          </figure>
+          <a onmouseover="scaleImage('warlock-icon');"
+             onmouseout="unscaleImage('warlock-icon');"  
+          class="warlock-menu-link text-align-center text-align-center" href="#">Warlock</a>
+
+          <figure class="cleric-icon">
+            <img id="cleric-icon" src="images/skills/cleric/archangels_light.jpg" alt="cleric skill image">
+          </figure>
+          <a onmouseover="scaleImage('cleric-icon');"
+             onmouseout="unscaleImage('cleric-icon');"
+             class="cleric-menu-link text-align-center text-align-center" href="#">Cleric</a>
+
+          <figure class="rifleman-menu-icon">
+            <img id="rifleman-icon" src="images/skills/rifleman/countdown.jpg" alt="rifleman skill image">
+          </figure>
+          <a onmouseover="scaleImage('rifleman-icon');"
+             onmouseout="unscaleImage('rifleman-icon');" 
+          class="rifleman-menu-link text-align-center text-align-center" href="#">Rifleman</a>
+
+          <figure class="dual-menu-icon">
+            <img id="dual-gunner-icon" src="images/skills/dual-gunner/full-auto.jpg" alt="dual gunner skill image">
+          </figure>
+          <a onmouseover="scaleImage('dual-gunner-icon');"
+             onmouseout="unscaleImage('dual-gunner-icon');" 
+          class="dual-menu-link text-align-center text-align-center" href="#">Dual-Gunner</a>
+        </nav>
     </header>
-    <div class="sub-header">
-      <h1>Aika Skill Simulator</h1>
-    </div>
-    <nav class="menu">
-      <ul class="menu-list">
-        <li class="warrior-li">
-          <a href="#">Warrior</a>
-        </li>
-        <li class="paladin-li">
-          <a href="#">Paladin</a>
-        </li>
-        <li>
-          <a class="warlock-li" href="#">Warlock</a>
-        </li>
-        <li>
-          <a class="cleric-li" href="#">Cleric</a>
-        </li>
-        <li class="rifleman-li">
-          <a href="#">Rifleman</a>
-        </li>
-        <li class="dual-li">
-          <a href="#">Dual-Gunner</a>
-        </li>
-      </ul>
-    </nav>
-    <section class="settings">
-      <article class="classes settings-cells-properties">
-          <span class="classes-title settings-title">Classes</span>
-          <select class="classes-select button selector" name="classes" id="classes">
-            <option class="lt" value="warrior">Warrior</option>
-            <option class="lt" value="paladin">Paladin</option>
-            <option class="lt" value="warlock">Warlock</option>
-            <option class="lt" value="cleric">Cleric</option>
-            <option class="lt" value="rifleman">Rifleman</option>
-            <option class="lt" value="dual">Dual-Gunner</option>
-          </select>
-        </article>
-      <article class="level settings-cells-properties">
-          <span class="level-title settings-title">Level</span>
-          <input class="level-input input-default" type="number" value="99" min="1" max="99">
+    <aside class="settings grid text-align-center">
+        <h2 class="level-title">Level</h2>
+      <article class="level grid">
+        <ul id="level-list" class="level-list flex justify-content-center">
+        </ul>
       </article>
-      <article class="extra-points settings-cells-properties">
-        <span class="extra-points-title settings-title">
-          Extra points
-        </span>
-        <select class="extra-points-select button selector" name="extra-points" id="extra-points">
-          <option value="3">3</option>
-          <option value="6">6</option>
-          <option value="9">9</option>
-          <option value="12">12</option>
-          <option value="15">15</option>
-          <option value="18">18</option>
-          <option value="21">21</option>
-          <option value="24">24</option>
-          <option value="27">27</option>
-          <option value="30">30</option>
-        </select>
+      <div class="level-controls grid">
+          <button class="arrow left-arrow"><</button>
+          <input class="new-level-input text-align-center" type="number" placeholder="enter your level" min="0" max="99">
+          <button class="arrow right-arrow">></button>
+      </div>
+      <article class="extra-points grid">
+        <h2 class="extra-points-title">Extra Points</h2>
+        <span class="extra-points-value">3</span>
+        <span class="extra-points-value">6</span>
+        <span class="extra-points-value">9</span>
+        <span class="extra-points-value">12</span>
+        <span class="extra-points-value">15</span>
+        <span class="extra-points-value">18</span>
+        <span class="extra-points-value">21</span>
+        <span class="extra-points-value">24</span>
+        <span class="extra-points-value">27</span>
+        <span class="extra-points-value">30</span>
       </article>
-      <article class="cd-reduction settings-cells-properties ">
-        <span class="cd-reduction-title settings-title">CD Reduction</span>
-        <input class="input-default cd-reduction-value" type="number" placeholder="0%" min="0" max="100">
-      </article>
-      <article class="points-left settings-cells-properties">
-          <span class="points-left-title settings-title">Points Left</span>
-          <span class="points-left-value">110</span>
-      </article>
-    </section>
-
+      
+    </aside>
     <section class="simulator">
-      <article class="skill-tier1">
-        <span class="tier-title tier1-title">Tier1 Skills</span>
-        <ul class="skills-list">
-          <li class="skill skill1">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
 
-          <li class="skill skill2">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill3">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill4">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill5">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill6">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-        </ul>
-      </article>
-      <article class="skill-tier2">
-        <span class="tier-title tier1-title">Tier1 Skills</span>
-        <ul class="skills-list">
-          <li class="skill skill1">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill2">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill3">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill4">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill5">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill6">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-        </ul>
-      </article>
-      <article class="skill-tier3">
-        <span class="tier-title tier1-title">Tier1 Skills</span>
-        <ul class="skills-list">
-          <li class="skill skill1">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill2">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill3">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill4">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill5">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill6">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-        </ul>
-      </article>
-      <article class="skill-tier4">
-        <span class="tier-title tier1-title">Tier1 Skills</span>
-        <ul class="skills-list">
-          <li class="skill skill1">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill2">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill3">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill4">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill5">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill6">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-        </ul>
-      </article>
-      <article class="skill-tier5">
-        <span class="tier-title tier1-title">Tier1 Skills</span>
-        <ul class="skills-list">
-          <li class="skill skill1">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill2">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill3">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill4">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill5">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill6">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-        </ul>
-      </article>
-      <article class="skill-tier6">
-        <span class="tier-title tier1-title">Tier1 Skills</span>
-        <ul class="skills-list">
-          <li class="skill skill1">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill2">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill3">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill4">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill5">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-
-          <li class="skill skill6">
-            <img class="skill-image" src="images/skills/warrior/1.jpg" alt="skill image">
-            <span class="skill-name">Fireball </span>
-            <span class="min-skill-level">1</span>
-            <span class="divider">/</span>
-            <span class="max-skill-level">13</span>
-            <button class="min-button button">--</button>
-            <button class="minus-button button">-</button>
-            <button class="plus-button button">+</button>
-            <button class="max-button button">++</button>
-          </li>
-        </ul>
-      </article>
     </section>
-
-    <footer>
-      <span>
-          &copy;Images Copyright Hambit Soft & Ongame - Developed by: <span class="dev-mail">rechless.new@gmail.com</span>
-      </span>
-    </footer>
   </main>
-<script src="js/main.js"></script>
 </body>
+<script src="js/effects.js"></script>
 </html>
