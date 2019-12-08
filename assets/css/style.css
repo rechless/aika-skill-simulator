@@ -21,13 +21,22 @@ body footer {
   background: #2aa3cc;
 }
 
+body footer a {
+  text-decoration: none;
+  color: #97e7ff;
+}
+
+body footer a:hover {
+  text-decoration: underline;
+}
+
 #char-selector {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: .20fr .75fr;
-      grid-template-rows: .20fr .75fr;
+  -ms-grid-rows: .20fr .80fr;
+      grid-template-rows: .20fr .80fr;
   row-gap: 3vh;
   background: #dddddd;
 }
@@ -63,6 +72,10 @@ body footer {
           justify-content: space-evenly;
 }
 
+#char-selector #characters h2 {
+  display: none;
+}
+
 #char-selector #characters img {
   display: block;
   -webkit-box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
@@ -84,7 +97,7 @@ body footer {
 #char-selector #characters figcaption {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 #char-selector #characters .str-characters:hover {

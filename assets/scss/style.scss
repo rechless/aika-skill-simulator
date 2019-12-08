@@ -29,13 +29,22 @@ body {
         padding: 10px;
         text-align: center;
         background: $highlight-blue;
+
+        a {
+            text-decoration: none;
+            color: #97e7ff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     }
 }
 
 #char-selector {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .20fr .75fr;
+    grid-template-rows: .20fr .80fr;
     row-gap: 3vh;
     background: $gray-color;
     
@@ -60,6 +69,10 @@ body {
         background: $gray-color;
         justify-content: space-evenly;
 
+        h2 {
+            display: none;
+        }
+
         img {
             display: block;
             box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
@@ -77,7 +90,7 @@ body {
         figcaption {
             font-family: $font-main;
             text-align: center;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
         }
 
         .str-characters:hover {
