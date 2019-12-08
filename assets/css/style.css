@@ -5,39 +5,91 @@
           box-sizing: border-box;
 }
 
+.str-characters {
+  border-color: #e71212 !important;
+}
+
+.agi-characters {
+  border-color: #1fa51f !important;
+}
+
+.int-characters {
+  border-color: #1592bb !important;
+}
+
+body {
+  background: #dddddd;
+}
+
+body footer {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  background: #2aa3cc;
+}
+
 #char-selector {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: .1fr .9fr;
-      grid-template-rows: .1fr .9fr;
-      grid-template-areas: "header" "characters";
+  -ms-grid-rows: .20fr .75fr;
+      grid-template-rows: .20fr .75fr;
+  row-gap: 3vh;
+  background: #dddddd;
 }
 
 #char-selector header {
-  grid-area: "header";
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #34323a;
 }
 
 #char-selector header h1 {
+  color: #2aa3cc;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: .2vw;
   font-size: 3rem;
 }
 
 #char-selector #characters {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (400px)[auto-fit];
-      grid-template-columns: repeat(auto-fit, 400px);
-  -ms-grid-rows: .9fr;
-      grid-template-rows: .9fr;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  grid-area: "characters";
+  -ms-grid-columns: (minmax(150px, 200px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  background: #dddddd;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-#char-selector #characters figure img {
-  display: inline-block;
-  max-height: 300px;
+#char-selector #characters img {
+  display: block;
+  -webkit-box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
+          box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+  border-bottom: solid 2vh;
+}
+
+#char-selector #characters img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
