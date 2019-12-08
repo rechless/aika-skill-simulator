@@ -1,0 +1,43 @@
+$font-roboto: 'Roboto', sans-serif;
+$color-gray: #dddddd;
+$h1-color: #dddddd;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#char-selector {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .9fr;
+    grid-template-areas: "header"
+                         "characters";
+    
+    header {
+        grid-area: "header";
+        
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    #characters {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+        grid-template-rows: .9fr;
+        justify-content: space-between;
+        grid-area: "characters";
+
+        figure {
+            img {
+                display: inline-block;
+                max-height: 300px;
+            }
+        }
+    }
+
+
+}
