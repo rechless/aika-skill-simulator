@@ -94,15 +94,15 @@ body {
         }
 
         .strength-characters:hover {
-            border-color: $str-color !important;
+            border-color: $str-color;
         }
-        
+
         .agility-character:hover {
-            border-color: $agi-color !important;
+            border-color: $agi-color;
         }
 
         .inteligence-characters:hover {
-            border-color: $int-color !important;
+            border-color: $int-color;
         }
     }
 }

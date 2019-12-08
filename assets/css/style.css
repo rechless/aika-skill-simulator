@@ -101,14 +101,14 @@ body footer a:hover {
 }
 
 #char-selector #characters .strength-characters:hover {
-  border-color: #e71212 !important;
+  border-color: #e71212;
 }
 
 #char-selector #characters .agility-character:hover {
-  border-color: #1fa51f !important;
+  border-color: #1fa51f;
 }
 
 #char-selector #characters .inteligence-characters:hover {
-  border-color: #1592bb !important;
+  border-color: #1592bb;
 }
 /*# sourceMappingURL=style.css.map */
