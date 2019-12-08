@@ -14,17 +14,7 @@ $white-color: #f5f5f5;
     box-sizing: border-box;
 }
 
-.str-characters {
-    border-color: $str-color !important;
-}
 
-.agi-characters {
-    border-color: $agi-color !important;
-}
-
-.int-characters {
-    border-color: $int-color !important;
-}
 
 body {
     background: $gray-color;
@@ -76,12 +66,30 @@ body {
             width: 100%;
             filter: grayscale(100%);
             transition: all .6s ease;
-            border-bottom: solid 2vh;
+            border-bottom: solid 2vh #414141;
         }
 
         img:hover {
             filter: grayscale(0%);
             cursor: pointer;
+        }
+
+        figcaption {
+            font-family: $font-main;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        .str-characters:hover {
+            border-color: $str-color !important;
+        }
+        
+        .agi-character:hover {
+            border-color: $agi-color !important;
+        }
+        
+        .int-characters:hover {
+            border-color: $int-color !important;
         }
     }
 }
