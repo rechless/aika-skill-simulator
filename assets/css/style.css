@@ -85,7 +85,7 @@ body footer a:hover {
           filter: grayscale(100%);
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
-  border-bottom: solid 2vh #414141;
+  border-bottom: solid 2vh;
 }
 
 #char-selector #characters img:hover {
@@ -100,15 +100,15 @@ body footer a:hover {
   font-size: 1.1rem;
 }
 
-#char-selector #characters .str-characters:hover {
+#char-selector #characters .strength-characters:hover {
   border-color: #e71212 !important;
 }
 
-#char-selector #characters .agi-character:hover {
+#char-selector #characters .agility-character:hover {
   border-color: #1fa51f !important;
 }
 
-#char-selector #characters .int-characters:hover {
+#char-selector #characters .inteligence-characters:hover {
   border-color: #1592bb !important;
 }
 /*# sourceMappingURL=style.css.map */

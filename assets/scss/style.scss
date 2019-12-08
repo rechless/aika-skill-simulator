@@ -79,7 +79,7 @@ body {
             width: 100%;
             filter: grayscale(100%);
             transition: all .6s ease;
-            border-bottom: solid 2vh #414141;
+            border-bottom: solid 2vh;
         }
 
         img:hover {
@@ -93,15 +93,15 @@ body {
             font-size: 1.1rem;
         }
 
-        .str-characters:hover {
+        .strength-characters:hover {
             border-color: $str-color !important;
         }
         
-        .agi-character:hover {
+        .agility-character:hover {
             border-color: $agi-color !important;
         }
-        
-        .int-characters:hover {
+
+        .inteligence-characters:hover {
             border-color: $int-color !important;
         }
     }
