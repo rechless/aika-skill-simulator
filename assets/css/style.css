@@ -9,39 +9,18 @@ body {
   background: #dddddd;
 }
 
-body footer {
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  bottom: 0;
-  margin: 0;
-  width: 100%;
-  color: #f5f5f5;
-  padding: 10px;
-  text-align: center;
-  background: #2aa3cc;
-}
-
-body footer a {
-  text-decoration: none;
-  color: #97e7ff;
-}
-
-body footer a:hover {
-  text-decoration: underline;
-}
-
-#char-selector {
+body #char-selector {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: .20fr .80fr;
-      grid-template-rows: .20fr .80fr;
+  -ms-grid-rows: 15vh 85vh;
+      grid-template-rows: 15vh 85vh;
   row-gap: 3vh;
   background: #dddddd;
 }
 
-#char-selector header {
+body #char-selector header {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -52,14 +31,14 @@ body footer a:hover {
   background: #34323a;
 }
 
-#char-selector header h1 {
-  color: #2aa3cc;
+body #char-selector header h1 {
+  color: #f5f5f5;
   font-family: "Roboto", sans-serif;
   letter-spacing: .2vw;
-  font-size: 3rem;
+  font-size: calc(12px + 4vw);
 }
 
-#char-selector #characters {
+body #char-selector #characters {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(150px, 200px))[auto-fit];
@@ -72,11 +51,11 @@ body footer a:hover {
           justify-content: space-evenly;
 }
 
-#char-selector #characters h2 {
+body #char-selector #characters h2 {
   display: none;
 }
 
-#char-selector #characters img {
+body #char-selector #characters img {
   display: block;
   -webkit-box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
           box-shadow: -1px 0 0 rgba(0, 0, 0, 0.06);
@@ -86,29 +65,53 @@ body footer a:hover {
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   border-bottom: solid 2vh;
+  margin-bottom: 20px;
 }
 
-#char-selector #characters img:hover {
+body #char-selector #characters img:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
   cursor: pointer;
 }
 
-#char-selector #characters figcaption {
+body #char-selector #characters figcaption {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: calc(12px + .5vw);
+  padding-bottom: 20px;
 }
 
-#char-selector #characters .strength-characters:hover {
+body #char-selector #characters .strength-characters:hover {
   border-color: #e71212;
 }
 
-#char-selector #characters .agility-character:hover {
+body #char-selector #characters .agility-character:hover {
   border-color: #1fa51f;
 }
 
-#char-selector #characters .inteligence-characters:hover {
+body #char-selector #characters .inteligence-characters:hover {
   border-color: #1592bb;
+}
+
+body footer {
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  color: #f5f5f5;
+  padding: 1vh;
+  text-align: center;
+  background: #2aa3cc;
+  font-size: calc(12px + .3vw);
+}
+
+body footer a {
+  text-decoration: none;
+  color: #97e7ff;
+}
+
+body footer a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
